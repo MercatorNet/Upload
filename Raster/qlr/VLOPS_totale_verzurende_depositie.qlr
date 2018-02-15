@@ -1,28 +1,28 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="VLOPS_kaarten_totale_verzurende_depositie_2012__VLOPS15__Meteo_2012__Emissies_2012_20170622142055164" name="VLOPS kaarten totale verzurende depositie 2012 (VLOPS15, Meteo 2012, Emissies 2012)">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="VLOPS_kaart_totale_verzurende_depositie__VLOPS17__Meteo_2012__Emissies_2012_20180214105458295" name="VLOPS kaart totale verzurende depositie (VLOPS17, Meteo 2012, Emissies 2012)">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>-73388.46836183927371167</xmin>
-        <ymin>19244.53502474818378687</ymin>
-        <xmax>331293.50894897489342839</xmax>
-        <ymax>302363.15798015706241131</ymax>
+        <xmin>-4807.04222799264243804</xmin>
+        <ymin>19203.73763491213321686</ymin>
+        <xmax>301428.89865643758093938</xmax>
+        <ymax>260297.28937208745628595</ymax>
       </extent>
-      <id>VLOPS_kaarten_totale_verzurende_depositie_2012__VLOPS15__Meteo_2012__Emissies_2012_20170622142055164</id>
-      <datasource>contextualWMSLegend=1&amp;crs=EPSG:31370&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hh:hh_vlops_tzd_1km_15MZ12M512&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
+      <id>VLOPS_kaart_totale_verzurende_depositie__VLOPS17__Meteo_2012__Emissies_2012_20180214105458295</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:31370&amp;dpiMode=4&amp;featureCount=10&amp;format=image/png&amp;layers=hh:hh_vlops_tzd_1km_17MZ12M512&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>VLOPS kaarten totale verzurende depositie 2012 (VLOPS15, Meteo 2012, Emissies 2012)</layername>
+      <layername>VLOPS kaart totale verzurende depositie (VLOPS17, Meteo 2012, Emissies 2012)</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.869,52.2978,-103.724,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
           <srsid>2640</srsid>
           <srid>31370</srid>
           <authid>EPSG:31370</authid>

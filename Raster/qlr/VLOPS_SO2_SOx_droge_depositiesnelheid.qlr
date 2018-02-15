@@ -1,8 +1,8 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="VLOPS_kaart_totale_vermestende_depositie__VLOPS17__Meteo_2012__Emissies_2012_20180214105454920" name="VLOPS kaart totale vermestende depositie (VLOPS17, Meteo 2012, Emissies 2012)">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="VLOPS_kaarten_SO2___SOx_droge_depositiesnelheid__VLOPS17__Meteo_2012__Emissies_2012_20180215103459325" name="VLOPS kaarten SO2 - SOx droge depositiesnelheid (VLOPS17, Meteo 2012, Emissies 2012)">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -14,12 +14,12 @@
         <xmax>301428.89865643758093938</xmax>
         <ymax>260297.28937208745628595</ymax>
       </extent>
-      <id>VLOPS_kaart_totale_vermestende_depositie__VLOPS17__Meteo_2012__Emissies_2012_20180214105454920</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:31370&amp;dpiMode=4&amp;featureCount=10&amp;format=image/png&amp;layers=hh:hh_vlops_tmd_1km_17MZ12M512&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
+      <id>VLOPS_kaarten_SO2___SOx_droge_depositiesnelheid__VLOPS17__Meteo_2012__Emissies_2012_20180215103459325</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:31370&amp;dpiMode=4&amp;featureCount=10&amp;format=image/png&amp;layers=hh:hh_vlops_sox_vd_1km_17MZ12M512&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>VLOPS kaart totale vermestende depositie (VLOPS17, Meteo 2012, Emissies 2012)</layername>
+      <layername>VLOPS kaarten SO2 - SOx droge depositiesnelheid (VLOPS17, Meteo 2012, Emissies 2012)</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.869,52.2978,-103.724,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
