@@ -1,0 +1,225 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" id="hh_stiltegeb_a41c50c3_e083_424a_8d10_202ce1e2abad" expanded="1" name="hh_stiltegeb" providerKey="postgres" source="dbname='mercator_ro_productie' host=postgres-pr-101.mmis.be port=5613 sslmode=require key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;lne&quot;.&quot;hh_stiltegeb&quot; (geom) sql=">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyMessage="" type="vector" maxScale="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" autoRefreshEnabled="0" simplifyDrawingHints="1" minScale="1e+8" refreshOnNotifyEnabled="0" simplifyMaxScale="1" labelsEnabled="0" simplifyDrawingTol="1" readOnly="0" simplifyLocal="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>31930.998046875</xmin>
+        <ymin>159863.984375</ymin>
+        <xmax>254246.640625</xmax>
+        <ymax>240871.640625</ymax>
+      </extent>
+      <id>hh_stiltegeb_a41c50c3_e083_424a_8d10_202ce1e2abad</id>
+      <datasource>dbname='mercator_ro_productie' host=postgres-pr-101.mmis.be port=5613 sslmode=require key='dataengine_id' srid=31370 type=MultiPolygon table="lne"."hh_stiltegeb" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hh_stiltegeb</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol type="fill" clip_to_extent="1" name="0" alpha="1">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="129,242,199,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gemeente">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sterren">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="jaar_toeke">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="jaar_herni">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="dataengine_id" index="0"/>
+        <alias name="" field="id" index="1"/>
+        <alias name="" field="naam" index="2"/>
+        <alias name="" field="gemeente" index="3"/>
+        <alias name="" field="label" index="4"/>
+        <alias name="" field="sterren" index="5"/>
+        <alias name="" field="jaar_toeke" index="6"/>
+        <alias name="" field="jaar_herni" index="7"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="dataengine_id"/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="naam"/>
+        <default expression="" applyOnUpdate="0" field="gemeente"/>
+        <default expression="" applyOnUpdate="0" field="label"/>
+        <default expression="" applyOnUpdate="0" field="sterren"/>
+        <default expression="" applyOnUpdate="0" field="jaar_toeke"/>
+        <default expression="" applyOnUpdate="0" field="jaar_herni"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" field="dataengine_id" constraints="3" exp_strength="0" unique_strength="1"/>
+        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="naam" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="gemeente" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="label" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="sterren" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="jaar_toeke" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="jaar_herni" constraints="0" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="dataengine_id"/>
+        <constraint desc="" exp="" field="id"/>
+        <constraint desc="" exp="" field="naam"/>
+        <constraint desc="" exp="" field="gemeente"/>
+        <constraint desc="" exp="" field="label"/>
+        <constraint desc="" exp="" field="sterren"/>
+        <constraint desc="" exp="" field="jaar_toeke"/>
+        <constraint desc="" exp="" field="jaar_herni"/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
