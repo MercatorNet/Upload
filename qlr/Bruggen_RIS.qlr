@@ -1,0 +1,243 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer source="dbname='mercator_ro_productie' host=postgres-pr-101.mmis.be port=5613 sslmode=require key='dataengine_id' srid=31370 type=MultiPoint table=&quot;mow&quot;.&quot;tn_ris_brug&quot; (geom) sql=" providerKey="postgres" expanded="1" checked="Qt::Checked" id="tn_ris_brug_bae4eb3c_2945_458a_a106_608608f2496e" name="tn_ris_brug">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyDrawingTol="1" simplifyLocal="1" readOnly="0" maxScale="0" minScale="1e+8" geometry="Point" simplifyDrawingHints="1" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" type="vector" refreshOnNotifyMessage="" autoRefreshEnabled="0" autoRefreshTime="0">
+      <extent>
+        <xmin>24919.072265625</xmin>
+        <ymin>155073.28125</ymin>
+        <xmax>251273.609375</xmax>
+        <ymax>229128.9375</ymax>
+      </extent>
+      <id>tn_ris_brug_bae4eb3c_2945_458a_a106_608608f2496e</id>
+      <datasource>dbname='mercator_ro_productie' host=postgres-pr-101.mmis.be port=5613 sslmode=require key='dataengine_id' srid=31370 type=MultiPoint table="mow"."tn_ris_brug" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>tn_ris_brug</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" alpha="1" clip_to_extent="1" name="0">
+            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="163,83,249,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hectom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="locode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="loname">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objectname">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wwauthorit">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ww_name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rt_name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="id" index="1" name=""/>
+        <alias field="hectom" index="2" name=""/>
+        <alias field="locode" index="3" name=""/>
+        <alias field="loname" index="4" name=""/>
+        <alias field="objectname" index="5" name=""/>
+        <alias field="wwauthorit" index="6" name=""/>
+        <alias field="ww_name" index="7" name=""/>
+        <alias field="rt_name" index="8" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" expression="" applyOnUpdate="0"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="hectom" expression="" applyOnUpdate="0"/>
+        <default field="locode" expression="" applyOnUpdate="0"/>
+        <default field="loname" expression="" applyOnUpdate="0"/>
+        <default field="objectname" expression="" applyOnUpdate="0"/>
+        <default field="wwauthorit" expression="" applyOnUpdate="0"/>
+        <default field="ww_name" expression="" applyOnUpdate="0"/>
+        <default field="rt_name" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" field="dataengine_id" notnull_strength="1" exp_strength="0" unique_strength="1"/>
+        <constraint constraints="0" field="id" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" field="hectom" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" field="locode" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" field="loname" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" field="objectname" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" field="wwauthorit" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" field="ww_name" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" field="rt_name" notnull_strength="0" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="dataengine_id" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="hectom" desc="" exp=""/>
+        <constraint field="locode" desc="" exp=""/>
+        <constraint field="loname" desc="" exp=""/>
+        <constraint field="objectname" desc="" exp=""/>
+        <constraint field="wwauthorit" desc="" exp=""/>
+        <constraint field="ww_name" desc="" exp=""/>
+        <constraint field="rt_name" desc="" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
