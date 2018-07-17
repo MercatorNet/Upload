@@ -2,7 +2,7 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Ruimtebeslag_versus_ruimteboekhouding_van_het_RSV___Vlaanderen___toestand_201320180717144134170" source="crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_ruibes_rbhrsv_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?" name="Ruimtebeslag versus ruimteboekhouding van het RSV - Vlaanderen - toestand 2013">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Huishoudensdichtheid_met_goede_basisvoorzieningen___Vlaanderen___Toestand_201320180717145317965" source="crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_huish_basisvoorz_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?" name="Huishoudensdichtheid met goede basisvoorzieningen - Vlaanderen - Toestand 2013">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -14,12 +14,12 @@
         <xmax>761513.95134810928720981</xmax>
         <ymax>5905577.17682657949626446</ymax>
       </extent>
-      <id>Ruimtebeslag_versus_ruimteboekhouding_van_het_RSV___Vlaanderen___toestand_201320180717144134170</id>
-      <datasource>crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_ruibes_rbhrsv_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
+      <id>Huishoudensdichtheid_met_goede_basisvoorzieningen___Vlaanderen___Toestand_201320180717145317965</id>
+      <datasource>crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_huish_basisvoorz_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Ruimtebeslag versus ruimteboekhouding van het RSV - Vlaanderen - toestand 2013</layername>
+      <layername>Huishoudensdichtheid met goede basisvoorzieningen - Vlaanderen - Toestand 2013</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
