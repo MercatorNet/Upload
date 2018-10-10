@@ -2,18 +2,18 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="tn_ris_terminal20180904145806512" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPoint table=&quot;mow&quot;.&quot;tn_ris_terminal&quot; (geom) sql=" name="tn_ris_terminal">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="cp_topt_aapd_201720180904144713498" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=Point table=&quot;agiv&quot;.&quot;cp_topt_aapd_2017&quot; (geom) sql=" name="cp_topt_aapd_2017">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>tn_ris_terminal20180904145806512</id>
-      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPoint table="mow"."tn_ris_terminal" (geom) sql=</datasource>
+      <id>cp_topt_aapd_201720180904144713498</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=Point table="agiv"."cp_topt_aapd_2017" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>tn_ris_terminal</layername>
+      <layername>cp_topt_aapd_2017</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
@@ -34,31 +34,28 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="dataengine_id">
+        <edittype widgetv2type="TextEdit" name="gid">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="id">
+        <edittype widgetv2type="TextEdit" name="uidn">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="hectom">
+        <edittype widgetv2type="TextEdit" name="oidn">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="locode">
+        <edittype widgetv2type="TextEdit" name="toptty">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="ww_name">
+        <edittype widgetv2type="TextEdit" name="toptan">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="rt_name">
+        <edittype widgetv2type="TextEdit" name="topttx">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="loname">
+        <edittype widgetv2type="TextEdit" name="cashkey">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="objectname">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wwauthorit">
+        <edittype widgetv2type="TextEdit" name="omschrijving">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
@@ -67,7 +64,7 @@
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="124,88,197,255"/>
+              <prop k="color" v="113,118,209,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -95,7 +92,7 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
-      <displayfield>ww_name</displayfield>
+      <displayfield>gid</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Label"/>
@@ -119,20 +116,19 @@
       </labelattributes>
       <annotationform></annotationform>
       <aliases>
-        <alias field="dataengine_id" index="0" name=""/>
-        <alias field="id" index="1" name=""/>
-        <alias field="hectom" index="2" name=""/>
-        <alias field="locode" index="3" name=""/>
-        <alias field="ww_name" index="4" name=""/>
-        <alias field="rt_name" index="5" name=""/>
-        <alias field="loname" index="6" name=""/>
-        <alias field="objectname" index="7" name=""/>
-        <alias field="wwauthorit" index="8" name=""/>
+        <alias field="gid" index="0" name=""/>
+        <alias field="uidn" index="1" name=""/>
+        <alias field="oidn" index="2" name=""/>
+        <alias field="toptty" index="3" name=""/>
+        <alias field="toptan" index="4" name=""/>
+        <alias field="topttx" index="5" name=""/>
+        <alias field="cashkey" index="6" name=""/>
+        <alias field="omschrijving" index="7" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="598638568">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1503824608">
         <columns/>
       </attributetableconfig>
       <editform></editform>
@@ -148,15 +144,14 @@
         <fieldstyles/>
       </conditionalstyles>
       <defaults>
-        <default field="dataengine_id" expression=""/>
-        <default field="id" expression=""/>
-        <default field="hectom" expression=""/>
-        <default field="locode" expression=""/>
-        <default field="ww_name" expression=""/>
-        <default field="rt_name" expression=""/>
-        <default field="loname" expression=""/>
-        <default field="objectname" expression=""/>
-        <default field="wwauthorit" expression=""/>
+        <default field="gid" expression=""/>
+        <default field="uidn" expression=""/>
+        <default field="oidn" expression=""/>
+        <default field="toptty" expression=""/>
+        <default field="toptan" expression=""/>
+        <default field="topttx" expression=""/>
+        <default field="cashkey" expression=""/>
+        <default field="omschrijving" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>

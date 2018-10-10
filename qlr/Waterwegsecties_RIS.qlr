@@ -1,21 +1,15 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
     <customproperties/>
-    <layer-tree-layer source="dbname='mercator_ro_productie' host=postgres-pr-101.mmis.be port=5613 sslmode=require key='dataengine_id' srid=31370 type=MultiLineString table=&quot;mow&quot;.&quot;tn_ris_wtwsec&quot; (geom) sql=" providerKey="postgres" expanded="1" checked="Qt::Checked" id="tn_ris_wtwsec_be54a83d_30cd_4a99_8b5e_087d6f90c601" name="tn_ris_wtwsec">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="tn_ris_wtwsec20180904145806637" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiLineString table=&quot;mow&quot;.&quot;tn_ris_wtwsec&quot; (geom) sql=" name="tn_ris_wtwsec">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer simplifyDrawingTol="1" simplifyLocal="1" readOnly="0" maxScale="0" minScale="1e+8" geometry="Line" simplifyDrawingHints="1" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" type="vector" refreshOnNotifyMessage="" autoRefreshEnabled="0" autoRefreshTime="0">
-      <extent>
-        <xmin>22024.31640625</xmin>
-        <ymin>154544.796875</ymin>
-        <xmax>255193.28125</xmax>
-        <ymax>229906.75</ymax>
-      </extent>
-      <id>tn_ris_wtwsec_be54a83d_30cd_4a99_8b5e_087d6f90c601</id>
-      <datasource>dbname='mercator_ro_productie' host=postgres-pr-101.mmis.be port=5613 sslmode=require key='dataengine_id' srid=31370 type=MultiLineString table="mow"."tn_ris_wtwsec" (geom) sql=</datasource>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>tn_ris_wtwsec20180904145806637</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiLineString table="mow"."tn_ris_wtwsec" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -32,133 +26,92 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
       <provider encoding="UTF-8">postgres</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="standaard">
-        <map-layer-style name="standaard"/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
       </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="dataengine_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="loname">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="fw_name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wwauthorit">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ww_name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
-          <symbol type="line" alpha="1" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
-              <prop v="square" k="capstyle"/>
-              <prop v="5;2" k="customdash"/>
-              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-              <prop v="MM" k="customdash_unit"/>
-              <prop v="0" k="draw_inside_polygon"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="6,32,164,255" k="line_color"/>
-              <prop v="solid" k="line_style"/>
-              <prop v="0.26" k="line_width"/>
-              <prop v="MM" k="line_width_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0" k="use_custom_dash"/>
-              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
-                  <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
-                </Option>
-              </data_defined_properties>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="121,104,172,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
-        <sizescale/>
+        <sizescale scalemethod="diameter"/>
       </renderer-v2>
+      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <fieldConfiguration>
-        <field name="dataengine_id">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="id">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="loname">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="code">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="fw_name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="wwauthorit">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="ww_name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>name</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
       <aliases>
         <alias field="dataengine_id" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -171,40 +124,8 @@
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <defaults>
-        <default field="dataengine_id" expression="" applyOnUpdate="0"/>
-        <default field="id" expression="" applyOnUpdate="0"/>
-        <default field="name" expression="" applyOnUpdate="0"/>
-        <default field="loname" expression="" applyOnUpdate="0"/>
-        <default field="code" expression="" applyOnUpdate="0"/>
-        <default field="fw_name" expression="" applyOnUpdate="0"/>
-        <default field="wwauthorit" expression="" applyOnUpdate="0"/>
-        <default field="ww_name" expression="" applyOnUpdate="0"/>
-      </defaults>
-      <constraints>
-        <constraint constraints="3" field="dataengine_id" notnull_strength="1" exp_strength="0" unique_strength="1"/>
-        <constraint constraints="0" field="id" notnull_strength="0" exp_strength="0" unique_strength="0"/>
-        <constraint constraints="0" field="name" notnull_strength="0" exp_strength="0" unique_strength="0"/>
-        <constraint constraints="0" field="loname" notnull_strength="0" exp_strength="0" unique_strength="0"/>
-        <constraint constraints="0" field="code" notnull_strength="0" exp_strength="0" unique_strength="0"/>
-        <constraint constraints="0" field="fw_name" notnull_strength="0" exp_strength="0" unique_strength="0"/>
-        <constraint constraints="0" field="wwauthorit" notnull_strength="0" exp_strength="0" unique_strength="0"/>
-        <constraint constraints="0" field="ww_name" notnull_strength="0" exp_strength="0" unique_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint field="dataengine_id" desc="" exp=""/>
-        <constraint field="id" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="loname" desc="" exp=""/>
-        <constraint field="code" desc="" exp=""/>
-        <constraint field="fw_name" desc="" exp=""/>
-        <constraint field="wwauthorit" desc="" exp=""/>
-        <constraint field="ww_name" desc="" exp=""/>
-      </constraintExpressions>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1">
         <columns/>
       </attributetableconfig>
       <editform></editform>
@@ -214,16 +135,22 @@
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
       <widgets/>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
-      <expressionfields/>
+      <defaults>
+        <default field="dataengine_id" expression=""/>
+        <default field="id" expression=""/>
+        <default field="name" expression=""/>
+        <default field="loname" expression=""/>
+        <default field="code" expression=""/>
+        <default field="fw_name" expression=""/>
+        <default field="wwauthorit" expression=""/>
+        <default field="ww_name" expression=""/>
+      </defaults>
       <previewExpression></previewExpression>
-      <mapTip></mapTip>
     </maplayer>
   </maplayers>
 </qlr>

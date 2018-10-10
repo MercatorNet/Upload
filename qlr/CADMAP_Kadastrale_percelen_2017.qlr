@@ -2,18 +2,18 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="lu_gewrup_kgs20180904145936317" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;rwo&quot;.&quot;lu_gewrup_kgs&quot; (geom) sql=" name="lu_gewrup_kgs">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="cp_capa_aapd_201720180904144712279" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;cp_capa_aapd_2017&quot; (geom) sql=" name="cp_capa_aapd_2017">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>lu_gewrup_kgs20180904145936317</id>
-      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table="rwo"."lu_gewrup_kgs" (geom) sql=</datasource>
+      <id>cp_capa_aapd_201720180904144712279</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table="agiv"."cp_capa_aapd_2017" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>lu_gewrup_kgs</layername>
+      <layername>cp_capa_aapd_2017</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
@@ -34,61 +34,67 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="dataengine_id">
+        <edittype widgetv2type="TextEdit" name="gid">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="id">
+        <edittype widgetv2type="TextEdit" name="uidn">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="dossierid">
+        <edittype widgetv2type="TextEdit" name="oidn">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="type">
+        <edittype widgetv2type="TextEdit" name="capakey">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="versie">
+        <edittype widgetv2type="TextEdit" name="capaty">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="algplanid">
+        <edittype widgetv2type="TextEdit" name="cashkey">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="procstap">
+        <edittype widgetv2type="TextEdit" name="lengte">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="opm">
+        <edittype widgetv2type="TextEdit" name="oppervl">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="legende">
+        <edittype widgetv2type="TextEdit" name="percid">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="startdatum">
+        <edittype widgetv2type="TextEdit" name="kadgemnr">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="einddatum">
+        <edittype widgetv2type="TextEdit" name="sectie">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="pubdatum">
+        <edittype widgetv2type="TextEdit" name="grondnr">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="oppervlak">
+        <edittype widgetv2type="TextEdit" name="exponent">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="omtrek">
+        <edittype widgetv2type="TextEdit" name="macht">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roepnaam">
+        <edittype widgetv2type="TextEdit" name="bisnr">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="ondergrond">
+        <edittype widgetv2type="TextEdit" name="omschrijving">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="aard_ond">
+        <edittype widgetv2type="TextEdit" name="gemeente">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="d_ond">
+        <edittype widgetv2type="TextEdit" name="naam_afd">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="prec_ond">
+        <edittype widgetv2type="TextEdit" name="afdeling">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="niscode">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="kadlabel">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
@@ -97,7 +103,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="109,146,101,255"/>
+              <prop k="color" v="130,180,72,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -118,7 +124,7 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
-      <displayfield>dataengine_id</displayfield>
+      <displayfield>gid</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Label"/>
@@ -142,30 +148,32 @@
       </labelattributes>
       <annotationform></annotationform>
       <aliases>
-        <alias field="dataengine_id" index="0" name=""/>
-        <alias field="id" index="1" name=""/>
-        <alias field="dossierid" index="2" name=""/>
-        <alias field="type" index="3" name=""/>
-        <alias field="versie" index="4" name=""/>
-        <alias field="algplanid" index="5" name=""/>
-        <alias field="procstap" index="6" name=""/>
-        <alias field="opm" index="7" name=""/>
-        <alias field="legende" index="8" name=""/>
-        <alias field="startdatum" index="9" name=""/>
-        <alias field="einddatum" index="10" name=""/>
-        <alias field="pubdatum" index="11" name=""/>
-        <alias field="oppervlak" index="12" name=""/>
-        <alias field="omtrek" index="13" name=""/>
-        <alias field="roepnaam" index="14" name=""/>
-        <alias field="ondergrond" index="15" name=""/>
-        <alias field="aard_ond" index="16" name=""/>
-        <alias field="d_ond" index="17" name=""/>
-        <alias field="prec_ond" index="18" name=""/>
+        <alias field="gid" index="0" name=""/>
+        <alias field="uidn" index="1" name=""/>
+        <alias field="oidn" index="2" name=""/>
+        <alias field="capakey" index="3" name=""/>
+        <alias field="capaty" index="4" name=""/>
+        <alias field="cashkey" index="5" name=""/>
+        <alias field="lengte" index="6" name=""/>
+        <alias field="oppervl" index="7" name=""/>
+        <alias field="percid" index="8" name=""/>
+        <alias field="kadgemnr" index="9" name=""/>
+        <alias field="sectie" index="10" name=""/>
+        <alias field="grondnr" index="11" name=""/>
+        <alias field="exponent" index="12" name=""/>
+        <alias field="macht" index="13" name=""/>
+        <alias field="bisnr" index="14" name=""/>
+        <alias field="omschrijving" index="15" name=""/>
+        <alias field="gemeente" index="16" name=""/>
+        <alias field="naam_afd" index="17" name=""/>
+        <alias field="afdeling" index="18" name=""/>
+        <alias field="niscode" index="19" name=""/>
+        <alias field="kadlabel" index="20" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="681613960">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="658992384">
         <columns/>
       </attributetableconfig>
       <editform></editform>
@@ -181,25 +189,27 @@
         <fieldstyles/>
       </conditionalstyles>
       <defaults>
-        <default field="dataengine_id" expression=""/>
-        <default field="id" expression=""/>
-        <default field="dossierid" expression=""/>
-        <default field="type" expression=""/>
-        <default field="versie" expression=""/>
-        <default field="algplanid" expression=""/>
-        <default field="procstap" expression=""/>
-        <default field="opm" expression=""/>
-        <default field="legende" expression=""/>
-        <default field="startdatum" expression=""/>
-        <default field="einddatum" expression=""/>
-        <default field="pubdatum" expression=""/>
-        <default field="oppervlak" expression=""/>
-        <default field="omtrek" expression=""/>
-        <default field="roepnaam" expression=""/>
-        <default field="ondergrond" expression=""/>
-        <default field="aard_ond" expression=""/>
-        <default field="d_ond" expression=""/>
-        <default field="prec_ond" expression=""/>
+        <default field="gid" expression=""/>
+        <default field="uidn" expression=""/>
+        <default field="oidn" expression=""/>
+        <default field="capakey" expression=""/>
+        <default field="capaty" expression=""/>
+        <default field="cashkey" expression=""/>
+        <default field="lengte" expression=""/>
+        <default field="oppervl" expression=""/>
+        <default field="percid" expression=""/>
+        <default field="kadgemnr" expression=""/>
+        <default field="sectie" expression=""/>
+        <default field="grondnr" expression=""/>
+        <default field="exponent" expression=""/>
+        <default field="macht" expression=""/>
+        <default field="bisnr" expression=""/>
+        <default field="omschrijving" expression=""/>
+        <default field="gemeente" expression=""/>
+        <default field="naam_afd" expression=""/>
+        <default field="afdeling" expression=""/>
+        <default field="niscode" expression=""/>
+        <default field="kadlabel" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
