@@ -2,13 +2,13 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="au_prov_vlaa20181023104552029" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;au_prov_vlaa&quot; (geom) sql=" name="au_prov_vlaa">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="au_prov_vlaa20181024113225498" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;au_prov_vlaa&quot; (geom) sql=" name="au_prov_vlaa">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>au_prov_vlaa20181023104552029</id>
+      <id>au_prov_vlaa20181024113225498</id>
       <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table="agiv"."au_prov_vlaa" (geom) sql=</datasource>
       <keywordList>
         <value></value>
@@ -65,7 +65,10 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{c132eab6-a182-4491-ad4e-ed567116525c}">
+          <rule key="{f6ee1b9e-9375-4399-8b4b-a37991da6731}" symbol="0" label="Provinciegrens"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
@@ -83,8 +86,6 @@
             </layer>
           </symbol>
         </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -299,7 +300,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="665859490">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="69">
         <columns>
           <column width="-1" hidden="0" type="field" name="dataengine_id"/>
           <column width="-1" hidden="0" type="field" name="id"/>

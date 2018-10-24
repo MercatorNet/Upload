@@ -2,19 +2,13 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="ps_erknres_anb20181023112902649" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;anb&quot;.&quot;ps_erknres_anb&quot; (geom) sql=" name="ps_erknres_anb">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="ps_erknres_anb20181024113441730" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;anb&quot;.&quot;ps_erknres_anb&quot; (geom) sql=" name="ps_erknres_anb">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <extent>
-        <xmin>33730.98046875</xmin>
-        <ymin>154826.484375</ymin>
-        <xmax>255112.375</xmax>
-        <ymax>241036.078125</ymax>
-      </extent>
-      <id>ps_erknres_anb20181023112902649</id>
+      <id>ps_erknres_anb20181024113441730</id>
       <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table="anb"."ps_erknres_anb" (geom) sql=</datasource>
       <keywordList>
         <value></value>
@@ -77,7 +71,10 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{033af52d-7ed5-4587-84b5-b80d91772ed3}">
+          <rule key="{f545c0ce-b828-4d0f-99ce-8087f5bbd283}" symbol="0" label="Erkende natuurreservaten"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
@@ -95,8 +92,6 @@
             </layer>
           </symbol>
         </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -313,7 +308,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="55404389">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="901599535">
         <columns>
           <column width="-1" hidden="0" type="field" name="dataengine_id"/>
           <column width="-1" hidden="0" type="field" name="objectid"/>
