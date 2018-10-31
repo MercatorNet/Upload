@@ -2,18 +2,18 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_capa_aapd_20172018103112391872918147" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;cp_capa_aapd_2017&quot; (geom) sql=" name="CADMAP_percelen_2017">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_topt_aapd_20172018103113413512317254" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=Point table=&quot;agiv&quot;.&quot;cp_topt_aapd_2017&quot; (geom) sql=" name="cp_topt_aapd_2017">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>cp_capa_aapd_20172018103112391872918147</id>
-      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table="agiv"."cp_capa_aapd_2017" (geom) sql=</datasource>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>cp_topt_aapd_20172018103113413512317254</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=Point table="agiv"."cp_topt_aapd_2017" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>CADMAP_percelen_2017</layername>
+      <layername>cp_topt_aapd_2017</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
@@ -43,119 +43,185 @@
         <edittype widgetv2type="TextEdit" name="oidn">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="capakey">
+        <edittype widgetv2type="TextEdit" name="toptty">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="capaty">
+        <edittype widgetv2type="TextEdit" name="toptan">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="topttx">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cashkey">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="lengte">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="oppervl">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="percid">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="kadgemnr">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="sectie">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="grondnr">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="exponent">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="macht">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="bisnr">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="omschrijving">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="gemeente">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="naam_afd">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="afdeling">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="niscode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="kadlabel">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
-        <rules key="{9f6f9407-f915-4f28-a154-8a98af279358}">
-          <rule scalemaxdenom="7500" filter="capaty = 'PR'" key="{e90896a1-dd8d-4b64-8ebc-4ce14488f17a}" symbol="0" scalemindenom="1000" label="Privaat Perceel"/>
-          <rule scalemaxdenom="7500" filter="capaty = 'PP'" key="{8cc4d802-2b6d-4eeb-95ec-3a444dffee70}" symbol="1" scalemindenom="1000" label="Perceel openbaar of onbepaald domein"/>
-          <rule scalemaxdenom="7500" filter="capaty = 'ER'" key="{01af4650-d1f7-4e9a-a907-2cdfc96716ed}" symbol="2" scalemindenom="1000" label="Foutief Perceel"/>
+        <rules key="{c8b1dc32-0ed0-472b-9eb8-fa945c671ddb}">
+          <rule filter="toptty = 'MI'" key="{0e57bb5b-c7c5-45c7-92c3-e69502a64df1}" symbol="0" label="Diverse"/>
+          <rule filter="toptty = 'XX'" key="{b7925144-0645-438d-8513-c7816819876d}" symbol="1" label="Geen informatie"/>
+          <rule filter="toptty = 'HH'" key="{b04c6970-c146-4693-93cf-acda360f28ff}" symbol="2" label="Huisnummers"/>
+          <rule filter="toptty = 'RR'" key="{36038454-6f3f-4c50-8033-2ec1040f82df}" symbol="3" label="Spoorwegen"/>
+          <rule filter="toptty = 'ST'" key="{0f0766f9-fa48-499d-a009-c7e6737572a3}" symbol="4" label="Straat_weg_brug_tunnel"/>
+          <rule filter="toptty = 'ST'" key="{929538ce-ca52-4c06-a2b4-b9d185ebf219}" symbol="5" label="Waterloop_Vijver"/>
+          <rule filter="toptty = 'PL'" key="{e18f2297-4541-41dc-b186-1b2704ca6d00}" symbol="6" label="Plaatsnaam"/>
         </rules>
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v=""/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,0,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="0,0,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.5"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v=""/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="0,0,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.5"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="255,255,220,255"/>
-              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,2,255"/>
+              <prop k="outline_color" v="255,0,0,255"/>
               <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="192,192,192,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="192,192,192,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="99,99,99,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="99,99,99,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="52,52,52,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="52,52,52,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="5">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,127,255,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,127,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="6">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="230,152,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="230,152,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
         </symbols>
@@ -216,7 +282,7 @@
         <property key="labeling/maxNumLabels" value="2000"/>
         <property key="labeling/mergeLines" value="false"/>
         <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineAlign" value="3"/>
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Normal"/>
         <property key="labeling/obstacle" value="true"/>
@@ -224,7 +290,7 @@
         <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placement" value="6"/>
         <property key="labeling/placementFlags" value="10"/>
         <property key="labeling/plussign" value="false"/>
         <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
@@ -362,24 +428,11 @@
         <alias field="gid" index="0" name=""/>
         <alias field="uidn" index="1" name=""/>
         <alias field="oidn" index="2" name=""/>
-        <alias field="capakey" index="3" name=""/>
-        <alias field="capaty" index="4" name=""/>
-        <alias field="cashkey" index="5" name=""/>
-        <alias field="lengte" index="6" name=""/>
-        <alias field="oppervl" index="7" name=""/>
-        <alias field="percid" index="8" name=""/>
-        <alias field="kadgemnr" index="9" name=""/>
-        <alias field="sectie" index="10" name=""/>
-        <alias field="grondnr" index="11" name=""/>
-        <alias field="exponent" index="12" name=""/>
-        <alias field="macht" index="13" name=""/>
-        <alias field="bisnr" index="14" name=""/>
-        <alias field="omschrijving" index="15" name=""/>
-        <alias field="gemeente" index="16" name=""/>
-        <alias field="naam_afd" index="17" name=""/>
-        <alias field="afdeling" index="18" name=""/>
-        <alias field="niscode" index="19" name=""/>
-        <alias field="kadlabel" index="20" name=""/>
+        <alias field="toptty" index="3" name=""/>
+        <alias field="toptan" index="4" name=""/>
+        <alias field="topttx" index="5" name=""/>
+        <alias field="cashkey" index="6" name=""/>
+        <alias field="omschrijving" index="7" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -389,24 +442,11 @@
           <column width="-1" hidden="0" type="field" name="gid"/>
           <column width="-1" hidden="0" type="field" name="uidn"/>
           <column width="-1" hidden="0" type="field" name="oidn"/>
-          <column width="-1" hidden="0" type="field" name="capakey"/>
-          <column width="-1" hidden="0" type="field" name="capaty"/>
+          <column width="-1" hidden="0" type="field" name="toptty"/>
+          <column width="-1" hidden="0" type="field" name="toptan"/>
+          <column width="-1" hidden="0" type="field" name="topttx"/>
           <column width="-1" hidden="0" type="field" name="cashkey"/>
-          <column width="-1" hidden="0" type="field" name="lengte"/>
-          <column width="-1" hidden="0" type="field" name="oppervl"/>
-          <column width="-1" hidden="0" type="field" name="percid"/>
-          <column width="-1" hidden="0" type="field" name="kadgemnr"/>
-          <column width="-1" hidden="0" type="field" name="sectie"/>
-          <column width="-1" hidden="0" type="field" name="grondnr"/>
-          <column width="-1" hidden="0" type="field" name="exponent"/>
-          <column width="-1" hidden="0" type="field" name="macht"/>
-          <column width="-1" hidden="0" type="field" name="bisnr"/>
           <column width="-1" hidden="0" type="field" name="omschrijving"/>
-          <column width="-1" hidden="0" type="field" name="gemeente"/>
-          <column width="-1" hidden="0" type="field" name="naam_afd"/>
-          <column width="-1" hidden="0" type="field" name="afdeling"/>
-          <column width="-1" hidden="0" type="field" name="niscode"/>
-          <column width="-1" hidden="0" type="field" name="kadlabel"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
@@ -441,24 +481,11 @@ def my_form_open(dialog, layer, feature):
         <default field="gid" expression=""/>
         <default field="uidn" expression=""/>
         <default field="oidn" expression=""/>
-        <default field="capakey" expression=""/>
-        <default field="capaty" expression=""/>
+        <default field="toptty" expression=""/>
+        <default field="toptan" expression=""/>
+        <default field="topttx" expression=""/>
         <default field="cashkey" expression=""/>
-        <default field="lengte" expression=""/>
-        <default field="oppervl" expression=""/>
-        <default field="percid" expression=""/>
-        <default field="kadgemnr" expression=""/>
-        <default field="sectie" expression=""/>
-        <default field="grondnr" expression=""/>
-        <default field="exponent" expression=""/>
-        <default field="macht" expression=""/>
-        <default field="bisnr" expression=""/>
         <default field="omschrijving" expression=""/>
-        <default field="gemeente" expression=""/>
-        <default field="naam_afd" expression=""/>
-        <default field="afdeling" expression=""/>
-        <default field="niscode" expression=""/>
-        <default field="kadlabel" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
