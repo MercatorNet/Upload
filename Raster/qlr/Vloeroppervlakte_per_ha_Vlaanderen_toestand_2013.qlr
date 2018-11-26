@@ -2,34 +2,34 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="Vloeroppervlakte_per_ha___Vlaanderen___toestand_201320180209143846626" name="Vloeroppervlakte per ha - Vlaanderen - toestand 2013">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Vloeroppervlakte_per_ha___Vlaanderen___toestand_201320181113163557406" source="crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=lu:lu_vloeropp_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?" name="Vloeroppervlakte per ha - Vlaanderen - toestand 2013">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>2.23113605196575548</xmin>
-        <ymin>49.48444135498066032</ymin>
-        <xmax>6.45760271407773967</xmax>
-        <ymax>51.63265404824483795</ymax>
+        <xmin>444311.03162117430474609</xmin>
+        <ymin>5481313.09447511564940214</ymin>
+        <xmax>750412.41089741163887084</xmax>
+        <ymax>5725845.78863614331930876</ymax>
       </extent>
-      <id>Vloeroppervlakte_per_ha___Vlaanderen___toestand_201320180209143846626</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:4326&amp;dpiMode=4&amp;featureCount=10&amp;format=image/png&amp;layers=lu:lu_vloeropp_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
+      <id>Vloeroppervlakte_per_ha___Vlaanderen___toestand_201320181113163557406</id>
+      <datasource>crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=lu:lu_vloeropp_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
       <layername>Vloeroppervlakte per ha - Vlaanderen - toestand 2013</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
+          <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2104</srsid>
+          <srid>25831</srid>
+          <authid>EPSG:25831</authid>
+          <description>ETRS89 / UTM zone 31N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <customproperties>
