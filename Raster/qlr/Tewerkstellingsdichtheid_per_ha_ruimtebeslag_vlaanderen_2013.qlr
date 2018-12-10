@@ -2,20 +2,20 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Tewerkstellingsdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320180717144511163" source="crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_ruibes_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?" name="Tewerkstellingsdichtheid per ha Ruimtebeslag - Vlaanderen - Toestand 2013">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Tewerkstellingsdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320181210100517841" source="crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_ruibes_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?" name="Tewerkstellingsdichtheid per ha Ruimtebeslag - Vlaanderen - Toestand 2013">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>436938.0667403947445564</xmin>
-        <ymin>5366444.74215888790786266</ymin>
-        <xmax>761513.95134810928720981</xmax>
-        <ymax>5905577.17682657949626446</ymax>
+        <xmin>444311.03162117430474609</xmin>
+        <ymin>5481313.09447511564940214</ymin>
+        <xmax>750412.41089741163887084</xmax>
+        <ymax>5725845.78863614331930876</ymax>
       </extent>
-      <id>Tewerkstellingsdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320180717144511163</id>
-      <datasource>crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_ruibes_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
+      <id>Tewerkstellingsdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320181210100517841</id>
+      <datasource>crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_ruibes_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
