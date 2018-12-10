@@ -2,7 +2,7 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Tewerkstellingsdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320181210100517841" source="crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_ruibes_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?" name="Tewerkstellingsdichtheid per ha Ruimtebeslag - Vlaanderen - Toestand 2013">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Totaal_voorzieningenniveau___toestand_201520181210101509428" source="crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=ni:ni_tot_voorznv_2015&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?" name="Totaal voorzieningenniveau - toestand 2015">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -14,12 +14,12 @@
         <xmax>750412.41089741163887084</xmax>
         <ymax>5725845.78863614331930876</ymax>
       </extent>
-      <id>Tewerkstellingsdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320181210100517841</id>
-      <datasource>crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_ruibes_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
+      <id>Totaal_voorzieningenniveau___toestand_201520181210101509428</id>
+      <datasource>crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=ni:ni_tot_voorznv_2015&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Tewerkstellingsdichtheid per ha Ruimtebeslag - Vlaanderen - Toestand 2013</layername>
+      <layername>Totaal voorzieningenniveau - toestand 2015</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
