@@ -4,16 +4,16 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="CADMAP_Gebouwen_percelen_toponiemlijnen_toponiempunten_2017">
       <customproperties/>
-      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_cabu_aapd_201720181214113333436" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;cp_cabu_aapd_2017&quot; (geom) sql=" name="Kadastrale_gebouwen_2017">
+      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_cabu_aapd_20172018121414561674523340" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;cp_cabu_aapd_2017&quot; (geom) sql=" name="Kadastrale_gebouwen_2017">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_capa_aapd_201720181214114125199" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;cp_capa_aapd_2017&quot; (geom) sql=" name="Kadastrale_percelen_2017">
+      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_capa_aapd_2017201812141456167452962" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;cp_capa_aapd_2017&quot; (geom) sql=" name="Kadastrale_percelen_2017">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_toli_aapd_201720181214114338425" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiLineString table=&quot;agiv&quot;.&quot;cp_toli_aapd_2017&quot; (geom) sql=" name="Toponiemlijnen_2017">
+      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_toli_aapd_20172018121414561674521202" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiLineString table=&quot;agiv&quot;.&quot;cp_toli_aapd_2017&quot; (geom) sql=" name="Toponiemlijnen_2017">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_topt_aapd_201720181214114448068" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=Point table=&quot;agiv&quot;.&quot;cp_topt_aapd_2017&quot; (geom) sql=" name="Toponiempunten_2017">
+      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="cp_topt_aapd_2017201812141456167459962" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=Point table=&quot;agiv&quot;.&quot;cp_topt_aapd_2017&quot; (geom) sql=" name="Toponiempunten_2017">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -26,7 +26,7 @@
         <xmax>258043.703125</xmax>
         <ymax>244353.40625</ymax>
       </extent>
-      <id>cp_cabu_aapd_201720181214113333436</id>
+      <id>cp_cabu_aapd_20172018121414561674523340</id>
       <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table="agiv"."cp_cabu_aapd_2017" (geom) sql=</datasource>
       <keywordList>
         <value></value>
@@ -183,8 +183,6 @@
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -360,6 +358,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -399,7 +398,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="583330304">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="gid"/>
           <column width="-1" hidden="0" type="field" name="uidn"/>
@@ -452,7 +451,13 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="10000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>cp_capa_aapd_201720181214114125199</id>
+      <extent>
+        <xmin>22721.6484375</xmin>
+        <ymin>153012</ymin>
+        <xmax>258606.84375</xmax>
+        <ymax>243751.078125</ymax>
+      </extent>
+      <id>cp_capa_aapd_2017201812141456167452962</id>
       <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table="agiv"."cp_capa_aapd_2017" (geom) sql=</datasource>
       <keywordList>
         <value></value>
@@ -735,6 +740,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -865,8 +871,14 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>cp_toli_aapd_201720181214114338425</id>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="10000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>21466.14453125</xmin>
+        <ymin>153055.546875</ymin>
+        <xmax>259624.796875</xmax>
+        <ymax>244469.046875</ymax>
+      </extent>
+      <id>cp_toli_aapd_20172018121414561674521202</id>
       <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiLineString table="agiv"."cp_toli_aapd_2017" (geom) sql=</datasource>
       <keywordList>
         <value></value>
@@ -1114,6 +1126,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1153,7 +1166,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="587071488">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="gid"/>
           <column width="-1" hidden="0" type="field" name="uidn"/>
@@ -1206,7 +1219,13 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="10000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>cp_topt_aapd_201720181214114448068</id>
+      <extent>
+        <xmin>22601.091796875</xmin>
+        <ymin>152863.1875</ymin>
+        <xmax>259396.90625</xmax>
+        <ymax>244288.421875</ymax>
+      </extent>
+      <id>cp_topt_aapd_2017201812141456167459962</id>
       <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=Point table="agiv"."cp_topt_aapd_2017" (geom) sql=</datasource>
       <keywordList>
         <value></value>
@@ -1261,10 +1280,10 @@ def my_form_open(dialog, layer, feature):
         <categories>
           <category render="true" symbol="0" value="Diverse" label="Diverse"/>
           <category render="true" symbol="1" value="Geen informatie" label="Geen informatie"/>
-          <category render="true" symbol="2" value="Huisnummer" label="Huisnummer"/>
-          <category render="true" symbol="3" value="Naam van de spoorweg" label="Naam van de spoorweg"/>
-          <category render="true" symbol="4" value="Naam van de straat, weg, brug, tunnel, ..." label="Naam van de straat, weg, brug, tunnel, ..."/>
-          <category render="true" symbol="5" value="Naam van de waterloop, vijver, ..." label="Naam van de waterloop, vijver, ..."/>
+          <category render="true" symbol="2" value="Huisnummer" label="Huisnummers"/>
+          <category render="true" symbol="3" value="Naam van de spoorweg" label="Spoorwegen"/>
+          <category render="true" symbol="4" value="Naam van de straat, weg, brug, tunnel, ..." label="Straat_weg_brug_tunnel"/>
+          <category render="true" symbol="5" value="Naam van de waterloop, vijver, ..." label="Waterloop_Vijver"/>
           <category render="true" symbol="6" value="Plaatsnaam" label="Plaatsnaam"/>
         </categories>
         <symbols>
@@ -1447,8 +1466,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -1624,6 +1641,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
