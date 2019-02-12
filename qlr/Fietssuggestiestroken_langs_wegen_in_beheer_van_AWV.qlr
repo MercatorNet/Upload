@@ -1,0 +1,93 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1">
+    <customproperties/>
+    <layer-tree-layer id="Fietssuggestiestrook___genummerde_wegen_in_beheer_van_AWV_e53cbdad_7d7d_4225_a86d_cf526443de81" providerKey="wms" checked="Qt::Checked" name="Fietssuggestiestrook - genummerde wegen in beheer van AWV" expanded="1" source="crs=EPSG:31370&amp;dpiMode=7&amp;format=image/png&amp;layers=awv:Fietssuggestiestroken&amp;styles&amp;url=https://opendata.apps.mow.vlaanderen.be/opendata-geoserver/awv/wms?version%3D1.3.0">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" type="raster" maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>14722.20244943429133855</xmin>
+        <ymin>20841.15747880656272173</ymin>
+        <xmax>297229.23227635526563972</xmax>
+        <ymax>246366.94720798172056675</ymax>
+      </extent>
+      <id>Fietssuggestiestrook___genummerde_wegen_in_beheer_van_AWV_e53cbdad_7d7d_4225_a86d_cf526443de81</id>
+      <datasource>crs=EPSG:31370&amp;dpiMode=7&amp;format=image/png&amp;layers=awv:Fietssuggestiestroken&amp;styles&amp;url=https://opendata.apps.mow.vlaanderen.be/opendata-geoserver/awv/wms?version%3D1.3.0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Fietssuggestiestrook - genummerde wegen in beheer van AWV</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Html" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandcolordata" alphaBand="-1" band="1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeOn="0" colorizeStrength="100" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
