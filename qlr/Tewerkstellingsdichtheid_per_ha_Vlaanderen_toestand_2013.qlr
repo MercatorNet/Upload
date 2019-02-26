@@ -2,20 +2,20 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Tewerkstellingsdichtheid_per_ha___Vlaanderen___Toestand_201320181210093746248" source="crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?" name="Tewerkstellingsdichtheid per ha - Vlaanderen - Toestand 2013">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Tewerkstellingsdichtheid_per_ha___Vlaanderen___Toestand_201320181221141740204" source="crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/ows?" name="Tewerkstellingsdichtheid per ha - Vlaanderen - Toestand 2013">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>444311.03162117430474609</xmin>
-        <ymin>5481313.09447511564940214</ymin>
-        <xmax>750412.41089741163887084</xmax>
-        <ymax>5725845.78863614331930876</ymax>
+        <xmin>462335.04905740485992283</xmin>
+        <ymin>5600401.55392528790980577</ymin>
+        <xmax>713018.05150383117143065</xmax>
+        <ymax>5715095.56181740388274193</ymax>
       </extent>
-      <id>Tewerkstellingsdichtheid_per_ha___Vlaanderen___Toestand_201320181210093746248</id>
-      <datasource>crs=EPSG:25831&amp;dpiMode=4&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
+      <id>Tewerkstellingsdichtheid_per_ha___Vlaanderen___Toestand_201320181221141740204</id>
+      <datasource>crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_tewerk_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/ows?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -33,7 +33,6 @@
         </spatialrefsys>
       </srs>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
         <property key="identify/format" value="Html"/>
       </customproperties>
       <provider>wms</provider>
@@ -44,7 +43,7 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="0" band="1" type="singlebandcolordata">
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
