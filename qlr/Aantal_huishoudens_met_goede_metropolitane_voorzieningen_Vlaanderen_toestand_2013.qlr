@@ -2,24 +2,24 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Huishoudensdichtheid_per_ha_ruimtebeslag___Vlaanderen___Toestand_201320190122095436880" source="crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_huish_ha_ruibes_vlaa_2013&amp;styles=&amp;url=http://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?" name="Huishoudensdichtheid per ha ruimtebeslag - Vlaanderen - Toestand 2013">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Huishoudensdichtheid_met_goede_metropolitane_voorzieningen___Vlaanderen___Toestand_201320181219155121978" source="crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_huish_metrovoorz_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/ows?" name="Huishoudensdichtheid met goede metropolitane voorzieningen - Vlaanderen - Toestand 2013">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>445483.68471082975156605</xmin>
-        <ymin>5596341.31896062567830086</ymin>
-        <xmax>740229.80789570976048708</xmax>
-        <ymax>5742930.8607426080852747</ymax>
+        <xmin>458777.18039311130996794</xmin>
+        <ymin>5460309.58492675796151161</ymin>
+        <xmax>720195.48649748926982284</xmax>
+        <ymax>5864458.49880676716566086</ymax>
       </extent>
-      <id>Huishoudensdichtheid_per_ha_ruimtebeslag___Vlaanderen___Toestand_201320190122095436880</id>
-      <datasource>crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_huish_ha_ruibes_vlaa_2013&amp;styles=&amp;url=http://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?</datasource>
+      <id>Huishoudensdichtheid_met_goede_metropolitane_voorzieningen___Vlaanderen___Toestand_201320181219155121978</id>
+      <datasource>crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_huish_metrovoorz_ha_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/ows?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Huishoudensdichtheid per ha ruimtebeslag - Vlaanderen - Toestand 2013</layername>
+      <layername>Huishoudensdichtheid met goede metropolitane voorzieningen - Vlaanderen - Toestand 2013</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>

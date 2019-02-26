@@ -2,33 +2,33 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Inwonersdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320180206145002488" name="Inwonersdichtheid per ha Ruimtebeslag - Vlaanderen - Toestand 2013">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Inwonersdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320190122095025170" source="crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_inw_ha_ruibes_vlaa_2013&amp;styles=&amp;url=http://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?" name="Inwonersdichtheid per ha Ruimtebeslag - Vlaanderen - Toestand 2013">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>-4807.04222799264243804</xmin>
-        <ymin>19203.73763491213321686</ymin>
-        <xmax>301428.89865643758093938</xmax>
-        <ymax>260297.28937208745628595</ymax>
+        <xmin>445483.68471082975156605</xmin>
+        <ymin>5596341.31896062567830086</ymin>
+        <xmax>740229.80789570976048708</xmax>
+        <ymax>5742930.8607426080852747</ymax>
       </extent>
-      <id>Inwonersdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320180206145002488</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:31370&amp;dpiMode=4&amp;featureCount=10&amp;format=image/png&amp;layers=ni:ni_inw_ha_ruibes_vlaa_2013&amp;styles=&amp;url=https://www.mercator.vonet.be/raadpleegdienstenmercatorintern/wms?</datasource>
+      <id>Inwonersdichtheid_per_ha_Ruimtebeslag___Vlaanderen___Toestand_201320190122095025170</id>
+      <datasource>crs=EPSG:25831&amp;dpiMode=7&amp;format=image/png&amp;layers=ni:ni_inw_ha_ruibes_vlaa_2013&amp;styles=&amp;url=http://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
       <layername>Inwonersdichtheid per ha Ruimtebeslag - Vlaanderen - Toestand 2013</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.869,52.2978,-103.724,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
-          <srsid>2640</srsid>
-          <srid>31370</srid>
-          <authid>EPSG:31370</authid>
-          <description>Belge 1972 / Belgian Lambert 72</description>
-          <projectionacronym>lcc</projectionacronym>
-          <ellipsoidacronym>intl</ellipsoidacronym>
+          <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2104</srsid>
+          <srid>25831</srid>
+          <authid>EPSG:25831</authid>
+          <description>ETRS89 / UTM zone 31N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
