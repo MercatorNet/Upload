@@ -1,22 +1,28 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="au_gew_vlaa_201920181019140128023" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;au_gew_vlaa_2019&quot; (geom) sql=" name="au_gew_vlaa_2019">
+    <layer-tree-layer source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 sslmode=allow key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;au_gew_vlaa_2019&quot; (geom) sql=" checked="Qt::Checked" expanded="1" name="au_gew_vlaa_2019" providerKey="postgres" id="au_gew_vlaa_2019_ef3b234c_10dc_44b5_8931_35a2b9bda8ff">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>au_gew_vlaa_201920181019140128023</id>
-      <datasource>dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=MultiPolygon table="agiv"."au_gew_vlaa_2019" (geom) sql=</datasource>
+    <maplayer type="vector" refreshOnNotifyEnabled="0" maxScale="0" geometry="Polygon" minScale="1e+08" simplifyLocal="1" simplifyMaxScale="1" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" simplifyAlgorithm="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" readOnly="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1">
+      <extent>
+        <xmin>20806.978515625</xmin>
+        <ymin>152603.484375</ymin>
+        <xmax>260056.25</xmax>
+        <ymax>244482.0625</ymax>
+      </extent>
+      <id>au_gew_vlaa_2019_ef3b234c_10dc_44b5_8931_35a2b9bda8ff</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 sslmode=allow key='dataengine_id' srid=31370 type=MultiPolygon table="agiv"."au_gew_vlaa_2019" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
       <layername>au_gew_vlaa_2019</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.869,52.2978,-103.724,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
           <srsid>2640</srsid>
           <srid>31370</srid>
           <authid>EPSG:31370</authid>
@@ -26,300 +32,274 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">postgres</provider>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" dimensions="2" maxy="0" minz="0" maxz="0" minx="0" crs="EPSG:31370" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
       <vectorjoins/>
       <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
       </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="dataengine_id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="oidn">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="uidn">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="versdatum">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="terrid">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="naam">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="niscode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nuts1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="shape_leng">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="shape_area">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="243,255,175,255"/>
+          <symbol type="fill" clip_to_extent="1" alpha="1" name="0">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="232,113,141,0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="Pixel"/>
-              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
               <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="1"/>
-              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
-        <sizescale scalemethod="diameter"/>
+        <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="false"/>
-        <property key="labeling/bufferJoinStyle" value="128"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
-        <property key="labeling/fitInPolygonOnly" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value=".SF NS Text"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="13"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="4294967295"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value=""/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="1"/>
-        <property key="labeling/obstacleType" value="0"/>
-        <property key="labeling/offsetType" value="0"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="1"/>
-        <property key="labeling/placementFlags" value="10"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/useSubstitutions" value="false"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-        <property key="labeling/zIndex" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>dataengine_id</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Label"/>
-        <family fieldname="" name=".SF NS Text"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
-          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory height="15" barWidth="5" rotationOffset="270" backgroundColor="#ffffff" sizeType="MM" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" enabled="0" lineSizeType="MM" penWidth="0" maxScaleDenominator="1e+08" opacity="1" width="15" penAlpha="255" labelPlacementMethod="XHeight" minScaleDenominator="0" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" penColor="#000000" minimumSize="0" backgroundAlpha="255">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
         </DiagramCategory>
-        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
-          <layer pass="0" class="SimpleMarker" locked="0">
-            <prop k="angle" v="0"/>
-            <prop k="color" v="255,0,0,255"/>
-            <prop k="horizontal_anchor_point" v="1"/>
-            <prop k="joinstyle" v="bevel"/>
-            <prop k="name" v="circle"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="0"/>
-            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="scale_method" v="diameter"/>
-            <prop k="size" v="2"/>
-            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="size_unit" v="MM"/>
-            <prop k="vertical_anchor_point" v="1"/>
-          </layer>
-        </symbol>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <DiagramLayerSettings zIndex="0" placement="1" linePlacementFlags="18" priority="0" obstacle="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oidn">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uidn">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="versdatum">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="terrid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="niscode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nuts1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="shape_leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="shape_area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="dataengine_id" index="0" name=""/>
-        <alias field="id" index="1" name=""/>
-        <alias field="oidn" index="2" name=""/>
-        <alias field="uidn" index="3" name=""/>
-        <alias field="versdatum" index="4" name=""/>
-        <alias field="terrid" index="5" name=""/>
-        <alias field="naam" index="6" name=""/>
-        <alias field="niscode" index="7" name=""/>
-        <alias field="nuts1" index="8" name=""/>
-        <alias field="shape_leng" index="9" name=""/>
-        <alias field="shape_area" index="10" name=""/>
+        <alias field="dataengine_id" name="" index="0"/>
+        <alias field="id" name="" index="1"/>
+        <alias field="oidn" name="" index="2"/>
+        <alias field="uidn" name="" index="3"/>
+        <alias field="versdatum" name="" index="4"/>
+        <alias field="terrid" name="" index="5"/>
+        <alias field="naam" name="" index="6"/>
+        <alias field="niscode" name="" index="7"/>
+        <alias field="nuts1" name="" index="8"/>
+        <alias field="shape_leng" name="" index="9"/>
+        <alias field="shape_area" name="" index="10"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="94408416">
+      <defaults>
+        <default applyOnUpdate="0" field="dataengine_id" expression=""/>
+        <default applyOnUpdate="0" field="id" expression=""/>
+        <default applyOnUpdate="0" field="oidn" expression=""/>
+        <default applyOnUpdate="0" field="uidn" expression=""/>
+        <default applyOnUpdate="0" field="versdatum" expression=""/>
+        <default applyOnUpdate="0" field="terrid" expression=""/>
+        <default applyOnUpdate="0" field="naam" expression=""/>
+        <default applyOnUpdate="0" field="niscode" expression=""/>
+        <default applyOnUpdate="0" field="nuts1" expression=""/>
+        <default applyOnUpdate="0" field="shape_leng" expression=""/>
+        <default applyOnUpdate="0" field="shape_area" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" constraints="3" field="dataengine_id" exp_strength="0" notnull_strength="1"/>
+        <constraint unique_strength="0" constraints="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="oidn" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="uidn" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="versdatum" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="terrid" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="naam" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="niscode" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="nuts1" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="shape_leng" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="shape_area" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="dataengine_id"/>
+        <constraint exp="" desc="" field="id"/>
+        <constraint exp="" desc="" field="oidn"/>
+        <constraint exp="" desc="" field="uidn"/>
+        <constraint exp="" desc="" field="versdatum"/>
+        <constraint exp="" desc="" field="terrid"/>
+        <constraint exp="" desc="" field="naam"/>
+        <constraint exp="" desc="" field="niscode"/>
+        <constraint exp="" desc="" field="nuts1"/>
+        <constraint exp="" desc="" field="shape_leng"/>
+        <constraint exp="" desc="" field="shape_area"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns>
-          <column width="-1" hidden="0" type="field" name="dataengine_id"/>
-          <column width="-1" hidden="0" type="field" name="id"/>
-          <column width="-1" hidden="0" type="field" name="oidn"/>
-          <column width="-1" hidden="0" type="field" name="uidn"/>
-          <column width="-1" hidden="0" type="field" name="versdatum"/>
-          <column width="-1" hidden="0" type="field" name="terrid"/>
-          <column width="-1" hidden="0" type="field" name="naam"/>
-          <column width="-1" hidden="0" type="field" name="niscode"/>
-          <column width="-1" hidden="0" type="field" name="nuts1"/>
-          <column width="-1" hidden="0" type="field" name="shape_leng"/>
-          <column width="-1" hidden="0" type="field" name="shape_area"/>
-          <column width="-1" hidden="1" type="actions"/>
+          <column type="field" hidden="0" name="dataengine_id" width="-1"/>
+          <column type="field" hidden="0" name="id" width="-1"/>
+          <column type="field" hidden="0" name="oidn" width="-1"/>
+          <column type="field" hidden="0" name="uidn" width="-1"/>
+          <column type="field" hidden="0" name="versdatum" width="-1"/>
+          <column type="field" hidden="0" name="terrid" width="-1"/>
+          <column type="field" hidden="0" name="naam" width="-1"/>
+          <column type="field" hidden="0" name="niscode" width="-1"/>
+          <column type="field" hidden="0" name="nuts1" width="-1"/>
+          <column type="field" hidden="0" name="shape_leng" width="-1"/>
+          <column type="field" hidden="0" name="shape_area" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -341,25 +321,35 @@ def my_form_open(dialog, layer, feature):
 ]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="naam"/>
+        <field editable="1" name="niscode"/>
+        <field editable="1" name="nuts1"/>
+        <field editable="1" name="oidn"/>
+        <field editable="1" name="shape_area"/>
+        <field editable="1" name="shape_leng"/>
+        <field editable="1" name="terrid"/>
+        <field editable="1" name="uidn"/>
+        <field editable="1" name="versdatum"/>
+      </editable>
+      <labelOnTop>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="naam" labelOnTop="0"/>
+        <field name="niscode" labelOnTop="0"/>
+        <field name="nuts1" labelOnTop="0"/>
+        <field name="oidn" labelOnTop="0"/>
+        <field name="shape_area" labelOnTop="0"/>
+        <field name="shape_leng" labelOnTop="0"/>
+        <field name="terrid" labelOnTop="0"/>
+        <field name="uidn" labelOnTop="0"/>
+        <field name="versdatum" labelOnTop="0"/>
+      </labelOnTop>
       <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <defaults>
-        <default field="dataengine_id" expression=""/>
-        <default field="id" expression=""/>
-        <default field="oidn" expression=""/>
-        <default field="uidn" expression=""/>
-        <default field="versdatum" expression=""/>
-        <default field="terrid" expression=""/>
-        <default field="naam" expression=""/>
-        <default field="niscode" expression=""/>
-        <default field="nuts1" expression=""/>
-        <default field="shape_leng" expression=""/>
-        <default field="shape_area" expression=""/>
-      </defaults>
-      <previewExpression></previewExpression>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
     </maplayer>
   </maplayers>
 </qlr>
