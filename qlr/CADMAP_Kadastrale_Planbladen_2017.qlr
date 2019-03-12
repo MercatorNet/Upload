@@ -1,19 +1,25 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Unchecked" id="cp_cash_aapd_201720180904144712670" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;cp_cash_aapd_2017&quot; (geom) sql=" name="cp_cash_aapd_2017">
+    <layer-tree-layer id="cp_cash_aapd_20172019031217193557214547" name="CADMAP kadastrale planbladen 2017" providerKey="postgres" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table=&quot;agiv&quot;.&quot;cp_cash_aapd_2017&quot; (geom) sql=" checked="Qt::Checked" expanded="1">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>cp_cash_aapd_201720180904144712670</id>
+    <maplayer simplifyAlgorithm="0" type="vector" simplifyMaxScale="1" simplifyDrawingHints="1" geometry="Polygon" simplifyLocal="1" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" simplifyDrawingTol="1" maxScale="0" minScale="1e+08" styleCategories="AllStyleCategories" autoRefreshTime="0" refreshOnNotifyEnabled="0" readOnly="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>21101.15234375</xmin>
+        <ymin>152603.46875</ymin>
+        <xmax>260062.21875</xmax>
+        <ymax>244482.0625</ymax>
+      </extent>
+      <id>cp_cash_aapd_20172019031217193557214547</id>
       <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='gid' srid=31370 type=MultiPolygon table="agiv"."cp_cash_aapd_2017" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>cp_cash_aapd_2017</layername>
+      <layername>CADMAP kadastrale planbladen 2017</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
@@ -26,137 +32,310 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" crs="" dimensions="2" maxx="0" minx="0" miny="0" minz="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
       <provider encoding="UTF-8">postgres</provider>
       <vectorjoins/>
       <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
       </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="gid">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="uidn">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="oidn">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cashkey">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cadikey">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="caseco">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cashco">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="niscode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="lengte">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="oppervl">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="107,135,96,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol type="fill" name="0" clip_to_extent="1" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="107,135,96,0" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
-        <sizescale scalemethod="diameter"/>
+        <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>gid</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Label"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" height="15" labelPlacementMethod="XHeight" backgroundColor="#ffffff" lineSizeType="MM" penColor="#000000" maxScaleDenominator="1e+08" opacity="1" penWidth="0" barWidth="5" minScaleDenominator="0" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" backgroundAlpha="255" penAlpha="255" scaleBasedVisibility="0" width="15" diagramOrientation="Up" rotationOffset="270" scaleDependency="Area" enabled="0" sizeType="MM">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" showAll="1" dist="0" linePlacementFlags="18" obstacle="0" priority="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uidn">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oidn">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cashkey">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cadikey">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="caseco">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cashco">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="niscode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lengte">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oppervl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="gid" index="0" name=""/>
-        <alias field="uidn" index="1" name=""/>
-        <alias field="oidn" index="2" name=""/>
-        <alias field="cashkey" index="3" name=""/>
-        <alias field="cadikey" index="4" name=""/>
-        <alias field="caseco" index="5" name=""/>
-        <alias field="cashco" index="6" name=""/>
-        <alias field="niscode" index="7" name=""/>
-        <alias field="lengte" index="8" name=""/>
-        <alias field="oppervl" index="9" name=""/>
+        <alias name="" index="0" field="gid"/>
+        <alias name="" index="1" field="uidn"/>
+        <alias name="" index="2" field="oidn"/>
+        <alias name="" index="3" field="cashkey"/>
+        <alias name="" index="4" field="cadikey"/>
+        <alias name="" index="5" field="caseco"/>
+        <alias name="" index="6" field="cashco"/>
+        <alias name="" index="7" field="niscode"/>
+        <alias name="" index="8" field="lengte"/>
+        <alias name="" index="9" field="oppervl"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="602013696">
-        <columns/>
+      <defaults>
+        <default expression="" field="gid" applyOnUpdate="0"/>
+        <default expression="" field="uidn" applyOnUpdate="0"/>
+        <default expression="" field="oidn" applyOnUpdate="0"/>
+        <default expression="" field="cashkey" applyOnUpdate="0"/>
+        <default expression="" field="cadikey" applyOnUpdate="0"/>
+        <default expression="" field="caseco" applyOnUpdate="0"/>
+        <default expression="" field="cashco" applyOnUpdate="0"/>
+        <default expression="" field="niscode" applyOnUpdate="0"/>
+        <default expression="" field="lengte" applyOnUpdate="0"/>
+        <default expression="" field="oppervl" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="1" field="gid" unique_strength="1" constraints="3"/>
+        <constraint exp_strength="0" notnull_strength="0" field="uidn" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="oidn" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="cashkey" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="cadikey" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="caseco" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="cashco" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="niscode" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="lengte" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="oppervl" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="gid" desc=""/>
+        <constraint exp="" field="uidn" desc=""/>
+        <constraint exp="" field="oidn" desc=""/>
+        <constraint exp="" field="cashkey" desc=""/>
+        <constraint exp="" field="cadikey" desc=""/>
+        <constraint exp="" field="caseco" desc=""/>
+        <constraint exp="" field="cashco" desc=""/>
+        <constraint exp="" field="niscode" desc=""/>
+        <constraint exp="" field="lengte" desc=""/>
+        <constraint exp="" field="oppervl" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column type="field" width="-1" name="gid" hidden="0"/>
+          <column type="field" width="-1" name="uidn" hidden="0"/>
+          <column type="field" width="-1" name="oidn" hidden="0"/>
+          <column type="field" width="-1" name="cashkey" hidden="0"/>
+          <column type="field" width="-1" name="cadikey" hidden="0"/>
+          <column type="field" width="-1" name="caseco" hidden="0"/>
+          <column type="field" width="-1" name="cashco" hidden="0"/>
+          <column type="field" width="-1" name="niscode" hidden="0"/>
+          <column type="field" width="-1" name="lengte" hidden="0"/>
+          <column type="field" width="-1" name="oppervl" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
       </attributetableconfig>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
-      <defaults>
-        <default field="gid" expression=""/>
-        <default field="uidn" expression=""/>
-        <default field="oidn" expression=""/>
-        <default field="cashkey" expression=""/>
-        <default field="cadikey" expression=""/>
-        <default field="caseco" expression=""/>
-        <default field="cashco" expression=""/>
-        <default field="niscode" expression=""/>
-        <default field="lengte" expression=""/>
-        <default field="oppervl" expression=""/>
-      </defaults>
-      <previewExpression></previewExpression>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="cadikey" editable="1"/>
+        <field name="caseco" editable="1"/>
+        <field name="cashco" editable="1"/>
+        <field name="cashkey" editable="1"/>
+        <field name="gid" editable="1"/>
+        <field name="lengte" editable="1"/>
+        <field name="niscode" editable="1"/>
+        <field name="oidn" editable="1"/>
+        <field name="oppervl" editable="1"/>
+        <field name="uidn" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="cadikey" labelOnTop="0"/>
+        <field name="caseco" labelOnTop="0"/>
+        <field name="cashco" labelOnTop="0"/>
+        <field name="cashkey" labelOnTop="0"/>
+        <field name="gid" labelOnTop="0"/>
+        <field name="lengte" labelOnTop="0"/>
+        <field name="niscode" labelOnTop="0"/>
+        <field name="oidn" labelOnTop="0"/>
+        <field name="oppervl" labelOnTop="0"/>
+        <field name="uidn" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>gid</previewExpression>
+      <mapTip></mapTip>
     </maplayer>
   </maplayers>
 </qlr>
