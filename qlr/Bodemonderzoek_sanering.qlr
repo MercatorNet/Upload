@@ -1,0 +1,480 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer name="Bodemonderzoek_sanering" id="so_bodsan_info_b6e1dc8c_088a_4b84_2019020192019032615201943614279" providerKey="postgres" expanded="0" checked="Qt::Checked" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 user='vvinckmo' key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;ovam&quot;.&quot;so_bodsan_info&quot; (shape) sql=">
+      <customproperties>
+        <property value="1" key="showFeatureCount"/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer geometry="Polygon" minScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshEnabled="0" simplifyLocal="1" maxScale="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" readOnly="0" simplifyDrawingHints="1" autoRefreshTime="0" refreshOnNotifyEnabled="0" type="vector" simplifyAlgorithm="0" labelsEnabled="0">
+      <extent>
+        <xmin>22023.66015625</xmin>
+        <ymin>153589.546875</ymin>
+        <xmax>258152.53125</xmax>
+        <ymax>243895.15625</ymax>
+      </extent>
+      <id>so_bodsan_info_b6e1dc8c_088a_4b84_2019020192019032615201943614279</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 user='vvinckmo' password='Tsumu_64' key='dataengine_id' srid=31370 type=MultiPolygon table="ovam"."so_bodsan_info" (shape) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Bodemonderzoek_sanering</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="EPSG:31370" miny="0" maxx="0" minz="0" maxz="0" dimensions="2" maxy="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="RuleRenderer">
+        <rules key="{8c213416-b2a9-4aaf-89a1-96be86d62951}">
+          <rule label="Sitebesluit" key="{f13e7da8-3aea-45b3-b385-8d7c47fe496a}" symbol="0" filter="&quot;opdrachttype_hoogstconform&quot; = 'Sitebesluit'"/>
+          <rule label="Oriënterend bodemonderzoek" key="{69e0c057-300a-4f3b-a222-85468abe9a9f}" symbol="1" filter="&quot;opdrachttype_hoogstconform&quot; = 'Oriënterend bodemonderzoek'"/>
+          <rule label="Beschrijvend bodemonderzoek" key="{ce7a64b4-5cc9-4a7f-b06c-06d9a94fae14}" symbol="2" filter="&quot;opdrachttype_hoogstconform&quot; = 'Beschrijvend bodemonderzoek'"/>
+          <rule label="Bodemsaneringsproject" key="{7a869a30-9b6b-47b3-9452-c5a8770494f2}" symbol="3" filter="&quot;opdrachttype_hoogstconform&quot; = 'Bodemsaneringsproject'"/>
+          <rule label="Eindevaluatieonderzoek" key="{b2945c3d-07be-40fa-acb9-6b1a6509b59a}" symbol="4" filter="&quot;opdrachttype_hoogstconform&quot; = 'Eindevaluatieonderzoek'"/>
+        </rules>
+        <symbols>
+          <symbol name="0" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="1" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="221,63,192,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.66" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="1" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="2" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="112,168,0,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.66" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="2" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="3" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="244,186,54,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.66" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="3" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="4" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="31,120,180,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.66" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="4" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="5" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="42,188,245,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.66" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="dataengine_id" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory diagramOrientation="Up" backgroundAlpha="255" width="15" enabled="0" scaleDependency="Area" sizeType="MM" penAlpha="255" labelPlacementMethod="XHeight" rotationOffset="270" barWidth="5" penColor="#000000" minimumSize="0" maxScaleDenominator="1e+08" backgroundColor="#ffffff" penWidth="0" height="15" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" opacity="1">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute label="" field="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" linePlacementFlags="18" zIndex="0" dist="0" obstacle="0" priority="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dossier_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachttype_hoogstconform">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_sbo_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_sbo">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_obo_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_obo">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_bbo_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_bbo">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_bsp_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_bsp">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_eeo_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_eeo">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="dataengine_id"/>
+        <alias name="" index="1" field="dossier_id"/>
+        <alias name="" index="2" field="opdrachttype_hoogstconform"/>
+        <alias name="" index="3" field="opdrachtid_sbo_meestrecent"/>
+        <alias name="" index="4" field="datum_sbo"/>
+        <alias name="" index="5" field="opdrachtid_obo_meestrecent"/>
+        <alias name="" index="6" field="datum_obo"/>
+        <alias name="" index="7" field="opdrachtid_bbo_meestrecent"/>
+        <alias name="" index="8" field="datum_bbo"/>
+        <alias name="" index="9" field="opdrachtid_bsp_meestrecent"/>
+        <alias name="" index="10" field="datum_bsp"/>
+        <alias name="" index="11" field="opdrachtid_eeo_meestrecent"/>
+        <alias name="" index="12" field="datum_eeo"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="dataengine_id" applyOnUpdate="0"/>
+        <default expression="" field="dossier_id" applyOnUpdate="0"/>
+        <default expression="" field="opdrachttype_hoogstconform" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_sbo_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_sbo" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_obo_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_obo" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_bbo_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_bbo" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_bsp_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_bsp" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_eeo_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_eeo" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" exp_strength="0" unique_strength="1" field="dataengine_id" notnull_strength="1"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="dossier_id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachttype_hoogstconform" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_sbo_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_sbo" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_obo_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_obo" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_bbo_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_bbo" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_bsp_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_bsp" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_eeo_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_eeo" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="dataengine_id" desc=""/>
+        <constraint exp="" field="dossier_id" desc=""/>
+        <constraint exp="" field="opdrachttype_hoogstconform" desc=""/>
+        <constraint exp="" field="opdrachtid_sbo_meestrecent" desc=""/>
+        <constraint exp="" field="datum_sbo" desc=""/>
+        <constraint exp="" field="opdrachtid_obo_meestrecent" desc=""/>
+        <constraint exp="" field="datum_obo" desc=""/>
+        <constraint exp="" field="opdrachtid_bbo_meestrecent" desc=""/>
+        <constraint exp="" field="datum_bbo" desc=""/>
+        <constraint exp="" field="opdrachtid_bsp_meestrecent" desc=""/>
+        <constraint exp="" field="datum_bsp" desc=""/>
+        <constraint exp="" field="opdrachtid_eeo_meestrecent" desc=""/>
+        <constraint exp="" field="datum_eeo" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;opdrachttype_hoogstconform&quot;" sortOrder="1" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="dataengine_id" hidden="0" width="-1" type="field"/>
+          <column name="dossier_id" hidden="0" width="-1" type="field"/>
+          <column name="opdrachttype_hoogstconform" hidden="0" width="412" type="field"/>
+          <column name="opdrachtid_sbo_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_sbo" hidden="0" width="-1" type="field"/>
+          <column name="opdrachtid_obo_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_obo" hidden="0" width="-1" type="field"/>
+          <column name="opdrachtid_bbo_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_bbo" hidden="0" width="-1" type="field"/>
+          <column name="opdrachtid_bsp_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_bsp" hidden="0" width="-1" type="field"/>
+          <column name="opdrachtid_eeo_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_eeo" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="dataengine_id" editable="1"/>
+        <field name="datum_bbo" editable="1"/>
+        <field name="datum_bsp" editable="1"/>
+        <field name="datum_eeo" editable="1"/>
+        <field name="datum_obo" editable="1"/>
+        <field name="datum_sbo" editable="1"/>
+        <field name="dossier_id" editable="1"/>
+        <field name="opdrachtid_bbo_meestrecent" editable="1"/>
+        <field name="opdrachtid_bsp_meestrecent" editable="1"/>
+        <field name="opdrachtid_eeo_meestrecent" editable="1"/>
+        <field name="opdrachtid_obo_meestrecent" editable="1"/>
+        <field name="opdrachtid_sbo_meestrecent" editable="1"/>
+        <field name="opdrachttype_hoogstconform" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="datum_bbo" labelOnTop="0"/>
+        <field name="datum_bsp" labelOnTop="0"/>
+        <field name="datum_eeo" labelOnTop="0"/>
+        <field name="datum_obo" labelOnTop="0"/>
+        <field name="datum_sbo" labelOnTop="0"/>
+        <field name="dossier_id" labelOnTop="0"/>
+        <field name="opdrachtid_bbo_meestrecent" labelOnTop="0"/>
+        <field name="opdrachtid_bsp_meestrecent" labelOnTop="0"/>
+        <field name="opdrachtid_eeo_meestrecent" labelOnTop="0"/>
+        <field name="opdrachtid_obo_meestrecent" labelOnTop="0"/>
+        <field name="opdrachtid_sbo_meestrecent" labelOnTop="0"/>
+        <field name="opdrachttype_hoogstconform" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

@@ -1,0 +1,623 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer name="Schadegevallen_meldingen" id="so_schameld_info_49fb7dd6_2bd5_449b_b81f_dea88077121c" providerKey="postgres" expanded="1" checked="Qt::Unchecked" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 user='vvinckmo' key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;ovam&quot;.&quot;so_schameld_info&quot; (shape) sql=">
+      <customproperties>
+        <property value="1" key="showFeatureCount"/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer geometry="Polygon" minScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshEnabled="0" simplifyLocal="1" maxScale="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" readOnly="0" simplifyDrawingHints="1" autoRefreshTime="0" refreshOnNotifyEnabled="0" type="vector" simplifyAlgorithm="0" labelsEnabled="0">
+      <extent>
+        <xmin>23387.55078125</xmin>
+        <ymin>154187.984375</ymin>
+        <xmax>257714.71875</xmax>
+        <ymax>243394.078125</ymax>
+      </extent>
+      <id>so_schameld_info_49fb7dd6_2bd5_449b_b81f_dea88077121c</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 user='vvinckmo' password='Tsumu_64' key='dataengine_id' srid=31370 type=MultiPolygon table="ovam"."so_schameld_info" (shape) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Schadegevallen_meldingen</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="EPSG:31370" miny="0" maxx="0" minz="0" maxz="0" dimensions="2" maxy="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="RuleRenderer">
+        <rules key="{bce79371-7fd7-4a2b-b0f8-5a5f41e500eb}">
+          <rule label="Evaluatierapport schadegeval" key="{32163e6f-6b8b-465d-86b0-cbde8a6dec1e}" symbol="0" filter="&quot;opdrachttype_hoogstconform&quot; = 'Evaluatierapport schadegeval'"/>
+          <rule label="Vaststelling schadegeval" key="{750085b9-449d-4d16-8e81-b0c9503069be}" symbol="1" filter="&quot;opdrachttype_hoogstconform&quot; = 'Vaststelling schadegeval'"/>
+          <rule label="Melding schadegeval" key="{ba2f77b1-95ea-4c68-bb6c-e84e0a705fdc}" symbol="2" filter="&quot;opdrachttype_hoogstconform&quot; = 'Melding schadegeval'"/>
+          <rule label="Melding bodemverontreiniging" key="{a960784a-bc92-4e71-b64e-301f95be4c2c}" symbol="3" filter="&quot;opdrachttype_hoogstconform&quot; = 'Melding bodemverontreiniging'"/>
+        </rules>
+        <symbols>
+          <symbol name="0" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="236,181,138,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer class="LinePatternFill" pass="0" locked="0" enabled="1">
+              <prop v="60" k="angle"/>
+              <prop v="0,0,255,255" k="color"/>
+              <prop v="3" k="distance"/>
+              <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
+              <prop v="MM" k="distance_unit"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <symbol name="@0@1" alpha="1" force_rhr="0" clip_to_extent="1" type="line">
+                <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+                  <prop v="square" k="capstyle"/>
+                  <prop v="5;2" k="customdash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                  <prop v="MM" k="customdash_unit"/>
+                  <prop v="0" k="draw_inside_polygon"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="128,0,0,255" k="line_color"/>
+                  <prop v="solid" k="line_style"/>
+                  <prop v="0.66" k="line_width"/>
+                  <prop v="MM" k="line_width_unit"/>
+                  <prop v="0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="0" k="ring_filter"/>
+                  <prop v="0" k="use_custom_dash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option name="name" value="" type="QString"/>
+                      <Option name="properties"/>
+                      <Option name="type" value="collection" type="QString"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol name="1" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="86,211,13,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer class="LinePatternFill" pass="0" locked="0" enabled="1">
+              <prop v="60" k="angle"/>
+              <prop v="0,0,255,255" k="color"/>
+              <prop v="3" k="distance"/>
+              <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
+              <prop v="MM" k="distance_unit"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <symbol name="@1@1" alpha="1" force_rhr="0" clip_to_extent="1" type="line">
+                <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+                  <prop v="square" k="capstyle"/>
+                  <prop v="5;2" k="customdash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                  <prop v="MM" k="customdash_unit"/>
+                  <prop v="0" k="draw_inside_polygon"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="119,255,94,255" k="line_color"/>
+                  <prop v="solid" k="line_style"/>
+                  <prop v="0.66" k="line_width"/>
+                  <prop v="MM" k="line_width_unit"/>
+                  <prop v="0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="0" k="ring_filter"/>
+                  <prop v="0" k="use_custom_dash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option name="name" value="" type="QString"/>
+                      <Option name="properties"/>
+                      <Option name="type" value="collection" type="QString"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol name="2" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,0,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer class="LinePatternFill" pass="0" locked="0" enabled="1">
+              <prop v="60" k="angle"/>
+              <prop v="0,0,255,255" k="color"/>
+              <prop v="3" k="distance"/>
+              <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
+              <prop v="MM" k="distance_unit"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <symbol name="@2@1" alpha="1" force_rhr="0" clip_to_extent="1" type="line">
+                <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+                  <prop v="square" k="capstyle"/>
+                  <prop v="5;2" k="customdash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                  <prop v="MM" k="customdash_unit"/>
+                  <prop v="0" k="draw_inside_polygon"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="255,255,0,255" k="line_color"/>
+                  <prop v="solid" k="line_style"/>
+                  <prop v="0.66" k="line_width"/>
+                  <prop v="MM" k="line_width_unit"/>
+                  <prop v="0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="0" k="ring_filter"/>
+                  <prop v="0" k="use_custom_dash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option name="name" value="" type="QString"/>
+                      <Option name="properties"/>
+                      <Option name="type" value="collection" type="QString"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+          <symbol name="3" alpha="1" force_rhr="0" clip_to_extent="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="93,89,224,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer class="LinePatternFill" pass="0" locked="0" enabled="1">
+              <prop v="120" k="angle"/>
+              <prop v="0,0,255,255" k="color"/>
+              <prop v="3" k="distance"/>
+              <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
+              <prop v="MM" k="distance_unit"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <symbol name="@3@1" alpha="1" force_rhr="0" clip_to_extent="1" type="line">
+                <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+                  <prop v="square" k="capstyle"/>
+                  <prop v="5;2" k="customdash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                  <prop v="MM" k="customdash_unit"/>
+                  <prop v="0" k="draw_inside_polygon"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="255,140,0,255" k="line_color"/>
+                  <prop v="solid" k="line_style"/>
+                  <prop v="0.66" k="line_width"/>
+                  <prop v="MM" k="line_width_unit"/>
+                  <prop v="0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="0" k="ring_filter"/>
+                  <prop v="0" k="use_custom_dash"/>
+                  <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option name="name" value="" type="QString"/>
+                      <Option name="properties"/>
+                      <Option name="type" value="collection" type="QString"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory diagramOrientation="Up" backgroundAlpha="255" width="15" enabled="0" scaleDependency="Area" sizeType="MM" penAlpha="255" labelPlacementMethod="XHeight" rotationOffset="270" barWidth="5" penColor="#000000" minimumSize="0" maxScaleDenominator="1e+08" backgroundColor="#ffffff" penWidth="0" height="15" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" opacity="1">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" linePlacementFlags="18" zIndex="0" dist="0" obstacle="0" priority="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dossier_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachttype_hoogstconform">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_mschade_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_mschade">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_vschade_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_vschade">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_mbv_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_mbv">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opdrachtid_evrsch_meestrecent">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_evrsch">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="dataengine_id"/>
+        <alias name="" index="1" field="dossier_id"/>
+        <alias name="" index="2" field="opdrachttype_hoogstconform"/>
+        <alias name="" index="3" field="opdrachtid_mschade_meestrecent"/>
+        <alias name="" index="4" field="datum_mschade"/>
+        <alias name="" index="5" field="opdrachtid_vschade_meestrecent"/>
+        <alias name="" index="6" field="datum_vschade"/>
+        <alias name="" index="7" field="opdrachtid_mbv_meestrecent"/>
+        <alias name="" index="8" field="datum_mbv"/>
+        <alias name="" index="9" field="opdrachtid_evrsch_meestrecent"/>
+        <alias name="" index="10" field="datum_evrsch"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="dataengine_id" applyOnUpdate="0"/>
+        <default expression="" field="dossier_id" applyOnUpdate="0"/>
+        <default expression="" field="opdrachttype_hoogstconform" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_mschade_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_mschade" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_vschade_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_vschade" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_mbv_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_mbv" applyOnUpdate="0"/>
+        <default expression="" field="opdrachtid_evrsch_meestrecent" applyOnUpdate="0"/>
+        <default expression="" field="datum_evrsch" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" exp_strength="0" unique_strength="1" field="dataengine_id" notnull_strength="1"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="dossier_id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachttype_hoogstconform" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_mschade_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_mschade" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_vschade_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_vschade" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_mbv_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_mbv" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opdrachtid_evrsch_meestrecent" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="datum_evrsch" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="dataengine_id" desc=""/>
+        <constraint exp="" field="dossier_id" desc=""/>
+        <constraint exp="" field="opdrachttype_hoogstconform" desc=""/>
+        <constraint exp="" field="opdrachtid_mschade_meestrecent" desc=""/>
+        <constraint exp="" field="datum_mschade" desc=""/>
+        <constraint exp="" field="opdrachtid_vschade_meestrecent" desc=""/>
+        <constraint exp="" field="datum_vschade" desc=""/>
+        <constraint exp="" field="opdrachtid_mbv_meestrecent" desc=""/>
+        <constraint exp="" field="datum_mbv" desc=""/>
+        <constraint exp="" field="opdrachtid_evrsch_meestrecent" desc=""/>
+        <constraint exp="" field="datum_evrsch" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="dataengine_id" hidden="0" width="-1" type="field"/>
+          <column name="dossier_id" hidden="0" width="-1" type="field"/>
+          <column name="opdrachttype_hoogstconform" hidden="0" width="-1" type="field"/>
+          <column name="opdrachtid_mschade_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_mschade" hidden="0" width="-1" type="field"/>
+          <column name="opdrachtid_vschade_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_vschade" hidden="0" width="-1" type="field"/>
+          <column name="opdrachtid_mbv_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_mbv" hidden="0" width="-1" type="field"/>
+          <column name="opdrachtid_evrsch_meestrecent" hidden="0" width="-1" type="field"/>
+          <column name="datum_evrsch" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="dataengine_id" editable="1"/>
+        <field name="datum_evrsch" editable="1"/>
+        <field name="datum_mbv" editable="1"/>
+        <field name="datum_mschade" editable="1"/>
+        <field name="datum_vschade" editable="1"/>
+        <field name="dossier_id" editable="1"/>
+        <field name="opdrachtid_evrsch_meestrecent" editable="1"/>
+        <field name="opdrachtid_mbv_meestrecent" editable="1"/>
+        <field name="opdrachtid_mschade_meestrecent" editable="1"/>
+        <field name="opdrachtid_vschade_meestrecent" editable="1"/>
+        <field name="opdrachttype_hoogstconform" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="datum_evrsch" labelOnTop="0"/>
+        <field name="datum_mbv" labelOnTop="0"/>
+        <field name="datum_mschade" labelOnTop="0"/>
+        <field name="datum_vschade" labelOnTop="0"/>
+        <field name="dossier_id" labelOnTop="0"/>
+        <field name="opdrachtid_evrsch_meestrecent" labelOnTop="0"/>
+        <field name="opdrachtid_mbv_meestrecent" labelOnTop="0"/>
+        <field name="opdrachtid_mschade_meestrecent" labelOnTop="0"/>
+        <field name="opdrachtid_vschade_meestrecent" labelOnTop="0"/>
+        <field name="opdrachttype_hoogstconform" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
