@@ -1,0 +1,1367 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer id="ZorgvoorzieningenVAZG_mei2019_d39619b5_2ab5_4d82_80fa_da28d090ada4" checked="Qt::Checked" expanded="1" providerKey="ogr" name="ZorgvoorzieningenVAZG_mei2019" source="./ZorgvoorzieningenVAZG_mei2019.shp">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Point" labelsEnabled="0" simplifyMaxScale="1" type="vector" simplifyLocal="1" simplifyDrawingHints="0" readOnly="0" maxScale="0">
+      <extent>
+        <xmin>25229.7297125746117672</xmin>
+        <ymin>155964.04019663389772177</ymin>
+        <xmax>250525.11975266391527839</xmax>
+        <ymax>240158.9793677581474185</ymax>
+      </extent>
+      <id>ZorgvoorzieningenVAZG_mei2019_d39619b5_2ab5_4d82_80fa_da28d090ada4</id>
+      <datasource>./ZorgvoorzieningenVAZG_mei2019.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ZorgvoorzieningenVAZG_mei2019</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxz="0" dimensions="2" crs="" maxy="0" maxx="0" minx="0" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="RuleRenderer">
+        <rules key="{115494e6-eadc-4fc9-b5f0-60b57afee2e3}">
+          <rule symbol="0" key="{d4dbd8e3-99e9-4c17-b753-5b58fb078290}" filter="POITYPE = 'Algemeen ziekenhuis'" label="Algemeen ziekenhuis"/>
+          <rule symbol="1" key="{7e570a9a-1635-4fea-8d39-3fa6ed9ed215}" filter="POITYPE = 'Centrum voor geestelijke gezondheidszorg'" label="Centrum voor geestelijke gezondheidszorg"/>
+          <rule symbol="2" key="{d3c47cd8-96fc-469c-9377-0c09f0cd9664}" filter="POITYPE = 'Centrum voor Herstelverblijf'" label="Centrum voor Herstelverblijf"/>
+          <rule symbol="3" key="{356c475d-0759-43ad-88c9-f8ccc22b1cfc}" filter="POITYPE = 'Centrum voor Kortverblijf'" label="Centrum voor Kortverblijf"/>
+          <rule symbol="4" key="{234151ce-ad15-4318-9373-8304ebb1c4f2}" filter="POITYPE = 'Dagverzorgingscentrum'" label="Dagverzorgingscentrum"/>
+          <rule symbol="5" key="{1673a39a-4f1c-4568-b40a-23ac6fb10b7a}" filter="POITYPE = 'Dienst Maatschappelijk werk van het Ziekenfonds'" label="Dienst Maatschappelijk werk van het Ziekenfonds"/>
+          <rule symbol="6" key="{f6e0d403-5452-4945-a80e-9e8766eb49bf}" filter="POITYPE = 'Dienst voor Gastopvang'" label="Dienst voor Gastopvang"/>
+          <rule symbol="7" key="{99389d35-d56e-44b3-a3f7-d14e01d93140}" filter="POITYPE = 'Dienst voor Gezinszorg en Aanvullende Thuiszorg'" label="Dienst voor Gezinszorg en Aanvullende Thuiszorg"/>
+          <rule symbol="8" key="{d5682bf8-a50b-4f0f-ac13-35667a668684}" filter="POITYPE = 'Dienst voor Logistieke Hulp'" label="Dienst voor Logistieke Hulp"/>
+          <rule symbol="9" key="{cb72ae1e-559b-4f04-ac9d-30b3398e2019}" filter="POITYPE = 'Dienst voor Oppashulp'" label="Dienst voor Oppashulp"/>
+          <rule symbol="10" key="{0cd8f62a-1b70-4817-9ee1-7636a9d45006}" filter="POITYPE = 'Dienst voor Thuisverpleging'" label="Dienst voor Thuisverpleging"/>
+          <rule symbol="11" key="{570d1f1c-819c-4735-ad7a-d4e2a0f1f59f}" filter="POITYPE = 'Groep van Assistentiewoningen'" label="Groep van Assistentiewoningen"/>
+          <rule symbol="12" key="{bce024b9-8bbf-48fc-b553-db4aca72a538}" filter="POITYPE = 'Lokaal dienstencentrum'" label="Lokaal dienstencentrum"/>
+          <rule symbol="13" key="{725e6908-4623-4d6e-86f4-35be8ad9d4de}" filter="POITYPE = 'Mammografische eenheid'" label="Mammografische eenheid"/>
+          <rule symbol="14" key="{bb37c4ec-d686-4aa1-9664-a4bf517484a0}" filter="POITYPE = 'Psychiatrisch verzorgingstehuis'" label="Psychiatrisch verzorgingstehuis"/>
+          <rule symbol="15" key="{ee95084f-318e-4137-85e9-c78e8dee094a}" filter="POITYPE = 'Psychiatrisch ziekenhuis'" label="Psychiatrisch ziekenhuis"/>
+          <rule symbol="16" key="{8b57300d-de05-4c59-87d8-e24763b3fe14}" filter="POITYPE = 'Regionaal dienstencentrum'" label="Regionaal dienstencentrum"/>
+          <rule symbol="17" key="{fb7377d4-9e3f-4d0b-be1d-63ae7dc602ea}" filter="POITYPE = 'Regionaal screeningscentrum borstkanker'" label="Regionaal screeningscentrum borstkanker"/>
+          <rule symbol="18" key="{080b2e44-62da-468e-828b-13b41f8960eb}" filter="POITYPE = 'Vereniging van gebruikers en mantelzorgers'" label="Vereniging van gebruikers en mantelzorgers"/>
+          <rule symbol="19" key="{e7c03f48-6329-4647-a288-39adf5a5943a}" filter="POITYPE = 'Woonzorgcentrum'" label="Woonzorgcentrum"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="198,211,124,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="1">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="45,209,234,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="10">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="159,85,212,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="11">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="47,220,96,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="12">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="232,177,105,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="13">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="51,94,201,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="14">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="59,59,219,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="15">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="225,75,117,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="16">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="219,86,33,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="17">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="47,202,47,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="18">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="196,106,209,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="19">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="236,124,188,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="2">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="154,219,129,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="3">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="88,23,238,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="4">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="98,169,219,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="5">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="64,210,188,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="6">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="224,211,134,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="7">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="60,221,151,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="8">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="178,235,103,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" force_rhr="0" name="9">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="235,71,71,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="7"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="Pixel"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory sizeType="MM" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" opacity="1" minimumSize="0" scaleDependency="Area" lineSizeType="MM" backgroundColor="#ffffff" barWidth="5" height="15" enabled="0" scaleBasedVisibility="0" penColor="#000000" rotationOffset="270" backgroundAlpha="255" maxScaleDenominator="1e+08" width="15" sizeScale="3x:0,0,0,0,0,0" penWidth="0" penAlpha="255" minScaleDenominator="0">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" priority="0" linePlacementFlags="18" showAll="1" placement="0" dist="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="POIID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CREATED">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UPDATED">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BEGINDATUM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EINDDATUM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAAM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALTNAAM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOTITIE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OMSCHR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TELEFOON">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EMAIL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STRAAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HUISNUMMER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BUSNUMMER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POSTCODE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEMEENTE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADRESTYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WGS84_LATI">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WGS84_LONG">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUNTTYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUNTKWAL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUNTAUT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUNTAUTTY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POITYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CATEGORIE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="THEMA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINKOMSCH1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LITYOMSCH1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINKOMSCH2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LITYOMSCH2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINKOMSCH3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LITYOMSCH3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LICTYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LICURL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LICOMSCHR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AUTEUR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AUTURL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AUTTYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="METADATURL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="POIID" name=""/>
+        <alias index="1" field="CREATED" name=""/>
+        <alias index="2" field="UPDATED" name=""/>
+        <alias index="3" field="BEGINDATUM" name=""/>
+        <alias index="4" field="EINDDATUM" name=""/>
+        <alias index="5" field="NAAM" name=""/>
+        <alias index="6" field="ALTNAAM" name=""/>
+        <alias index="7" field="NOTITIE" name=""/>
+        <alias index="8" field="OMSCHR" name=""/>
+        <alias index="9" field="TELEFOON" name=""/>
+        <alias index="10" field="EMAIL" name=""/>
+        <alias index="11" field="STRAAT" name=""/>
+        <alias index="12" field="HUISNUMMER" name=""/>
+        <alias index="13" field="BUSNUMMER" name=""/>
+        <alias index="14" field="POSTCODE" name=""/>
+        <alias index="15" field="GEMEENTE" name=""/>
+        <alias index="16" field="ADRESTYPE" name=""/>
+        <alias index="17" field="WGS84_LATI" name=""/>
+        <alias index="18" field="WGS84_LONG" name=""/>
+        <alias index="19" field="PUNTTYPE" name=""/>
+        <alias index="20" field="PUNTKWAL" name=""/>
+        <alias index="21" field="PUNTAUT" name=""/>
+        <alias index="22" field="PUNTAUTTY" name=""/>
+        <alias index="23" field="POITYPE" name=""/>
+        <alias index="24" field="CATEGORIE" name=""/>
+        <alias index="25" field="THEMA" name=""/>
+        <alias index="26" field="LINK1" name=""/>
+        <alias index="27" field="LINKOMSCH1" name=""/>
+        <alias index="28" field="LITYOMSCH1" name=""/>
+        <alias index="29" field="LINK2" name=""/>
+        <alias index="30" field="LINKOMSCH2" name=""/>
+        <alias index="31" field="LITYOMSCH2" name=""/>
+        <alias index="32" field="LINK3" name=""/>
+        <alias index="33" field="LINKOMSCH3" name=""/>
+        <alias index="34" field="LITYOMSCH3" name=""/>
+        <alias index="35" field="LICTYPE" name=""/>
+        <alias index="36" field="LICURL" name=""/>
+        <alias index="37" field="LICOMSCHR" name=""/>
+        <alias index="38" field="AUTEUR" name=""/>
+        <alias index="39" field="AUTURL" name=""/>
+        <alias index="40" field="AUTTYPE" name=""/>
+        <alias index="41" field="METADATURL" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="POIID"/>
+        <default applyOnUpdate="0" expression="" field="CREATED"/>
+        <default applyOnUpdate="0" expression="" field="UPDATED"/>
+        <default applyOnUpdate="0" expression="" field="BEGINDATUM"/>
+        <default applyOnUpdate="0" expression="" field="EINDDATUM"/>
+        <default applyOnUpdate="0" expression="" field="NAAM"/>
+        <default applyOnUpdate="0" expression="" field="ALTNAAM"/>
+        <default applyOnUpdate="0" expression="" field="NOTITIE"/>
+        <default applyOnUpdate="0" expression="" field="OMSCHR"/>
+        <default applyOnUpdate="0" expression="" field="TELEFOON"/>
+        <default applyOnUpdate="0" expression="" field="EMAIL"/>
+        <default applyOnUpdate="0" expression="" field="STRAAT"/>
+        <default applyOnUpdate="0" expression="" field="HUISNUMMER"/>
+        <default applyOnUpdate="0" expression="" field="BUSNUMMER"/>
+        <default applyOnUpdate="0" expression="" field="POSTCODE"/>
+        <default applyOnUpdate="0" expression="" field="GEMEENTE"/>
+        <default applyOnUpdate="0" expression="" field="ADRESTYPE"/>
+        <default applyOnUpdate="0" expression="" field="WGS84_LATI"/>
+        <default applyOnUpdate="0" expression="" field="WGS84_LONG"/>
+        <default applyOnUpdate="0" expression="" field="PUNTTYPE"/>
+        <default applyOnUpdate="0" expression="" field="PUNTKWAL"/>
+        <default applyOnUpdate="0" expression="" field="PUNTAUT"/>
+        <default applyOnUpdate="0" expression="" field="PUNTAUTTY"/>
+        <default applyOnUpdate="0" expression="" field="POITYPE"/>
+        <default applyOnUpdate="0" expression="" field="CATEGORIE"/>
+        <default applyOnUpdate="0" expression="" field="THEMA"/>
+        <default applyOnUpdate="0" expression="" field="LINK1"/>
+        <default applyOnUpdate="0" expression="" field="LINKOMSCH1"/>
+        <default applyOnUpdate="0" expression="" field="LITYOMSCH1"/>
+        <default applyOnUpdate="0" expression="" field="LINK2"/>
+        <default applyOnUpdate="0" expression="" field="LINKOMSCH2"/>
+        <default applyOnUpdate="0" expression="" field="LITYOMSCH2"/>
+        <default applyOnUpdate="0" expression="" field="LINK3"/>
+        <default applyOnUpdate="0" expression="" field="LINKOMSCH3"/>
+        <default applyOnUpdate="0" expression="" field="LITYOMSCH3"/>
+        <default applyOnUpdate="0" expression="" field="LICTYPE"/>
+        <default applyOnUpdate="0" expression="" field="LICURL"/>
+        <default applyOnUpdate="0" expression="" field="LICOMSCHR"/>
+        <default applyOnUpdate="0" expression="" field="AUTEUR"/>
+        <default applyOnUpdate="0" expression="" field="AUTURL"/>
+        <default applyOnUpdate="0" expression="" field="AUTTYPE"/>
+        <default applyOnUpdate="0" expression="" field="METADATURL"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="POIID" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="CREATED" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="UPDATED" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="BEGINDATUM" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="EINDDATUM" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="NAAM" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="ALTNAAM" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="NOTITIE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="OMSCHR" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="TELEFOON" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="EMAIL" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="STRAAT" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="HUISNUMMER" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="BUSNUMMER" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="POSTCODE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="GEMEENTE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="ADRESTYPE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="WGS84_LATI" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="WGS84_LONG" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="PUNTTYPE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="PUNTKWAL" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="PUNTAUT" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="PUNTAUTTY" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="POITYPE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="CATEGORIE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="THEMA" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LINK1" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LINKOMSCH1" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LITYOMSCH1" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LINK2" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LINKOMSCH2" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LITYOMSCH2" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LINK3" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LINKOMSCH3" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LITYOMSCH3" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LICTYPE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LICURL" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="LICOMSCHR" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="AUTEUR" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="AUTURL" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="AUTTYPE" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="METADATURL" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="POIID"/>
+        <constraint desc="" exp="" field="CREATED"/>
+        <constraint desc="" exp="" field="UPDATED"/>
+        <constraint desc="" exp="" field="BEGINDATUM"/>
+        <constraint desc="" exp="" field="EINDDATUM"/>
+        <constraint desc="" exp="" field="NAAM"/>
+        <constraint desc="" exp="" field="ALTNAAM"/>
+        <constraint desc="" exp="" field="NOTITIE"/>
+        <constraint desc="" exp="" field="OMSCHR"/>
+        <constraint desc="" exp="" field="TELEFOON"/>
+        <constraint desc="" exp="" field="EMAIL"/>
+        <constraint desc="" exp="" field="STRAAT"/>
+        <constraint desc="" exp="" field="HUISNUMMER"/>
+        <constraint desc="" exp="" field="BUSNUMMER"/>
+        <constraint desc="" exp="" field="POSTCODE"/>
+        <constraint desc="" exp="" field="GEMEENTE"/>
+        <constraint desc="" exp="" field="ADRESTYPE"/>
+        <constraint desc="" exp="" field="WGS84_LATI"/>
+        <constraint desc="" exp="" field="WGS84_LONG"/>
+        <constraint desc="" exp="" field="PUNTTYPE"/>
+        <constraint desc="" exp="" field="PUNTKWAL"/>
+        <constraint desc="" exp="" field="PUNTAUT"/>
+        <constraint desc="" exp="" field="PUNTAUTTY"/>
+        <constraint desc="" exp="" field="POITYPE"/>
+        <constraint desc="" exp="" field="CATEGORIE"/>
+        <constraint desc="" exp="" field="THEMA"/>
+        <constraint desc="" exp="" field="LINK1"/>
+        <constraint desc="" exp="" field="LINKOMSCH1"/>
+        <constraint desc="" exp="" field="LITYOMSCH1"/>
+        <constraint desc="" exp="" field="LINK2"/>
+        <constraint desc="" exp="" field="LINKOMSCH2"/>
+        <constraint desc="" exp="" field="LITYOMSCH2"/>
+        <constraint desc="" exp="" field="LINK3"/>
+        <constraint desc="" exp="" field="LINKOMSCH3"/>
+        <constraint desc="" exp="" field="LITYOMSCH3"/>
+        <constraint desc="" exp="" field="LICTYPE"/>
+        <constraint desc="" exp="" field="LICURL"/>
+        <constraint desc="" exp="" field="LICOMSCHR"/>
+        <constraint desc="" exp="" field="AUTEUR"/>
+        <constraint desc="" exp="" field="AUTURL"/>
+        <constraint desc="" exp="" field="AUTTYPE"/>
+        <constraint desc="" exp="" field="METADATURL"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column type="field" name="POIID" hidden="0" width="-1"/>
+          <column type="field" name="CREATED" hidden="0" width="-1"/>
+          <column type="field" name="UPDATED" hidden="0" width="-1"/>
+          <column type="field" name="BEGINDATUM" hidden="0" width="-1"/>
+          <column type="field" name="EINDDATUM" hidden="0" width="-1"/>
+          <column type="field" name="NAAM" hidden="0" width="-1"/>
+          <column type="field" name="ALTNAAM" hidden="0" width="-1"/>
+          <column type="field" name="NOTITIE" hidden="0" width="-1"/>
+          <column type="field" name="OMSCHR" hidden="0" width="-1"/>
+          <column type="field" name="TELEFOON" hidden="0" width="-1"/>
+          <column type="field" name="EMAIL" hidden="0" width="-1"/>
+          <column type="field" name="STRAAT" hidden="0" width="-1"/>
+          <column type="field" name="HUISNUMMER" hidden="0" width="-1"/>
+          <column type="field" name="BUSNUMMER" hidden="0" width="-1"/>
+          <column type="field" name="POSTCODE" hidden="0" width="-1"/>
+          <column type="field" name="GEMEENTE" hidden="0" width="-1"/>
+          <column type="field" name="ADRESTYPE" hidden="0" width="-1"/>
+          <column type="field" name="WGS84_LATI" hidden="0" width="-1"/>
+          <column type="field" name="WGS84_LONG" hidden="0" width="-1"/>
+          <column type="field" name="PUNTTYPE" hidden="0" width="-1"/>
+          <column type="field" name="PUNTKWAL" hidden="0" width="-1"/>
+          <column type="field" name="PUNTAUT" hidden="0" width="-1"/>
+          <column type="field" name="PUNTAUTTY" hidden="0" width="-1"/>
+          <column type="field" name="POITYPE" hidden="0" width="-1"/>
+          <column type="field" name="CATEGORIE" hidden="0" width="-1"/>
+          <column type="field" name="THEMA" hidden="0" width="-1"/>
+          <column type="field" name="LINK1" hidden="0" width="-1"/>
+          <column type="field" name="LINKOMSCH1" hidden="0" width="-1"/>
+          <column type="field" name="LITYOMSCH1" hidden="0" width="-1"/>
+          <column type="field" name="LINK2" hidden="0" width="-1"/>
+          <column type="field" name="LINKOMSCH2" hidden="0" width="-1"/>
+          <column type="field" name="LITYOMSCH2" hidden="0" width="-1"/>
+          <column type="field" name="LINK3" hidden="0" width="-1"/>
+          <column type="field" name="LINKOMSCH3" hidden="0" width="-1"/>
+          <column type="field" name="LITYOMSCH3" hidden="0" width="-1"/>
+          <column type="field" name="LICTYPE" hidden="0" width="-1"/>
+          <column type="field" name="LICURL" hidden="0" width="-1"/>
+          <column type="field" name="LICOMSCHR" hidden="0" width="-1"/>
+          <column type="field" name="AUTEUR" hidden="0" width="-1"/>
+          <column type="field" name="AUTURL" hidden="0" width="-1"/>
+          <column type="field" name="AUTTYPE" hidden="0" width="-1"/>
+          <column type="field" name="METADATURL" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="ADRESTYPE" editable="1"/>
+        <field name="ALTNAAM" editable="1"/>
+        <field name="AUTEUR" editable="1"/>
+        <field name="AUTTYPE" editable="1"/>
+        <field name="AUTURL" editable="1"/>
+        <field name="BEGINDATUM" editable="1"/>
+        <field name="BUSNUMMER" editable="1"/>
+        <field name="CATEGORIE" editable="1"/>
+        <field name="CREATED" editable="1"/>
+        <field name="EINDDATUM" editable="1"/>
+        <field name="EMAIL" editable="1"/>
+        <field name="GEMEENTE" editable="1"/>
+        <field name="HUISNUMMER" editable="1"/>
+        <field name="LICOMSCHR" editable="1"/>
+        <field name="LICTYPE" editable="1"/>
+        <field name="LICURL" editable="1"/>
+        <field name="LINK1" editable="1"/>
+        <field name="LINK2" editable="1"/>
+        <field name="LINK3" editable="1"/>
+        <field name="LINKOMSCH1" editable="1"/>
+        <field name="LINKOMSCH2" editable="1"/>
+        <field name="LINKOMSCH3" editable="1"/>
+        <field name="LITYOMSCH1" editable="1"/>
+        <field name="LITYOMSCH2" editable="1"/>
+        <field name="LITYOMSCH3" editable="1"/>
+        <field name="METADATURL" editable="1"/>
+        <field name="NAAM" editable="1"/>
+        <field name="NOTITIE" editable="1"/>
+        <field name="OMSCHR" editable="1"/>
+        <field name="POIID" editable="1"/>
+        <field name="POITYPE" editable="1"/>
+        <field name="POSTCODE" editable="1"/>
+        <field name="PUNTAUT" editable="1"/>
+        <field name="PUNTAUTTY" editable="1"/>
+        <field name="PUNTKWAL" editable="1"/>
+        <field name="PUNTTYPE" editable="1"/>
+        <field name="STRAAT" editable="1"/>
+        <field name="TELEFOON" editable="1"/>
+        <field name="THEMA" editable="1"/>
+        <field name="UPDATED" editable="1"/>
+        <field name="WGS84_LATI" editable="1"/>
+        <field name="WGS84_LONG" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="ADRESTYPE"/>
+        <field labelOnTop="0" name="ALTNAAM"/>
+        <field labelOnTop="0" name="AUTEUR"/>
+        <field labelOnTop="0" name="AUTTYPE"/>
+        <field labelOnTop="0" name="AUTURL"/>
+        <field labelOnTop="0" name="BEGINDATUM"/>
+        <field labelOnTop="0" name="BUSNUMMER"/>
+        <field labelOnTop="0" name="CATEGORIE"/>
+        <field labelOnTop="0" name="CREATED"/>
+        <field labelOnTop="0" name="EINDDATUM"/>
+        <field labelOnTop="0" name="EMAIL"/>
+        <field labelOnTop="0" name="GEMEENTE"/>
+        <field labelOnTop="0" name="HUISNUMMER"/>
+        <field labelOnTop="0" name="LICOMSCHR"/>
+        <field labelOnTop="0" name="LICTYPE"/>
+        <field labelOnTop="0" name="LICURL"/>
+        <field labelOnTop="0" name="LINK1"/>
+        <field labelOnTop="0" name="LINK2"/>
+        <field labelOnTop="0" name="LINK3"/>
+        <field labelOnTop="0" name="LINKOMSCH1"/>
+        <field labelOnTop="0" name="LINKOMSCH2"/>
+        <field labelOnTop="0" name="LINKOMSCH3"/>
+        <field labelOnTop="0" name="LITYOMSCH1"/>
+        <field labelOnTop="0" name="LITYOMSCH2"/>
+        <field labelOnTop="0" name="LITYOMSCH3"/>
+        <field labelOnTop="0" name="METADATURL"/>
+        <field labelOnTop="0" name="NAAM"/>
+        <field labelOnTop="0" name="NOTITIE"/>
+        <field labelOnTop="0" name="OMSCHR"/>
+        <field labelOnTop="0" name="POIID"/>
+        <field labelOnTop="0" name="POITYPE"/>
+        <field labelOnTop="0" name="POSTCODE"/>
+        <field labelOnTop="0" name="PUNTAUT"/>
+        <field labelOnTop="0" name="PUNTAUTTY"/>
+        <field labelOnTop="0" name="PUNTKWAL"/>
+        <field labelOnTop="0" name="PUNTTYPE"/>
+        <field labelOnTop="0" name="STRAAT"/>
+        <field labelOnTop="0" name="TELEFOON"/>
+        <field labelOnTop="0" name="THEMA"/>
+        <field labelOnTop="0" name="UPDATED"/>
+        <field labelOnTop="0" name="WGS84_LATI"/>
+        <field labelOnTop="0" name="WGS84_LONG"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>POIID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
