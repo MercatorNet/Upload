@@ -1,0 +1,721 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" id="hb_habitat_hvrl_inbo_v52_607ae8bf_9ec4_41db_922b_24389be09c7f" name="hb_habitat_hvrl_inbo_v52" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;inbo&quot;.&quot;hb_habitat_hvrl_inbo_v52&quot; (shape) sql=" expanded="1" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyDrawingHints="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" autoRefreshTime="0" simplifyMaxScale="1" maxScale="0" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" minScale="1e+08" type="vector" geometry="Polygon" labelsEnabled="0">
+      <extent>
+        <xmin>22084.25</xmin>
+        <ymin>153207.35899999999674037</ymin>
+        <xmax>258864.95300000000861473</xmax>
+        <ymax>243332.98399999999674037</ymax>
+      </extent>
+      <id>hb_habitat_hvrl_inbo_v52_607ae8bf_9ec4_41db_922b_24389be09c7f</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="inbo"."hb_habitat_hvrl_inbo_v52" (shape) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hb_habitat_hvrl_inbo_v52</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" force_rhr="0" clip_to_extent="1" name="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="125,139,143,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hab1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="phab1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hab2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="phab2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hab3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="phab3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hab4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="phab4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hab5">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="phab5">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hab6">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="phab6">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="herk_hab">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="herk_phab">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eval">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh5">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh6">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh7">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh8">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh9">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh11">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="eenh12">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="v1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="v2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="v3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="herk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="info">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kb">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="volgnr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gebcode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="deelgebied">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gebopp_ha">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hectares">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="volgnr_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gebcode_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gebnaam_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="behoud_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bvr_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="schaal_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bijlage_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gebopp_ha_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hectares_vrl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="legende">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="tag" index="1" name=""/>
+        <alias field="hab1" index="2" name=""/>
+        <alias field="phab1" index="3" name=""/>
+        <alias field="hab2" index="4" name=""/>
+        <alias field="phab2" index="5" name=""/>
+        <alias field="hab3" index="6" name=""/>
+        <alias field="phab3" index="7" name=""/>
+        <alias field="hab4" index="8" name=""/>
+        <alias field="phab4" index="9" name=""/>
+        <alias field="hab5" index="10" name=""/>
+        <alias field="phab5" index="11" name=""/>
+        <alias field="hab6" index="12" name=""/>
+        <alias field="phab6" index="13" name=""/>
+        <alias field="herk_hab" index="14" name=""/>
+        <alias field="herk_phab" index="15" name=""/>
+        <alias field="eval" index="16" name=""/>
+        <alias field="eenh1" index="17" name=""/>
+        <alias field="eenh2" index="18" name=""/>
+        <alias field="eenh3" index="19" name=""/>
+        <alias field="eenh4" index="20" name=""/>
+        <alias field="eenh5" index="21" name=""/>
+        <alias field="eenh6" index="22" name=""/>
+        <alias field="eenh7" index="23" name=""/>
+        <alias field="eenh8" index="24" name=""/>
+        <alias field="eenh9" index="25" name=""/>
+        <alias field="eenh10" index="26" name=""/>
+        <alias field="eenh11" index="27" name=""/>
+        <alias field="eenh12" index="28" name=""/>
+        <alias field="v1" index="29" name=""/>
+        <alias field="v2" index="30" name=""/>
+        <alias field="v3" index="31" name=""/>
+        <alias field="herk" index="32" name=""/>
+        <alias field="info" index="33" name=""/>
+        <alias field="kb" index="34" name=""/>
+        <alias field="volgnr" index="35" name=""/>
+        <alias field="gebcode" index="36" name=""/>
+        <alias field="deelgebied" index="37" name=""/>
+        <alias field="gebopp_ha" index="38" name=""/>
+        <alias field="hectares" index="39" name=""/>
+        <alias field="naam" index="40" name=""/>
+        <alias field="volgnr_vrl" index="41" name=""/>
+        <alias field="gebcode_vrl" index="42" name=""/>
+        <alias field="code_vrl" index="43" name=""/>
+        <alias field="gebnaam_vrl" index="44" name=""/>
+        <alias field="behoud_vrl" index="45" name=""/>
+        <alias field="bvr_vrl" index="46" name=""/>
+        <alias field="schaal_vrl" index="47" name=""/>
+        <alias field="bijlage_vrl" index="48" name=""/>
+        <alias field="gebopp_ha_vrl" index="49" name=""/>
+        <alias field="hectares_vrl" index="50" name=""/>
+        <alias field="legende" index="51" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" applyOnUpdate="0" expression=""/>
+        <default field="tag" applyOnUpdate="0" expression=""/>
+        <default field="hab1" applyOnUpdate="0" expression=""/>
+        <default field="phab1" applyOnUpdate="0" expression=""/>
+        <default field="hab2" applyOnUpdate="0" expression=""/>
+        <default field="phab2" applyOnUpdate="0" expression=""/>
+        <default field="hab3" applyOnUpdate="0" expression=""/>
+        <default field="phab3" applyOnUpdate="0" expression=""/>
+        <default field="hab4" applyOnUpdate="0" expression=""/>
+        <default field="phab4" applyOnUpdate="0" expression=""/>
+        <default field="hab5" applyOnUpdate="0" expression=""/>
+        <default field="phab5" applyOnUpdate="0" expression=""/>
+        <default field="hab6" applyOnUpdate="0" expression=""/>
+        <default field="phab6" applyOnUpdate="0" expression=""/>
+        <default field="herk_hab" applyOnUpdate="0" expression=""/>
+        <default field="herk_phab" applyOnUpdate="0" expression=""/>
+        <default field="eval" applyOnUpdate="0" expression=""/>
+        <default field="eenh1" applyOnUpdate="0" expression=""/>
+        <default field="eenh2" applyOnUpdate="0" expression=""/>
+        <default field="eenh3" applyOnUpdate="0" expression=""/>
+        <default field="eenh4" applyOnUpdate="0" expression=""/>
+        <default field="eenh5" applyOnUpdate="0" expression=""/>
+        <default field="eenh6" applyOnUpdate="0" expression=""/>
+        <default field="eenh7" applyOnUpdate="0" expression=""/>
+        <default field="eenh8" applyOnUpdate="0" expression=""/>
+        <default field="eenh9" applyOnUpdate="0" expression=""/>
+        <default field="eenh10" applyOnUpdate="0" expression=""/>
+        <default field="eenh11" applyOnUpdate="0" expression=""/>
+        <default field="eenh12" applyOnUpdate="0" expression=""/>
+        <default field="v1" applyOnUpdate="0" expression=""/>
+        <default field="v2" applyOnUpdate="0" expression=""/>
+        <default field="v3" applyOnUpdate="0" expression=""/>
+        <default field="herk" applyOnUpdate="0" expression=""/>
+        <default field="info" applyOnUpdate="0" expression=""/>
+        <default field="kb" applyOnUpdate="0" expression=""/>
+        <default field="volgnr" applyOnUpdate="0" expression=""/>
+        <default field="gebcode" applyOnUpdate="0" expression=""/>
+        <default field="deelgebied" applyOnUpdate="0" expression=""/>
+        <default field="gebopp_ha" applyOnUpdate="0" expression=""/>
+        <default field="hectares" applyOnUpdate="0" expression=""/>
+        <default field="naam" applyOnUpdate="0" expression=""/>
+        <default field="volgnr_vrl" applyOnUpdate="0" expression=""/>
+        <default field="gebcode_vrl" applyOnUpdate="0" expression=""/>
+        <default field="code_vrl" applyOnUpdate="0" expression=""/>
+        <default field="gebnaam_vrl" applyOnUpdate="0" expression=""/>
+        <default field="behoud_vrl" applyOnUpdate="0" expression=""/>
+        <default field="bvr_vrl" applyOnUpdate="0" expression=""/>
+        <default field="schaal_vrl" applyOnUpdate="0" expression=""/>
+        <default field="bijlage_vrl" applyOnUpdate="0" expression=""/>
+        <default field="gebopp_ha_vrl" applyOnUpdate="0" expression=""/>
+        <default field="hectares_vrl" applyOnUpdate="0" expression=""/>
+        <default field="legende" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" field="dataengine_id" unique_strength="1" constraints="3" exp_strength="0"/>
+        <constraint notnull_strength="0" field="tag" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="hab1" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="phab1" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="hab2" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="phab2" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="hab3" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="phab3" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="hab4" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="phab4" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="hab5" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="phab5" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="hab6" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="phab6" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="herk_hab" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="herk_phab" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eval" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh1" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh2" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh3" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh4" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh5" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh6" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh7" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh8" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh9" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh10" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh11" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="eenh12" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="v1" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="v2" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="v3" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="herk" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="info" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="kb" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="volgnr" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="gebcode" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="deelgebied" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="gebopp_ha" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="hectares" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="naam" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="volgnr_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="gebcode_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="code_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="gebnaam_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="behoud_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bvr_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="schaal_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bijlage_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="gebopp_ha_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="hectares_vrl" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="legende" unique_strength="0" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="dataengine_id" exp=""/>
+        <constraint desc="" field="tag" exp=""/>
+        <constraint desc="" field="hab1" exp=""/>
+        <constraint desc="" field="phab1" exp=""/>
+        <constraint desc="" field="hab2" exp=""/>
+        <constraint desc="" field="phab2" exp=""/>
+        <constraint desc="" field="hab3" exp=""/>
+        <constraint desc="" field="phab3" exp=""/>
+        <constraint desc="" field="hab4" exp=""/>
+        <constraint desc="" field="phab4" exp=""/>
+        <constraint desc="" field="hab5" exp=""/>
+        <constraint desc="" field="phab5" exp=""/>
+        <constraint desc="" field="hab6" exp=""/>
+        <constraint desc="" field="phab6" exp=""/>
+        <constraint desc="" field="herk_hab" exp=""/>
+        <constraint desc="" field="herk_phab" exp=""/>
+        <constraint desc="" field="eval" exp=""/>
+        <constraint desc="" field="eenh1" exp=""/>
+        <constraint desc="" field="eenh2" exp=""/>
+        <constraint desc="" field="eenh3" exp=""/>
+        <constraint desc="" field="eenh4" exp=""/>
+        <constraint desc="" field="eenh5" exp=""/>
+        <constraint desc="" field="eenh6" exp=""/>
+        <constraint desc="" field="eenh7" exp=""/>
+        <constraint desc="" field="eenh8" exp=""/>
+        <constraint desc="" field="eenh9" exp=""/>
+        <constraint desc="" field="eenh10" exp=""/>
+        <constraint desc="" field="eenh11" exp=""/>
+        <constraint desc="" field="eenh12" exp=""/>
+        <constraint desc="" field="v1" exp=""/>
+        <constraint desc="" field="v2" exp=""/>
+        <constraint desc="" field="v3" exp=""/>
+        <constraint desc="" field="herk" exp=""/>
+        <constraint desc="" field="info" exp=""/>
+        <constraint desc="" field="kb" exp=""/>
+        <constraint desc="" field="volgnr" exp=""/>
+        <constraint desc="" field="gebcode" exp=""/>
+        <constraint desc="" field="deelgebied" exp=""/>
+        <constraint desc="" field="gebopp_ha" exp=""/>
+        <constraint desc="" field="hectares" exp=""/>
+        <constraint desc="" field="naam" exp=""/>
+        <constraint desc="" field="volgnr_vrl" exp=""/>
+        <constraint desc="" field="gebcode_vrl" exp=""/>
+        <constraint desc="" field="code_vrl" exp=""/>
+        <constraint desc="" field="gebnaam_vrl" exp=""/>
+        <constraint desc="" field="behoud_vrl" exp=""/>
+        <constraint desc="" field="bvr_vrl" exp=""/>
+        <constraint desc="" field="schaal_vrl" exp=""/>
+        <constraint desc="" field="bijlage_vrl" exp=""/>
+        <constraint desc="" field="gebopp_ha_vrl" exp=""/>
+        <constraint desc="" field="hectares_vrl" exp=""/>
+        <constraint desc="" field="legende" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
