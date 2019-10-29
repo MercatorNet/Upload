@@ -1,0 +1,336 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" id="pf_seveso_ter_6cf0d57b_5838_41d1_83d6_cbd3a09deee2" name="pf_seveso_ter" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;lne&quot;.&quot;pf_seveso_ter&quot; (geom) sql=" expanded="1" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyDrawingHints="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" autoRefreshTime="0" simplifyMaxScale="1" maxScale="0" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" minScale="1e+08" type="vector" geometry="Polygon" labelsEnabled="0">
+      <extent>
+        <xmin>31938.02369999889924657</xmin>
+        <ymin>160399.31260000201291405</ymin>
+        <xmax>236770.24700000099255703</xmax>
+        <ymax>240804.75</ymax>
+      </extent>
+      <id>pf_seveso_ter_6cf0d57b_5838_41d1_83d6_cbd3a09deee2</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="lne"."pf_seveso_ter" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pf_seveso_ter</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" force_rhr="0" clip_to_extent="1" name="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="133,182,111,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="referentie">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bedrijf">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="status">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="adres">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="adresextra">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postcode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gemeente">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rupafstand">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kbo_nummer">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ve_nummer">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="activiteit">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="detail">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datumkg">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datumswavr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="url_ve">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="id" index="1" name=""/>
+        <alias field="referentie" index="2" name=""/>
+        <alias field="bedrijf" index="3" name=""/>
+        <alias field="status" index="4" name=""/>
+        <alias field="adres" index="5" name=""/>
+        <alias field="adresextra" index="6" name=""/>
+        <alias field="postcode" index="7" name=""/>
+        <alias field="gemeente" index="8" name=""/>
+        <alias field="rupafstand" index="9" name=""/>
+        <alias field="kbo_nummer" index="10" name=""/>
+        <alias field="ve_nummer" index="11" name=""/>
+        <alias field="activiteit" index="12" name=""/>
+        <alias field="detail" index="13" name=""/>
+        <alias field="datumkg" index="14" name=""/>
+        <alias field="datumswavr" index="15" name=""/>
+        <alias field="url_ve" index="16" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="referentie" applyOnUpdate="0" expression=""/>
+        <default field="bedrijf" applyOnUpdate="0" expression=""/>
+        <default field="status" applyOnUpdate="0" expression=""/>
+        <default field="adres" applyOnUpdate="0" expression=""/>
+        <default field="adresextra" applyOnUpdate="0" expression=""/>
+        <default field="postcode" applyOnUpdate="0" expression=""/>
+        <default field="gemeente" applyOnUpdate="0" expression=""/>
+        <default field="rupafstand" applyOnUpdate="0" expression=""/>
+        <default field="kbo_nummer" applyOnUpdate="0" expression=""/>
+        <default field="ve_nummer" applyOnUpdate="0" expression=""/>
+        <default field="activiteit" applyOnUpdate="0" expression=""/>
+        <default field="detail" applyOnUpdate="0" expression=""/>
+        <default field="datumkg" applyOnUpdate="0" expression=""/>
+        <default field="datumswavr" applyOnUpdate="0" expression=""/>
+        <default field="url_ve" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" field="dataengine_id" unique_strength="1" constraints="3" exp_strength="0"/>
+        <constraint notnull_strength="0" field="id" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="referentie" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bedrijf" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="status" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="adres" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="adresextra" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="postcode" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="gemeente" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="rupafstand" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="kbo_nummer" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="ve_nummer" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="activiteit" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="detail" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="datumkg" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="datumswavr" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="url_ve" unique_strength="0" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="dataengine_id" exp=""/>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="referentie" exp=""/>
+        <constraint desc="" field="bedrijf" exp=""/>
+        <constraint desc="" field="status" exp=""/>
+        <constraint desc="" field="adres" exp=""/>
+        <constraint desc="" field="adresextra" exp=""/>
+        <constraint desc="" field="postcode" exp=""/>
+        <constraint desc="" field="gemeente" exp=""/>
+        <constraint desc="" field="rupafstand" exp=""/>
+        <constraint desc="" field="kbo_nummer" exp=""/>
+        <constraint desc="" field="ve_nummer" exp=""/>
+        <constraint desc="" field="activiteit" exp=""/>
+        <constraint desc="" field="detail" exp=""/>
+        <constraint desc="" field="datumkg" exp=""/>
+        <constraint desc="" field="datumswavr" exp=""/>
+        <constraint desc="" field="url_ve" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
