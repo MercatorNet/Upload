@@ -1,0 +1,270 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" id="ps_aandobj_2ae2db88_c92d_4c14_8e79_b2d7ee127925" name="ps_aandobj" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;ps_aandobj&quot; (geom) sql=" expanded="1" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyDrawingHints="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" autoRefreshTime="0" simplifyMaxScale="1" maxScale="0" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" minScale="1e+08" type="vector" geometry="Polygon" labelsEnabled="0">
+      <extent>
+        <xmin>22089.49262752700087731</xmin>
+        <ymin>153217.01735973000177182</ymin>
+        <xmax>258882.4979614999901969</xmax>
+        <ymax>243902.02929119000327773</ymax>
+      </extent>
+      <id>ps_aandobj_2ae2db88_c92d_4c14_8e79_b2d7ee127925</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."ps_aandobj" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ps_aandobj</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" force_rhr="0" clip_to_extent="1" name="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="213,180,60,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aanduid_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_naam">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type_uri">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type_naam">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="locatie">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geld_start">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geld_einde">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="url">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uri">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="aanduid_id" index="1" name=""/>
+        <alias field="naam" index="2" name=""/>
+        <alias field="alt_naam" index="3" name=""/>
+        <alias field="type_uri" index="4" name=""/>
+        <alias field="type_naam" index="5" name=""/>
+        <alias field="locatie" index="6" name=""/>
+        <alias field="geld_start" index="7" name=""/>
+        <alias field="geld_einde" index="8" name=""/>
+        <alias field="url" index="9" name=""/>
+        <alias field="uri" index="10" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" applyOnUpdate="0" expression=""/>
+        <default field="aanduid_id" applyOnUpdate="0" expression=""/>
+        <default field="naam" applyOnUpdate="0" expression=""/>
+        <default field="alt_naam" applyOnUpdate="0" expression=""/>
+        <default field="type_uri" applyOnUpdate="0" expression=""/>
+        <default field="type_naam" applyOnUpdate="0" expression=""/>
+        <default field="locatie" applyOnUpdate="0" expression=""/>
+        <default field="geld_start" applyOnUpdate="0" expression=""/>
+        <default field="geld_einde" applyOnUpdate="0" expression=""/>
+        <default field="url" applyOnUpdate="0" expression=""/>
+        <default field="uri" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" field="dataengine_id" unique_strength="1" constraints="3" exp_strength="0"/>
+        <constraint notnull_strength="0" field="aanduid_id" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="naam" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="alt_naam" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="type_uri" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="type_naam" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="locatie" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="geld_start" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="geld_einde" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="url" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="uri" unique_strength="0" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="dataengine_id" exp=""/>
+        <constraint desc="" field="aanduid_id" exp=""/>
+        <constraint desc="" field="naam" exp=""/>
+        <constraint desc="" field="alt_naam" exp=""/>
+        <constraint desc="" field="type_uri" exp=""/>
+        <constraint desc="" field="type_naam" exp=""/>
+        <constraint desc="" field="locatie" exp=""/>
+        <constraint desc="" field="geld_start" exp=""/>
+        <constraint desc="" field="geld_einde" exp=""/>
+        <constraint desc="" field="url" exp=""/>
+        <constraint desc="" field="uri" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
