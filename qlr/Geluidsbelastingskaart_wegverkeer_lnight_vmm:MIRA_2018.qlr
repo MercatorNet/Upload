@@ -1,0 +1,93 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1">
+    <customproperties/>
+    <layer-tree-layer source="authcfg=nvqc8q9&amp;contextualWMSLegend=0&amp;crs=EPSG:31370&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hh:hh_gldweg_lday_vlaa_18&amp;layers=hh:hh_gldweg_lden_vlaa_18&amp;layers=hh:hh_gldweg_leve_vlaa_vmm_18&amp;layers=hh:hh_gldweg_lnight_vlaa_vmm_18&amp;styles&amp;styles&amp;styles&amp;styles&amp;url=https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wms?" id="Geluidsbelasting_wegverkeer___Lnight___VMM_MIRA___2018_Geluidsbelasting_wegverkeer___Leve___VMM_MIRA___2018_Geluidsbelasting_wegverkeer___Lden___VMM_MIRA___2018_Geluidsbelasting_wegverkeer___Lday___VMM_MIRA___2018_3617f685_3d9f_4c3b_9bce_963c56275a72" checked="Qt::Checked" name="Geluidsbelasting wegverkeer - Lnight - VMM/MIRA - 2018/Geluidsbelasting wegverkeer - Leve - VMM/MIRA - 2018/Geluidsbelasting wegverkeer - Lden - VMM/MIRA - 2018/Geluidsbelasting wegverkeer - Lday - VMM/MIRA - 2018" providerKey="wms" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" maxScale="0">
+      <extent>
+        <xmin>21900</xmin>
+        <ymin>151300.67572955414652824</ymin>
+        <xmax>263820</xmax>
+        <ymax>246523</ymax>
+      </extent>
+      <id>Geluidsbelasting_wegverkeer___Lnight___VMM_MIRA___2018_Geluidsbelasting_wegverkeer___Leve___VMM_MIRA___2018_Geluidsbelasting_wegverkeer___Lden___VMM_MIRA___2018_Geluidsbelasting_wegverkeer___Lday___VMM_MIRA___2018_3617f685_3d9f_4c3b_9bce_963c56275a72</id>
+      <datasource>authcfg=nvqc8q9&amp;contextualWMSLegend=0&amp;crs=EPSG:31370&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hh:hh_gldweg_lday_vlaa_18&amp;layers=hh:hh_gldweg_lden_vlaa_18&amp;layers=hh:hh_gldweg_leve_vlaa_vmm_18&amp;layers=hh:hh_gldweg_lnight_vlaa_vmm_18&amp;styles&amp;styles&amp;styles&amp;styles&amp;url=https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wms?</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Geluidsbelasting wegverkeer - Lnight - VMM/MIRA - 2018/Geluidsbelasting wegverkeer - Leve - VMM/MIRA - 2018/Geluidsbelasting wegverkeer - Lden - VMM/MIRA - 2018/Geluidsbelasting wegverkeer - Lday - VMM/MIRA - 2018</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer band="1" alphaBand="-1" type="singlebandcolordata" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeOn="0" colorizeStrength="100" saturation="0" colorizeGreen="128" grayscaleMode="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
