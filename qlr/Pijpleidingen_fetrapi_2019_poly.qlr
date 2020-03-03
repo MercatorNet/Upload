@@ -1,0 +1,499 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" name="" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer expanded="1" name="Pijpleidingen_fetrapi_2019_poly" providerKey="postgres" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;extern&quot;.&quot;us_ftrpld_2019_poly&quot; (geom) sql=" id="us_ftrpld_2019_poly_2834852b_f934_4d9d_94fd_a1e1cc441c91" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" simplifyAlgorithm="0" simplifyDrawingTol="1" type="vector" simplifyMaxScale="1" styleCategories="AllStyleCategories" readOnly="0" autoRefreshEnabled="0" maxScale="0" autoRefreshTime="0" geometry="Polygon" simplifyLocal="1" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="1">
+      <extent>
+        <xmin>26332.01201351820054697</xmin>
+        <ymin>154645.54300229900400154</ymin>
+        <xmax>249059.46900000001187436</xmax>
+        <ymax>237837.63699999998789281</ymax>
+      </extent>
+      <id>us_ftrpld_2019_poly_2834852b_f934_4d9d_94fd_a1e1cc441c91</id>
+      <datasource>dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="extern"."us_ftrpld_2019_poly" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Pijpleidingen_fetrapi_2019_poly</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="EPSG:31370" maxx="0" miny="0" minx="0" maxy="0" maxz="0" dimensions="2" minz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="RuleRenderer" enableorderby="0" forceraster="0" symbollevels="0">
+        <rules key="{07963073-5816-44c4-bda0-e1a36db943d9}">
+          <rule filter="product_1 = 'AARDGAS (METHAAN - CH4)' AND product_2 = 'TOEVOEGING TETRAHYDROTHIOFEEN (C4H8S)'" key="{003c4b68-d482-4dae-8005-f728a9b15747}" symbol="0" label="aardgas en toevoeging tetrahydrothiofeen"/>
+          <rule filter="product_1 = 'AARDGAS (METHAAN - CH4)'" key="{70df2821-f030-4e60-a3d8-1798dab21460}" symbol="1" label="aardgas"/>
+          <rule filter="product_1 = 'JET A1' AND product_2 = 'STIKSTOF (N2)'" key="{4a6a4572-dbc6-457f-aa6d-4bfaeea2f76a}" symbol="2" label="jet a1 en stikstof"/>
+          <rule filter="product_1 = 'JET A1' AND product_2 = 'DIESEL'" key="{2481b100-d84c-4d04-939c-67298d6aae26}" symbol="3" label="jet a1 en diesel"/>
+          <rule filter="product_1 = 'LEDIG' AND product_2 = '-'" key="{f6a8cee6-5ca6-4978-a679-a50e48b3e1e6}" symbol="4" label="ledig"/>
+          <rule filter="product_1 = 'MULTIPRODUCT' AND product_2 = 'CCFW'" key="{22005399-499f-48eb-be32-4e872a064586}" symbol="5" label="multiproduct en ccfw"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" name="0" type="fill" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="232,113,141,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="1" type="fill" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,158,23,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="2" type="fill" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="183,72,75,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="3" type="fill" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="231,113,72,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="4" type="fill" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="152,125,183,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="5" type="fill" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="Pixel"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="Pixel"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory penWidth="0" diagramOrientation="Up" lineSizeType="MM" width="15" backgroundAlpha="255" opacity="1" enabled="0" maxScaleDenominator="1e+08" rotationOffset="270" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" barWidth="5" height="15" penAlpha="255" sizeType="MM" labelPlacementMethod="XHeight" scaleBasedVisibility="0" minimumSize="0" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" scaleDependency="Area">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" placement="1" linePlacementFlags="18" obstacle="0" dist="0" priority="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id_number">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id_name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="state">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="function">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mop">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="product_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="product_2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="owner">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="operator">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ope_t_em_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="delivery_d">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="dataengine_id" index="0"/>
+        <alias name="" field="id" index="1"/>
+        <alias name="" field="id_number" index="2"/>
+        <alias name="" field="id_name" index="3"/>
+        <alias name="" field="state" index="4"/>
+        <alias name="" field="function" index="5"/>
+        <alias name="" field="mop" index="6"/>
+        <alias name="" field="product_1" index="7"/>
+        <alias name="" field="product_2" index="8"/>
+        <alias name="" field="owner" index="9"/>
+        <alias name="" field="operator" index="10"/>
+        <alias name="" field="ope_t_em_1" index="11"/>
+        <alias name="" field="delivery_d" index="12"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" expression="" applyOnUpdate="0"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="id_number" expression="" applyOnUpdate="0"/>
+        <default field="id_name" expression="" applyOnUpdate="0"/>
+        <default field="state" expression="" applyOnUpdate="0"/>
+        <default field="function" expression="" applyOnUpdate="0"/>
+        <default field="mop" expression="" applyOnUpdate="0"/>
+        <default field="product_1" expression="" applyOnUpdate="0"/>
+        <default field="product_2" expression="" applyOnUpdate="0"/>
+        <default field="owner" expression="" applyOnUpdate="0"/>
+        <default field="operator" expression="" applyOnUpdate="0"/>
+        <default field="ope_t_em_1" expression="" applyOnUpdate="0"/>
+        <default field="delivery_d" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" unique_strength="1" notnull_strength="1" exp_strength="0" field="dataengine_id"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="id"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="id_number"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="id_name"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="state"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="function"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="mop"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="product_1"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="product_2"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="owner"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="operator"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="ope_t_em_1"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0" field="delivery_d"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="dataengine_id"/>
+        <constraint desc="" exp="" field="id"/>
+        <constraint desc="" exp="" field="id_number"/>
+        <constraint desc="" exp="" field="id_name"/>
+        <constraint desc="" exp="" field="state"/>
+        <constraint desc="" exp="" field="function"/>
+        <constraint desc="" exp="" field="mop"/>
+        <constraint desc="" exp="" field="product_1"/>
+        <constraint desc="" exp="" field="product_2"/>
+        <constraint desc="" exp="" field="owner"/>
+        <constraint desc="" exp="" field="operator"/>
+        <constraint desc="" exp="" field="ope_t_em_1"/>
+        <constraint desc="" exp="" field="delivery_d"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="dataengine_id" type="field" hidden="0" width="-1"/>
+          <column name="id" type="field" hidden="0" width="-1"/>
+          <column name="id_number" type="field" hidden="0" width="-1"/>
+          <column name="id_name" type="field" hidden="0" width="-1"/>
+          <column name="state" type="field" hidden="0" width="-1"/>
+          <column name="function" type="field" hidden="0" width="-1"/>
+          <column name="mop" type="field" hidden="0" width="-1"/>
+          <column name="product_1" type="field" hidden="0" width="-1"/>
+          <column name="product_2" type="field" hidden="0" width="-1"/>
+          <column name="owner" type="field" hidden="0" width="-1"/>
+          <column name="operator" type="field" hidden="0" width="-1"/>
+          <column name="ope_t_em_1" type="field" hidden="0" width="-1"/>
+          <column name="delivery_d" type="field" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="dataengine_id" editable="1"/>
+        <field name="delivery_d" editable="1"/>
+        <field name="function" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="id_name" editable="1"/>
+        <field name="id_number" editable="1"/>
+        <field name="mop" editable="1"/>
+        <field name="ope_t_em_1" editable="1"/>
+        <field name="operator" editable="1"/>
+        <field name="owner" editable="1"/>
+        <field name="product_1" editable="1"/>
+        <field name="product_2" editable="1"/>
+        <field name="state" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="delivery_d" labelOnTop="0"/>
+        <field name="function" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="id_name" labelOnTop="0"/>
+        <field name="id_number" labelOnTop="0"/>
+        <field name="mop" labelOnTop="0"/>
+        <field name="ope_t_em_1" labelOnTop="0"/>
+        <field name="operator" labelOnTop="0"/>
+        <field name="owner" labelOnTop="0"/>
+        <field name="product_1" labelOnTop="0"/>
+        <field name="product_2" labelOnTop="0"/>
+        <field name="state" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
