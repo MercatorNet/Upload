@@ -2,20 +2,20 @@
 <qlr>
   <layer-tree-group checked="Qt::Checked" name="" expanded="1">
     <customproperties/>
-    <layer-tree-layer providerKey="postgres" id="lu_kndopv_poi_aiv_vla_201905_09859c22_c7be_405e_81ce_ae882be615da" checked="Qt::Checked" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=Point table=&quot;agiv&quot;.&quot;lu_kndopv_poi_aiv_vla_201905&quot; (geom) sql=" name="lu_kndopv_poi_aiv_vla_201905" expanded="1">
+    <layer-tree-layer checked="Qt::Checked" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=Point table=&quot;agiv&quot;.&quot;lu_kndopv_poi_aiv_vla_201905&quot; (geom) sql=" name="lu_kndopv_poi_aiv_vla_201905" id="lu_kndopv_poi_aiv_vla_201905_714435fd_8f46_4341_a0ad_8ae9b293d84e" expanded="1" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer geometry="Point" minScale="1e+08" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" simplifyDrawingHints="0" simplifyAlgorithm="0" type="vector" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" simplifyDrawingTol="1" readOnly="0" maxScale="0">
+    <maplayer simplifyDrawingHints="0" simplifyAlgorithm="0" autoRefreshTime="0" simplifyDrawingTol="1" readOnly="0" autoRefreshEnabled="0" type="vector" minScale="1e+08" maxScale="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" geometry="Point" labelsEnabled="0" simplifyLocal="1">
       <extent>
         <xmin>23872.623046875</xmin>
         <ymin>153289.640625</ymin>
         <xmax>253275.90625</xmax>
         <ymax>242994.8125</ymax>
       </extent>
-      <id>lu_kndopv_poi_aiv_vla_201905_09859c22_c7be_405e_81ce_ae882be615da</id>
-      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=Point table="agiv"."lu_kndopv_poi_aiv_vla_201905" (geom) sql=</datasource>
+      <id>lu_kndopv_poi_aiv_vla_201905_714435fd_8f46_4341_a0ad_8ae9b293d84e</id>
+      <datasource>dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=Point table="agiv"."lu_kndopv_poi_aiv_vla_201905" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -64,7 +64,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="EPSG:31370" minx="0" dimensions="2" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
+          <spatial maxy="0" maxz="0" minz="0" minx="0" dimensions="2" crs="EPSG:31370" miny="0" maxx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -88,15 +88,15 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="RuleRenderer">
-        <rules key="{2632dac2-940c-4fac-817a-0662257d9197}">
-          <rule symbol="0" label="Buitenschoolse opvang" key="{25a360cc-a00b-4251-a03e-64d37899f081}" filter="POITYPE = 'Buitenschoolse opvang'"/>
-          <rule symbol="1" label="Gezinsopvang baby's en peuters" key="{68088ac5-ae30-40fb-881d-79fe9ece4652}" filter="POITYPE = 'Gezinsopvang baby''s en peuters'"/>
-          <rule symbol="2" label="Groepsopvang baby's en peuters" key="{921c15cd-4995-4f3f-a63d-c916b3d9c6fb}" filter="POITYPE = 'Groepsopvang baby''s en peuters'"/>
+      <renderer-v2 type="RuleRenderer" forceraster="0" symbollevels="0" enableorderby="0">
+        <rules key="{fb5834b7-b626-4c61-94f6-bf8c8d624cde}">
+          <rule key="{dc165548-267e-462e-98a9-6dfedbea3967}" label="Buitenschoolse opvang" filter="poitype = 'Buitenschoolse opvang'" symbol="0"/>
+          <rule key="{52da2bc2-b037-443e-a786-bb842681d436}" label="Gezinsopvang baby's en peuters" filter="poitype = 'Gezinsopvang baby''s en peuters'" symbol="1"/>
+          <rule key="{006986fc-461e-4d4c-9204-03b36c50f18b}" label="Groepsopvang baby's en peuters" filter="poitype = 'Groepsopvang baby''s en peuters'" symbol="2"/>
         </rules>
         <symbols>
-          <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="0">
-            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+          <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="0">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="227,26,28,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -117,15 +117,15 @@
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="1">
-            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+          <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="255,127,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -146,15 +146,15 @@
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol alpha="1" force_rhr="0" type="marker" clip_to_extent="1" name="2">
-            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+          <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="2">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="230,225,92,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -175,9 +175,9 @@
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -185,24 +185,24 @@
         </symbols>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeType="MM" opacity="1" width="15" rotationOffset="270" diagramOrientation="Up" backgroundAlpha="255" barWidth="5" backgroundColor="#ffffff" penWidth="0" penColor="#000000" enabled="0" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" minimumSize="0" height="15" maxScaleDenominator="1e+08" lineSizeType="MM" scaleDependency="Area" penAlpha="255">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory enabled="0" penAlpha="255" minimumSize="0" backgroundColor="#ffffff" diagramOrientation="Up" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" minScaleDenominator="0" sizeType="MM" barWidth="5" width="15" scaleBasedVisibility="0" opacity="1" scaleDependency="Area" maxScaleDenominator="1e+08" backgroundAlpha="255" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" labelPlacementMethod="XHeight" height="15">
+          <fontProperties style="" description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings placement="0" linePlacementFlags="18" priority="0" zIndex="0" obstacle="0" showAll="1" dist="0">
+      <DiagramLayerSettings priority="0" placement="0" zIndex="0" linePlacementFlags="18" dist="0" showAll="1" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option value="" type="QString" name="name"/>
+            <Option type="QString" value="" name="name"/>
             <Option name="properties"/>
-            <Option value="collection" type="QString" name="type"/>
+            <Option type="QString" value="collection" name="type"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
@@ -521,242 +521,242 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="dataengine_id" index="0" name=""/>
-        <alias field="id" index="1" name=""/>
-        <alias field="poiid" index="2" name=""/>
-        <alias field="created" index="3" name=""/>
-        <alias field="updated" index="4" name=""/>
-        <alias field="begindatum" index="5" name=""/>
-        <alias field="einddatum" index="6" name=""/>
-        <alias field="naam" index="7" name=""/>
-        <alias field="altnaam" index="8" name=""/>
-        <alias field="notitie" index="9" name=""/>
-        <alias field="omschr" index="10" name=""/>
-        <alias field="telefoon" index="11" name=""/>
-        <alias field="email" index="12" name=""/>
-        <alias field="straat" index="13" name=""/>
-        <alias field="huisnummer" index="14" name=""/>
-        <alias field="busnummer" index="15" name=""/>
-        <alias field="postcode" index="16" name=""/>
-        <alias field="gemeente" index="17" name=""/>
-        <alias field="adrestype" index="18" name=""/>
-        <alias field="wgs84_lati" index="19" name=""/>
-        <alias field="wgs84_long" index="20" name=""/>
-        <alias field="punttype" index="21" name=""/>
-        <alias field="puntkwal" index="22" name=""/>
-        <alias field="puntaut" index="23" name=""/>
-        <alias field="puntautty" index="24" name=""/>
-        <alias field="poitype" index="25" name=""/>
-        <alias field="categorie" index="26" name=""/>
-        <alias field="thema" index="27" name=""/>
-        <alias field="link1" index="28" name=""/>
-        <alias field="linkomsch1" index="29" name=""/>
-        <alias field="lityomsch1" index="30" name=""/>
-        <alias field="link2" index="31" name=""/>
-        <alias field="linkomsch2" index="32" name=""/>
-        <alias field="lityomsch2" index="33" name=""/>
-        <alias field="link3" index="34" name=""/>
-        <alias field="linkomsch3" index="35" name=""/>
-        <alias field="lityomsch3" index="36" name=""/>
-        <alias field="lictype" index="37" name=""/>
-        <alias field="licurl" index="38" name=""/>
-        <alias field="licomschr" index="39" name=""/>
-        <alias field="auteur" index="40" name=""/>
-        <alias field="auturl" index="41" name=""/>
-        <alias field="auttype" index="42" name=""/>
-        <alias field="metadaturl" index="43" name=""/>
+        <alias index="0" name="" field="dataengine_id"/>
+        <alias index="1" name="" field="id"/>
+        <alias index="2" name="" field="poiid"/>
+        <alias index="3" name="" field="created"/>
+        <alias index="4" name="" field="updated"/>
+        <alias index="5" name="" field="begindatum"/>
+        <alias index="6" name="" field="einddatum"/>
+        <alias index="7" name="" field="naam"/>
+        <alias index="8" name="" field="altnaam"/>
+        <alias index="9" name="" field="notitie"/>
+        <alias index="10" name="" field="omschr"/>
+        <alias index="11" name="" field="telefoon"/>
+        <alias index="12" name="" field="email"/>
+        <alias index="13" name="" field="straat"/>
+        <alias index="14" name="" field="huisnummer"/>
+        <alias index="15" name="" field="busnummer"/>
+        <alias index="16" name="" field="postcode"/>
+        <alias index="17" name="" field="gemeente"/>
+        <alias index="18" name="" field="adrestype"/>
+        <alias index="19" name="" field="wgs84_lati"/>
+        <alias index="20" name="" field="wgs84_long"/>
+        <alias index="21" name="" field="punttype"/>
+        <alias index="22" name="" field="puntkwal"/>
+        <alias index="23" name="" field="puntaut"/>
+        <alias index="24" name="" field="puntautty"/>
+        <alias index="25" name="" field="poitype"/>
+        <alias index="26" name="" field="categorie"/>
+        <alias index="27" name="" field="thema"/>
+        <alias index="28" name="" field="link1"/>
+        <alias index="29" name="" field="linkomsch1"/>
+        <alias index="30" name="" field="lityomsch1"/>
+        <alias index="31" name="" field="link2"/>
+        <alias index="32" name="" field="linkomsch2"/>
+        <alias index="33" name="" field="lityomsch2"/>
+        <alias index="34" name="" field="link3"/>
+        <alias index="35" name="" field="linkomsch3"/>
+        <alias index="36" name="" field="lityomsch3"/>
+        <alias index="37" name="" field="lictype"/>
+        <alias index="38" name="" field="licurl"/>
+        <alias index="39" name="" field="licomschr"/>
+        <alias index="40" name="" field="auteur"/>
+        <alias index="41" name="" field="auturl"/>
+        <alias index="42" name="" field="auttype"/>
+        <alias index="43" name="" field="metadaturl"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="dataengine_id" applyOnUpdate="0" expression=""/>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="poiid" applyOnUpdate="0" expression=""/>
-        <default field="created" applyOnUpdate="0" expression=""/>
-        <default field="updated" applyOnUpdate="0" expression=""/>
-        <default field="begindatum" applyOnUpdate="0" expression=""/>
-        <default field="einddatum" applyOnUpdate="0" expression=""/>
-        <default field="naam" applyOnUpdate="0" expression=""/>
-        <default field="altnaam" applyOnUpdate="0" expression=""/>
-        <default field="notitie" applyOnUpdate="0" expression=""/>
-        <default field="omschr" applyOnUpdate="0" expression=""/>
-        <default field="telefoon" applyOnUpdate="0" expression=""/>
-        <default field="email" applyOnUpdate="0" expression=""/>
-        <default field="straat" applyOnUpdate="0" expression=""/>
-        <default field="huisnummer" applyOnUpdate="0" expression=""/>
-        <default field="busnummer" applyOnUpdate="0" expression=""/>
-        <default field="postcode" applyOnUpdate="0" expression=""/>
-        <default field="gemeente" applyOnUpdate="0" expression=""/>
-        <default field="adrestype" applyOnUpdate="0" expression=""/>
-        <default field="wgs84_lati" applyOnUpdate="0" expression=""/>
-        <default field="wgs84_long" applyOnUpdate="0" expression=""/>
-        <default field="punttype" applyOnUpdate="0" expression=""/>
-        <default field="puntkwal" applyOnUpdate="0" expression=""/>
-        <default field="puntaut" applyOnUpdate="0" expression=""/>
-        <default field="puntautty" applyOnUpdate="0" expression=""/>
-        <default field="poitype" applyOnUpdate="0" expression=""/>
-        <default field="categorie" applyOnUpdate="0" expression=""/>
-        <default field="thema" applyOnUpdate="0" expression=""/>
-        <default field="link1" applyOnUpdate="0" expression=""/>
-        <default field="linkomsch1" applyOnUpdate="0" expression=""/>
-        <default field="lityomsch1" applyOnUpdate="0" expression=""/>
-        <default field="link2" applyOnUpdate="0" expression=""/>
-        <default field="linkomsch2" applyOnUpdate="0" expression=""/>
-        <default field="lityomsch2" applyOnUpdate="0" expression=""/>
-        <default field="link3" applyOnUpdate="0" expression=""/>
-        <default field="linkomsch3" applyOnUpdate="0" expression=""/>
-        <default field="lityomsch3" applyOnUpdate="0" expression=""/>
-        <default field="lictype" applyOnUpdate="0" expression=""/>
-        <default field="licurl" applyOnUpdate="0" expression=""/>
-        <default field="licomschr" applyOnUpdate="0" expression=""/>
-        <default field="auteur" applyOnUpdate="0" expression=""/>
-        <default field="auturl" applyOnUpdate="0" expression=""/>
-        <default field="auttype" applyOnUpdate="0" expression=""/>
-        <default field="metadaturl" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="dataengine_id"/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="poiid"/>
+        <default expression="" applyOnUpdate="0" field="created"/>
+        <default expression="" applyOnUpdate="0" field="updated"/>
+        <default expression="" applyOnUpdate="0" field="begindatum"/>
+        <default expression="" applyOnUpdate="0" field="einddatum"/>
+        <default expression="" applyOnUpdate="0" field="naam"/>
+        <default expression="" applyOnUpdate="0" field="altnaam"/>
+        <default expression="" applyOnUpdate="0" field="notitie"/>
+        <default expression="" applyOnUpdate="0" field="omschr"/>
+        <default expression="" applyOnUpdate="0" field="telefoon"/>
+        <default expression="" applyOnUpdate="0" field="email"/>
+        <default expression="" applyOnUpdate="0" field="straat"/>
+        <default expression="" applyOnUpdate="0" field="huisnummer"/>
+        <default expression="" applyOnUpdate="0" field="busnummer"/>
+        <default expression="" applyOnUpdate="0" field="postcode"/>
+        <default expression="" applyOnUpdate="0" field="gemeente"/>
+        <default expression="" applyOnUpdate="0" field="adrestype"/>
+        <default expression="" applyOnUpdate="0" field="wgs84_lati"/>
+        <default expression="" applyOnUpdate="0" field="wgs84_long"/>
+        <default expression="" applyOnUpdate="0" field="punttype"/>
+        <default expression="" applyOnUpdate="0" field="puntkwal"/>
+        <default expression="" applyOnUpdate="0" field="puntaut"/>
+        <default expression="" applyOnUpdate="0" field="puntautty"/>
+        <default expression="" applyOnUpdate="0" field="poitype"/>
+        <default expression="" applyOnUpdate="0" field="categorie"/>
+        <default expression="" applyOnUpdate="0" field="thema"/>
+        <default expression="" applyOnUpdate="0" field="link1"/>
+        <default expression="" applyOnUpdate="0" field="linkomsch1"/>
+        <default expression="" applyOnUpdate="0" field="lityomsch1"/>
+        <default expression="" applyOnUpdate="0" field="link2"/>
+        <default expression="" applyOnUpdate="0" field="linkomsch2"/>
+        <default expression="" applyOnUpdate="0" field="lityomsch2"/>
+        <default expression="" applyOnUpdate="0" field="link3"/>
+        <default expression="" applyOnUpdate="0" field="linkomsch3"/>
+        <default expression="" applyOnUpdate="0" field="lityomsch3"/>
+        <default expression="" applyOnUpdate="0" field="lictype"/>
+        <default expression="" applyOnUpdate="0" field="licurl"/>
+        <default expression="" applyOnUpdate="0" field="licomschr"/>
+        <default expression="" applyOnUpdate="0" field="auteur"/>
+        <default expression="" applyOnUpdate="0" field="auturl"/>
+        <default expression="" applyOnUpdate="0" field="auttype"/>
+        <default expression="" applyOnUpdate="0" field="metadaturl"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="dataengine_id" notnull_strength="1" unique_strength="1" exp_strength="0"/>
-        <constraint constraints="0" field="id" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="poiid" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="created" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="updated" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="begindatum" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="einddatum" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="naam" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="altnaam" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="notitie" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="omschr" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="telefoon" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="email" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="straat" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="huisnummer" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="busnummer" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="postcode" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="gemeente" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="adrestype" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="wgs84_lati" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="wgs84_long" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="punttype" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="puntkwal" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="puntaut" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="puntautty" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="poitype" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="categorie" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="thema" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="link1" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="linkomsch1" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="lityomsch1" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="link2" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="linkomsch2" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="lityomsch2" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="link3" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="linkomsch3" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="lityomsch3" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="lictype" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="licurl" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="licomschr" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="auteur" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="auturl" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="auttype" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="metadaturl" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint exp_strength="0" unique_strength="1" notnull_strength="1" field="dataengine_id" constraints="3"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="id" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="poiid" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="created" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="updated" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="begindatum" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="einddatum" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="naam" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="altnaam" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="notitie" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="omschr" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="telefoon" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="email" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="straat" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="huisnummer" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="busnummer" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="postcode" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="gemeente" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="adrestype" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="wgs84_lati" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="wgs84_long" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="punttype" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="puntkwal" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="puntaut" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="puntautty" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="poitype" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="categorie" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="thema" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="link1" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="linkomsch1" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="lityomsch1" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="link2" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="linkomsch2" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="lityomsch2" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="link3" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="linkomsch3" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="lityomsch3" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="lictype" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="licurl" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="licomschr" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="auteur" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="auturl" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="auttype" constraints="0"/>
+        <constraint exp_strength="0" unique_strength="0" notnull_strength="0" field="metadaturl" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="dataengine_id" exp="" desc=""/>
-        <constraint field="id" exp="" desc=""/>
-        <constraint field="poiid" exp="" desc=""/>
-        <constraint field="created" exp="" desc=""/>
-        <constraint field="updated" exp="" desc=""/>
-        <constraint field="begindatum" exp="" desc=""/>
-        <constraint field="einddatum" exp="" desc=""/>
-        <constraint field="naam" exp="" desc=""/>
-        <constraint field="altnaam" exp="" desc=""/>
-        <constraint field="notitie" exp="" desc=""/>
-        <constraint field="omschr" exp="" desc=""/>
-        <constraint field="telefoon" exp="" desc=""/>
-        <constraint field="email" exp="" desc=""/>
-        <constraint field="straat" exp="" desc=""/>
-        <constraint field="huisnummer" exp="" desc=""/>
-        <constraint field="busnummer" exp="" desc=""/>
-        <constraint field="postcode" exp="" desc=""/>
-        <constraint field="gemeente" exp="" desc=""/>
-        <constraint field="adrestype" exp="" desc=""/>
-        <constraint field="wgs84_lati" exp="" desc=""/>
-        <constraint field="wgs84_long" exp="" desc=""/>
-        <constraint field="punttype" exp="" desc=""/>
-        <constraint field="puntkwal" exp="" desc=""/>
-        <constraint field="puntaut" exp="" desc=""/>
-        <constraint field="puntautty" exp="" desc=""/>
-        <constraint field="poitype" exp="" desc=""/>
-        <constraint field="categorie" exp="" desc=""/>
-        <constraint field="thema" exp="" desc=""/>
-        <constraint field="link1" exp="" desc=""/>
-        <constraint field="linkomsch1" exp="" desc=""/>
-        <constraint field="lityomsch1" exp="" desc=""/>
-        <constraint field="link2" exp="" desc=""/>
-        <constraint field="linkomsch2" exp="" desc=""/>
-        <constraint field="lityomsch2" exp="" desc=""/>
-        <constraint field="link3" exp="" desc=""/>
-        <constraint field="linkomsch3" exp="" desc=""/>
-        <constraint field="lityomsch3" exp="" desc=""/>
-        <constraint field="lictype" exp="" desc=""/>
-        <constraint field="licurl" exp="" desc=""/>
-        <constraint field="licomschr" exp="" desc=""/>
-        <constraint field="auteur" exp="" desc=""/>
-        <constraint field="auturl" exp="" desc=""/>
-        <constraint field="auttype" exp="" desc=""/>
-        <constraint field="metadaturl" exp="" desc=""/>
+        <constraint desc="" field="dataengine_id" exp=""/>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="poiid" exp=""/>
+        <constraint desc="" field="created" exp=""/>
+        <constraint desc="" field="updated" exp=""/>
+        <constraint desc="" field="begindatum" exp=""/>
+        <constraint desc="" field="einddatum" exp=""/>
+        <constraint desc="" field="naam" exp=""/>
+        <constraint desc="" field="altnaam" exp=""/>
+        <constraint desc="" field="notitie" exp=""/>
+        <constraint desc="" field="omschr" exp=""/>
+        <constraint desc="" field="telefoon" exp=""/>
+        <constraint desc="" field="email" exp=""/>
+        <constraint desc="" field="straat" exp=""/>
+        <constraint desc="" field="huisnummer" exp=""/>
+        <constraint desc="" field="busnummer" exp=""/>
+        <constraint desc="" field="postcode" exp=""/>
+        <constraint desc="" field="gemeente" exp=""/>
+        <constraint desc="" field="adrestype" exp=""/>
+        <constraint desc="" field="wgs84_lati" exp=""/>
+        <constraint desc="" field="wgs84_long" exp=""/>
+        <constraint desc="" field="punttype" exp=""/>
+        <constraint desc="" field="puntkwal" exp=""/>
+        <constraint desc="" field="puntaut" exp=""/>
+        <constraint desc="" field="puntautty" exp=""/>
+        <constraint desc="" field="poitype" exp=""/>
+        <constraint desc="" field="categorie" exp=""/>
+        <constraint desc="" field="thema" exp=""/>
+        <constraint desc="" field="link1" exp=""/>
+        <constraint desc="" field="linkomsch1" exp=""/>
+        <constraint desc="" field="lityomsch1" exp=""/>
+        <constraint desc="" field="link2" exp=""/>
+        <constraint desc="" field="linkomsch2" exp=""/>
+        <constraint desc="" field="lityomsch2" exp=""/>
+        <constraint desc="" field="link3" exp=""/>
+        <constraint desc="" field="linkomsch3" exp=""/>
+        <constraint desc="" field="lityomsch3" exp=""/>
+        <constraint desc="" field="lictype" exp=""/>
+        <constraint desc="" field="licurl" exp=""/>
+        <constraint desc="" field="licomschr" exp=""/>
+        <constraint desc="" field="auteur" exp=""/>
+        <constraint desc="" field="auturl" exp=""/>
+        <constraint desc="" field="auttype" exp=""/>
+        <constraint desc="" field="metadaturl" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
         <columns>
-          <column width="-1" type="field" name="dataengine_id" hidden="0"/>
-          <column width="-1" type="field" name="id" hidden="0"/>
-          <column width="-1" type="field" name="poiid" hidden="0"/>
-          <column width="-1" type="field" name="created" hidden="0"/>
-          <column width="-1" type="field" name="updated" hidden="0"/>
-          <column width="-1" type="field" name="begindatum" hidden="0"/>
-          <column width="-1" type="field" name="einddatum" hidden="0"/>
-          <column width="-1" type="field" name="naam" hidden="0"/>
-          <column width="-1" type="field" name="altnaam" hidden="0"/>
-          <column width="-1" type="field" name="notitie" hidden="0"/>
-          <column width="-1" type="field" name="omschr" hidden="0"/>
-          <column width="-1" type="field" name="telefoon" hidden="0"/>
-          <column width="-1" type="field" name="email" hidden="0"/>
-          <column width="-1" type="field" name="straat" hidden="0"/>
-          <column width="-1" type="field" name="huisnummer" hidden="0"/>
-          <column width="-1" type="field" name="busnummer" hidden="0"/>
-          <column width="-1" type="field" name="postcode" hidden="0"/>
-          <column width="-1" type="field" name="gemeente" hidden="0"/>
-          <column width="-1" type="field" name="adrestype" hidden="0"/>
-          <column width="-1" type="field" name="wgs84_lati" hidden="0"/>
-          <column width="-1" type="field" name="wgs84_long" hidden="0"/>
-          <column width="-1" type="field" name="punttype" hidden="0"/>
-          <column width="-1" type="field" name="puntkwal" hidden="0"/>
-          <column width="-1" type="field" name="puntaut" hidden="0"/>
-          <column width="-1" type="field" name="puntautty" hidden="0"/>
-          <column width="-1" type="field" name="poitype" hidden="0"/>
-          <column width="-1" type="field" name="categorie" hidden="0"/>
-          <column width="-1" type="field" name="thema" hidden="0"/>
-          <column width="-1" type="field" name="link1" hidden="0"/>
-          <column width="-1" type="field" name="linkomsch1" hidden="0"/>
-          <column width="-1" type="field" name="lityomsch1" hidden="0"/>
-          <column width="-1" type="field" name="link2" hidden="0"/>
-          <column width="-1" type="field" name="linkomsch2" hidden="0"/>
-          <column width="-1" type="field" name="lityomsch2" hidden="0"/>
-          <column width="-1" type="field" name="link3" hidden="0"/>
-          <column width="-1" type="field" name="linkomsch3" hidden="0"/>
-          <column width="-1" type="field" name="lityomsch3" hidden="0"/>
-          <column width="-1" type="field" name="lictype" hidden="0"/>
-          <column width="-1" type="field" name="licurl" hidden="0"/>
-          <column width="-1" type="field" name="licomschr" hidden="0"/>
-          <column width="-1" type="field" name="auteur" hidden="0"/>
-          <column width="-1" type="field" name="auturl" hidden="0"/>
-          <column width="-1" type="field" name="auttype" hidden="0"/>
-          <column width="-1" type="field" name="metadaturl" hidden="0"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column type="field" hidden="0" width="-1" name="dataengine_id"/>
+          <column type="field" hidden="0" width="-1" name="id"/>
+          <column type="field" hidden="0" width="-1" name="poiid"/>
+          <column type="field" hidden="0" width="-1" name="created"/>
+          <column type="field" hidden="0" width="-1" name="updated"/>
+          <column type="field" hidden="0" width="-1" name="begindatum"/>
+          <column type="field" hidden="0" width="-1" name="einddatum"/>
+          <column type="field" hidden="0" width="-1" name="naam"/>
+          <column type="field" hidden="0" width="-1" name="altnaam"/>
+          <column type="field" hidden="0" width="-1" name="notitie"/>
+          <column type="field" hidden="0" width="-1" name="omschr"/>
+          <column type="field" hidden="0" width="-1" name="telefoon"/>
+          <column type="field" hidden="0" width="-1" name="email"/>
+          <column type="field" hidden="0" width="-1" name="straat"/>
+          <column type="field" hidden="0" width="-1" name="huisnummer"/>
+          <column type="field" hidden="0" width="-1" name="busnummer"/>
+          <column type="field" hidden="0" width="-1" name="postcode"/>
+          <column type="field" hidden="0" width="-1" name="gemeente"/>
+          <column type="field" hidden="0" width="-1" name="adrestype"/>
+          <column type="field" hidden="0" width="-1" name="wgs84_lati"/>
+          <column type="field" hidden="0" width="-1" name="wgs84_long"/>
+          <column type="field" hidden="0" width="-1" name="punttype"/>
+          <column type="field" hidden="0" width="-1" name="puntkwal"/>
+          <column type="field" hidden="0" width="-1" name="puntaut"/>
+          <column type="field" hidden="0" width="-1" name="puntautty"/>
+          <column type="field" hidden="0" width="-1" name="poitype"/>
+          <column type="field" hidden="0" width="-1" name="categorie"/>
+          <column type="field" hidden="0" width="-1" name="thema"/>
+          <column type="field" hidden="0" width="-1" name="link1"/>
+          <column type="field" hidden="0" width="-1" name="linkomsch1"/>
+          <column type="field" hidden="0" width="-1" name="lityomsch1"/>
+          <column type="field" hidden="0" width="-1" name="link2"/>
+          <column type="field" hidden="0" width="-1" name="linkomsch2"/>
+          <column type="field" hidden="0" width="-1" name="lityomsch2"/>
+          <column type="field" hidden="0" width="-1" name="link3"/>
+          <column type="field" hidden="0" width="-1" name="linkomsch3"/>
+          <column type="field" hidden="0" width="-1" name="lityomsch3"/>
+          <column type="field" hidden="0" width="-1" name="lictype"/>
+          <column type="field" hidden="0" width="-1" name="licurl"/>
+          <column type="field" hidden="0" width="-1" name="licomschr"/>
+          <column type="field" hidden="0" width="-1" name="auteur"/>
+          <column type="field" hidden="0" width="-1" name="auturl"/>
+          <column type="field" hidden="0" width="-1" name="auttype"/>
+          <column type="field" hidden="0" width="-1" name="metadaturl"/>
+          <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
