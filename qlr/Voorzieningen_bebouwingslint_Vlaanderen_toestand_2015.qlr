@@ -1,0 +1,390 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+    <customproperties/>
+    <layer-tree-layer id="ni_voorz_lint_vlaa_2015_fdc6665a_44a6_455d_8f20_1e5856ba3b7a" name="ni_voorz_lint_vlaa_2015" checked="Qt::Checked" providerKey="postgres" expanded="1" source="dbname='mercatoronthaalrwo_productie' host=postgis-productie.mercator.vonet.be port=5607 user='rwo' key='id' srid=31370 type=MultiPoint table=&quot;rwo&quot;.&quot;ni_voorz_lint_vlaa_2015&quot; (geom) sql=">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer readOnly="0" simplifyDrawingHints="0" refreshOnNotifyMessage="" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" maxScale="0" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyLocal="1" minScale="1e+08" simplifyDrawingTol="1" type="vector" autoRefreshTime="0" geometry="Point" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>22921.60000242969908868</xmin>
+        <ymin>153531.36386066800332628</ymin>
+        <xmax>256909.36999850301072001</xmax>
+        <ymax>243947.30385892500635237</ymax>
+      </extent>
+      <id>ni_voorz_lint_vlaa_2015_fdc6665a_44a6_455d_8f20_1e5856ba3b7a</id>
+      <datasource>dbname='mercatoronthaalrwo_productie' host=postgis-productie.mercator.vonet.be port=5607 user='rwo' password='xUDvphgF' key='id' srid=31370 type=MultiPoint table="rwo"."ni_voorz_lint_vlaa_2015" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ni_voorz_lint_vlaa_2015</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="EPSG:31370" miny="0" dimensions="2" maxz="0" minz="0" maxy="0" minx="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" type="marker" force_rhr="0" alpha="1">
+            <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="105,88,65,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,0" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="1" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory height="15" rotationOffset="270" backgroundAlpha="255" lineSizeType="MM" opacity="1" barWidth="5" minScaleDenominator="0" penWidth="0" enabled="0" penAlpha="255" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" width="15" lineSizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" sizeType="MM" penColor="#000000" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" scaleBasedVisibility="0" diagramOrientation="Up">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" showAll="1" placement="0" linePlacementFlags="18" priority="0" dist="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="x">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="klasse">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="voorz">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beschr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bron">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type_code">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type_srl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="knptwa">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="voorzniv">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" name="" index="0"/>
+        <alias field="code" name="" index="1"/>
+        <alias field="x" name="" index="2"/>
+        <alias field="y" name="" index="3"/>
+        <alias field="klasse" name="" index="4"/>
+        <alias field="voorz" name="" index="5"/>
+        <alias field="beschr" name="" index="6"/>
+        <alias field="type" name="" index="7"/>
+        <alias field="bron" name="" index="8"/>
+        <alias field="type_code" name="" index="9"/>
+        <alias field="type_srl" name="" index="10"/>
+        <alias field="knptwa" name="" index="11"/>
+        <alias field="voorzniv" name="" index="12"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="code" applyOnUpdate="0" expression=""/>
+        <default field="x" applyOnUpdate="0" expression=""/>
+        <default field="y" applyOnUpdate="0" expression=""/>
+        <default field="klasse" applyOnUpdate="0" expression=""/>
+        <default field="voorz" applyOnUpdate="0" expression=""/>
+        <default field="beschr" applyOnUpdate="0" expression=""/>
+        <default field="type" applyOnUpdate="0" expression=""/>
+        <default field="bron" applyOnUpdate="0" expression=""/>
+        <default field="type_code" applyOnUpdate="0" expression=""/>
+        <default field="type_srl" applyOnUpdate="0" expression=""/>
+        <default field="knptwa" applyOnUpdate="0" expression=""/>
+        <default field="voorzniv" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="id" constraints="3" notnull_strength="1" unique_strength="1" exp_strength="0"/>
+        <constraint field="code" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="x" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="y" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="klasse" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="voorz" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="beschr" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="type" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="bron" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="type_code" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="type_srl" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="knptwa" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="voorzniv" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="code" exp="" desc=""/>
+        <constraint field="x" exp="" desc=""/>
+        <constraint field="y" exp="" desc=""/>
+        <constraint field="klasse" exp="" desc=""/>
+        <constraint field="voorz" exp="" desc=""/>
+        <constraint field="beschr" exp="" desc=""/>
+        <constraint field="type" exp="" desc=""/>
+        <constraint field="bron" exp="" desc=""/>
+        <constraint field="type_code" exp="" desc=""/>
+        <constraint field="type_srl" exp="" desc=""/>
+        <constraint field="knptwa" exp="" desc=""/>
+        <constraint field="voorzniv" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="code" hidden="0" type="field" width="-1"/>
+          <column name="x" hidden="0" type="field" width="-1"/>
+          <column name="y" hidden="0" type="field" width="-1"/>
+          <column name="klasse" hidden="0" type="field" width="-1"/>
+          <column name="voorz" hidden="0" type="field" width="-1"/>
+          <column name="beschr" hidden="0" type="field" width="-1"/>
+          <column name="type" hidden="0" type="field" width="-1"/>
+          <column name="bron" hidden="0" type="field" width="-1"/>
+          <column name="type_code" hidden="0" type="field" width="-1"/>
+          <column name="type_srl" hidden="0" type="field" width="-1"/>
+          <column name="knptwa" hidden="0" type="field" width="-1"/>
+          <column name="voorzniv" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="beschr" editable="1"/>
+        <field name="bron" editable="1"/>
+        <field name="code" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="klasse" editable="1"/>
+        <field name="knptwa" editable="1"/>
+        <field name="type" editable="1"/>
+        <field name="type_code" editable="1"/>
+        <field name="type_srl" editable="1"/>
+        <field name="voorz" editable="1"/>
+        <field name="voorzniv" editable="1"/>
+        <field name="x" editable="1"/>
+        <field name="y" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="beschr" labelOnTop="0"/>
+        <field name="bron" labelOnTop="0"/>
+        <field name="code" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="klasse" labelOnTop="0"/>
+        <field name="knptwa" labelOnTop="0"/>
+        <field name="type" labelOnTop="0"/>
+        <field name="type_code" labelOnTop="0"/>
+        <field name="type_srl" labelOnTop="0"/>
+        <field name="voorz" labelOnTop="0"/>
+        <field name="voorzniv" labelOnTop="0"/>
+        <field name="x" labelOnTop="0"/>
+        <field name="y" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
