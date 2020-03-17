@@ -1,0 +1,346 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" id="lu_gewrup_voortr_24b9adcd_5113_4ff8_8626_c3a4797fd2ab" providerKey="postgres" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=Polygon table=&quot;rwo&quot;.&quot;lu_gewrup_voortr&quot; (geom) sql=" checked="Qt::Checked" name="lu_gewrup_voortr">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" simplifyDrawingHints="1" type="vector" autoRefreshTime="0" refreshOnNotifyMessage="" geometry="Polygon" minScale="1e+08" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" simplifyLocal="1" maxScale="0" simplifyAlgorithm="0" readOnly="0">
+      <extent>
+        <xmin>24849.19921875</xmin>
+        <ymin>159725.078125</ymin>
+        <xmax>243257.90625</xmax>
+        <ymax>213866.234375</ymax>
+      </extent>
+      <id>lu_gewrup_voortr_24b9adcd_5113_4ff8_8626_c3a4797fd2ab</id>
+      <datasource>dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=Polygon table="rwo"."lu_gewrup_voortr" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lu_gewrup_voortr</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="EPSG:31370" dimensions="2" miny="0" minz="0" maxx="0" maxz="0" maxy="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="fill" alpha="1" force_rhr="0" clip_to_extent="1" name="0">
+            <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="Pixel" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="255,0,0,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="1" k="line_width"/>
+              <prop v="Pixel" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory rotationOffset="270" penWidth="0" scaleBasedVisibility="0" width="15" enabled="0" penColor="#000000" opacity="1" minScaleDenominator="0" lineSizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" barWidth="5" backgroundColor="#ffffff" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" backgroundAlpha="255" height="15" maxScaleDenominator="1e+08" scaleDependency="Area" diagramOrientation="Up" minimumSize="0" penAlpha="255">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" linePlacementFlags="18" obstacle="0" placement="1" showAll="1" priority="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gemeente">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="laatste_overleg">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="contact_domg">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="contact_planner">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="link">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="notitie">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="edit">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" name="" index="0"/>
+        <alias field="id" name="" index="1"/>
+        <alias field="naam" name="" index="2"/>
+        <alias field="gemeente" name="" index="3"/>
+        <alias field="laatste_overleg" name="" index="4"/>
+        <alias field="contact_domg" name="" index="5"/>
+        <alias field="contact_planner" name="" index="6"/>
+        <alias field="link" name="" index="7"/>
+        <alias field="notitie" name="" index="8"/>
+        <alias field="edit" name="" index="9"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="naam" applyOnUpdate="0" expression=""/>
+        <default field="gemeente" applyOnUpdate="0" expression=""/>
+        <default field="laatste_overleg" applyOnUpdate="0" expression=""/>
+        <default field="contact_domg" applyOnUpdate="0" expression=""/>
+        <default field="contact_planner" applyOnUpdate="0" expression=""/>
+        <default field="link" applyOnUpdate="0" expression=""/>
+        <default field="notitie" applyOnUpdate="0" expression=""/>
+        <default field="edit" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" unique_strength="1" field="dataengine_id" notnull_strength="1" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="naam" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="gemeente" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="laatste_overleg" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="contact_domg" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="contact_planner" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="link" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="notitie" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="edit" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="dataengine_id" exp="" desc=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="naam" exp="" desc=""/>
+        <constraint field="gemeente" exp="" desc=""/>
+        <constraint field="laatste_overleg" exp="" desc=""/>
+        <constraint field="contact_domg" exp="" desc=""/>
+        <constraint field="contact_planner" exp="" desc=""/>
+        <constraint field="link" exp="" desc=""/>
+        <constraint field="notitie" exp="" desc=""/>
+        <constraint field="edit" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" width="-1" name="dataengine_id" hidden="0"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="field" width="-1" name="naam" hidden="0"/>
+          <column type="field" width="-1" name="gemeente" hidden="0"/>
+          <column type="field" width="-1" name="laatste_overleg" hidden="0"/>
+          <column type="field" width="-1" name="contact_domg" hidden="0"/>
+          <column type="field" width="-1" name="contact_planner" hidden="0"/>
+          <column type="field" width="-1" name="link" hidden="0"/>
+          <column type="field" width="-1" name="notitie" hidden="0"/>
+          <column type="field" width="-1" name="edit" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="contact_domg"/>
+        <field editable="1" name="contact_planner"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="edit"/>
+        <field editable="1" name="gemeente"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="laatste_overleg"/>
+        <field editable="1" name="link"/>
+        <field editable="1" name="naam"/>
+        <field editable="1" name="notitie"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="contact_domg"/>
+        <field labelOnTop="0" name="contact_planner"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="edit"/>
+        <field labelOnTop="0" name="gemeente"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="laatste_overleg"/>
+        <field labelOnTop="0" name="link"/>
+        <field labelOnTop="0" name="naam"/>
+        <field labelOnTop="0" name="notitie"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
