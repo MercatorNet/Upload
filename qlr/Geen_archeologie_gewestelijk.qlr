@@ -1,0 +1,365 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" name="Geen archeologie - gewestelijke" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;am_gga_gew_pub&quot; (geom) sql=" id="am_gga_gew_pub_1b3623a8_1654_450f_b611_67758aafeb7b" expanded="1" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer wkbType="MultiPolygon" simplifyDrawingHints="0" styleCategories="AllStyleCategories" type="vector" simplifyMaxScale="1" geometry="Polygon" readOnly="0" minScale="1e+08" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" autoRefreshTime="0" maxScale="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>22912.48202290650078794</xmin>
+        <ymin>154139.56722115000593476</ymin>
+        <xmax>258554.5839502869930584</xmax>
+        <ymax>241904.60547148500336334</ymax>
+      </extent>
+      <id>am_gga_gew_pub_1b3623a8_1654_450f_b611_67758aafeb7b</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."am_gga_gew_pub" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Geen archeologie - gewestelijke</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["Belge 1972 / Belgian Lambert 72",BASEGEOGCRS["Belge 1972",DATUM["Reseau National Belge 1972",ELLIPSOID["International 1924",6378388,297,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4313]],CONVERSION["Belgian Lambert 72",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",4.36748666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",51.1666672333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",49.8333339,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",150000.013,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",5400088.438,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Belgium - onshore"],BBOX[49.5,2.5,51.51,6.4]],ID["EPSG",31370]]</wkt>
+          <proj4>+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-99.059,53.322,-112.486,0.419,-0.83,1.885,-1 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>EPSG:7022</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt>PROJCRS["Belge 1972 / Belgian Lambert 72",BASEGEOGCRS["Belge 1972",DATUM["Reseau National Belge 1972",ELLIPSOID["International 1924",6378388,297,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4313]],CONVERSION["Belgian Lambert 72",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",4.36748666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",51.1666672333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",49.8333339,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",150000.013,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",5400088.438,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Belgium - onshore"],BBOX[49.5,2.5,51.51,6.4]],ID["EPSG",31370]]</wkt>
+            <proj4>+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-99.059,53.322,-112.486,0.419,-0.83,1.885,-1 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>EPSG:7022</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" maxz="0" minz="0" crs="EPSG:31370" miny="0" minx="0" maxy="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="RuleRenderer" enableorderby="0" forceraster="0" symbollevels="0">
+        <rules key="{2787ba8d-6aef-48b5-a331-acc29ee22572}">
+          <rule label="Gebieden waar geen archeologie te verwachten valt - gewestelijk" key="{b48488fc-2e2f-4361-a523-15d7886fda76}" symbol="0" scalemaxdenom="500001"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" force_rhr="0" type="fill" name="0" clip_to_extent="1">
+            <layer class="SimpleFill" pass="0" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="128,128,128,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="1" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory backgroundColor="#ffffff" scaleDependency="Area" lineSizeType="MM" minimumSize="0" rotationOffset="270" barWidth="5" minScaleDenominator="0" sizeScale="3x:0,0,0,0,0,0" penAlpha="255" enabled="0" height="15" diagramOrientation="Up" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" opacity="1" penColor="#000000" scaleBasedVisibility="0" sizeType="MM" width="15" labelPlacementMethod="XHeight" penWidth="0" maxScaleDenominator="1e+08">
+          <fontProperties style="" description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" linePlacementFlags="18" dist="0" showAll="1" priority="0" obstacle="0" placement="1">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option type="double" name="allowedGapsBuffer" value="0"/>
+            <Option type="bool" name="allowedGapsEnabled" value="false"/>
+            <Option type="QString" name="allowedGapsLayer" value=""/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aanduid_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type_uri">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type_naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="locatie">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geld_start">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geld_einde">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="url">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uri">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="dataengine_id"/>
+        <alias name="" index="1" field="aanduid_id"/>
+        <alias name="" index="2" field="naam"/>
+        <alias name="" index="3" field="alt_naam"/>
+        <alias name="" index="4" field="type_uri"/>
+        <alias name="" index="5" field="type_naam"/>
+        <alias name="" index="6" field="locatie"/>
+        <alias name="" index="7" field="geld_start"/>
+        <alias name="" index="8" field="geld_einde"/>
+        <alias name="" index="9" field="url"/>
+        <alias name="" index="10" field="uri"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="dataengine_id"/>
+        <default expression="" applyOnUpdate="0" field="aanduid_id"/>
+        <default expression="" applyOnUpdate="0" field="naam"/>
+        <default expression="" applyOnUpdate="0" field="alt_naam"/>
+        <default expression="" applyOnUpdate="0" field="type_uri"/>
+        <default expression="" applyOnUpdate="0" field="type_naam"/>
+        <default expression="" applyOnUpdate="0" field="locatie"/>
+        <default expression="" applyOnUpdate="0" field="geld_start"/>
+        <default expression="" applyOnUpdate="0" field="geld_einde"/>
+        <default expression="" applyOnUpdate="0" field="url"/>
+        <default expression="" applyOnUpdate="0" field="uri"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" exp_strength="0" field="dataengine_id" unique_strength="1" notnull_strength="1"/>
+        <constraint constraints="0" exp_strength="0" field="aanduid_id" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="naam" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="alt_naam" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="type_uri" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="type_naam" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="locatie" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="geld_start" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="geld_einde" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="url" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="uri" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="dataengine_id" exp=""/>
+        <constraint desc="" field="aanduid_id" exp=""/>
+        <constraint desc="" field="naam" exp=""/>
+        <constraint desc="" field="alt_naam" exp=""/>
+        <constraint desc="" field="type_uri" exp=""/>
+        <constraint desc="" field="type_naam" exp=""/>
+        <constraint desc="" field="locatie" exp=""/>
+        <constraint desc="" field="geld_start" exp=""/>
+        <constraint desc="" field="geld_einde" exp=""/>
+        <constraint desc="" field="url" exp=""/>
+        <constraint desc="" field="uri" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="dataengine_id"/>
+          <column hidden="0" width="-1" type="field" name="aanduid_id"/>
+          <column hidden="0" width="-1" type="field" name="naam"/>
+          <column hidden="0" width="-1" type="field" name="alt_naam"/>
+          <column hidden="0" width="-1" type="field" name="type_uri"/>
+          <column hidden="0" width="-1" type="field" name="type_naam"/>
+          <column hidden="0" width="-1" type="field" name="locatie"/>
+          <column hidden="0" width="-1" type="field" name="geld_start"/>
+          <column hidden="0" width="-1" type="field" name="geld_einde"/>
+          <column hidden="0" width="-1" type="field" name="url"/>
+          <column hidden="0" width="-1" type="field" name="uri"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="aanduid_id" editable="1"/>
+        <field name="alt_naam" editable="1"/>
+        <field name="dataengine_id" editable="1"/>
+        <field name="geld_einde" editable="1"/>
+        <field name="geld_start" editable="1"/>
+        <field name="locatie" editable="1"/>
+        <field name="naam" editable="1"/>
+        <field name="type_naam" editable="1"/>
+        <field name="type_uri" editable="1"/>
+        <field name="uri" editable="1"/>
+        <field name="url" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="aanduid_id" labelOnTop="0"/>
+        <field name="alt_naam" labelOnTop="0"/>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="geld_einde" labelOnTop="0"/>
+        <field name="geld_start" labelOnTop="0"/>
+        <field name="locatie" labelOnTop="0"/>
+        <field name="naam" labelOnTop="0"/>
+        <field name="type_naam" labelOnTop="0"/>
+        <field name="type_uri" labelOnTop="0"/>
+        <field name="uri" labelOnTop="0"/>
+        <field name="url" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
