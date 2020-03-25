@@ -1,0 +1,523 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="lu_omv_vgtw_05e053fd_eb8d_44da_9083_107e6c9a242e" name="lu_omv_vgtw" providerKey="postgres" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;rwo&quot;.&quot;lu_omv_vgtw&quot; (geometrie) sql=">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyMaxScale="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" readOnly="0" minScale="1e+08" simplifyDrawingHints="1" autoRefreshEnabled="0" labelsEnabled="0" simplifyLocal="1" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" geometry="Polygon" maxScale="0">
+      <extent>
+        <xmin>21779.470703125</xmin>
+        <ymin>154194.953125</ymin>
+        <xmax>258205.34375</xmax>
+        <ymax>236754.734375</ymax>
+      </extent>
+      <id>lu_omv_vgtw_05e053fd_eb8d_44da_9083_107e6c9a242e</id>
+      <datasource>dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=MultiPolygon table="rwo"."lu_omv_vgtw" (geometrie) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lu_omv_vgtw</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" miny="0" dimensions="2" minx="0" minz="0" crs="EPSG:31370" maxy="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="133,182,111,0" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="12,123,53,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="4" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" minimumSize="0" width="15" sizeScale="3x:0,0,0,0,0,0" penWidth="0" diagramOrientation="Up" minScaleDenominator="0" scaleDependency="Area" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" sizeType="MM" barWidth="5" enabled="0" height="15" penAlpha="255" lineSizeType="MM" penColor="#000000" rotationOffset="270" backgroundAlpha="255">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" showAll="1" obstacle="0" zIndex="0" placement="1" linePlacementFlags="18" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vegetatiewijziging_nummer">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kbo_nummer">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="persoon">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="projectnummer">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="projecttype_code">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="projecttype_omschrijving">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dt_indiening">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vvo_ea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="status_ea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beslissing_datum_ea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beslissing_aard_ea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beslissing_link_ea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beroep_ingediend">
+          <editWidget type="CheckBox">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vvo_la">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="status_la">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beslissing_datum_la">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beslissing_aard_la">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beslissing_link_la">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ts_creatie">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ts_modificatie">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ct_update">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="id" index="1" name=""/>
+        <alias field="vegetatiewijziging_nummer" index="2" name=""/>
+        <alias field="kbo_nummer" index="3" name=""/>
+        <alias field="persoon" index="4" name=""/>
+        <alias field="projectnummer" index="5" name=""/>
+        <alias field="projecttype_code" index="6" name=""/>
+        <alias field="projecttype_omschrijving" index="7" name=""/>
+        <alias field="dt_indiening" index="8" name=""/>
+        <alias field="vvo_ea" index="9" name=""/>
+        <alias field="status_ea" index="10" name=""/>
+        <alias field="beslissing_datum_ea" index="11" name=""/>
+        <alias field="beslissing_aard_ea" index="12" name=""/>
+        <alias field="beslissing_link_ea" index="13" name=""/>
+        <alias field="beroep_ingediend" index="14" name=""/>
+        <alias field="vvo_la" index="15" name=""/>
+        <alias field="status_la" index="16" name=""/>
+        <alias field="beslissing_datum_la" index="17" name=""/>
+        <alias field="beslissing_aard_la" index="18" name=""/>
+        <alias field="beslissing_link_la" index="19" name=""/>
+        <alias field="ts_creatie" index="20" name=""/>
+        <alias field="ts_modificatie" index="21" name=""/>
+        <alias field="ct_update" index="22" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="dataengine_id" expression=""/>
+        <default applyOnUpdate="0" field="id" expression=""/>
+        <default applyOnUpdate="0" field="vegetatiewijziging_nummer" expression=""/>
+        <default applyOnUpdate="0" field="kbo_nummer" expression=""/>
+        <default applyOnUpdate="0" field="persoon" expression=""/>
+        <default applyOnUpdate="0" field="projectnummer" expression=""/>
+        <default applyOnUpdate="0" field="projecttype_code" expression=""/>
+        <default applyOnUpdate="0" field="projecttype_omschrijving" expression=""/>
+        <default applyOnUpdate="0" field="dt_indiening" expression=""/>
+        <default applyOnUpdate="0" field="vvo_ea" expression=""/>
+        <default applyOnUpdate="0" field="status_ea" expression=""/>
+        <default applyOnUpdate="0" field="beslissing_datum_ea" expression=""/>
+        <default applyOnUpdate="0" field="beslissing_aard_ea" expression=""/>
+        <default applyOnUpdate="0" field="beslissing_link_ea" expression=""/>
+        <default applyOnUpdate="0" field="beroep_ingediend" expression=""/>
+        <default applyOnUpdate="0" field="vvo_la" expression=""/>
+        <default applyOnUpdate="0" field="status_la" expression=""/>
+        <default applyOnUpdate="0" field="beslissing_datum_la" expression=""/>
+        <default applyOnUpdate="0" field="beslissing_aard_la" expression=""/>
+        <default applyOnUpdate="0" field="beslissing_link_la" expression=""/>
+        <default applyOnUpdate="0" field="ts_creatie" expression=""/>
+        <default applyOnUpdate="0" field="ts_modificatie" expression=""/>
+        <default applyOnUpdate="0" field="ct_update" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="dataengine_id" exp_strength="0" constraints="3" unique_strength="1" notnull_strength="1"/>
+        <constraint field="id" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="vegetatiewijziging_nummer" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="kbo_nummer" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="persoon" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="projectnummer" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="projecttype_code" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="projecttype_omschrijving" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="dt_indiening" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="vvo_ea" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="status_ea" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="beslissing_datum_ea" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="beslissing_aard_ea" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="beslissing_link_ea" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="beroep_ingediend" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="vvo_la" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="status_la" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="beslissing_datum_la" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="beslissing_aard_la" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="beslissing_link_la" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ts_creatie" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ts_modificatie" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ct_update" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="dataengine_id"/>
+        <constraint exp="" desc="" field="id"/>
+        <constraint exp="" desc="" field="vegetatiewijziging_nummer"/>
+        <constraint exp="" desc="" field="kbo_nummer"/>
+        <constraint exp="" desc="" field="persoon"/>
+        <constraint exp="" desc="" field="projectnummer"/>
+        <constraint exp="" desc="" field="projecttype_code"/>
+        <constraint exp="" desc="" field="projecttype_omschrijving"/>
+        <constraint exp="" desc="" field="dt_indiening"/>
+        <constraint exp="" desc="" field="vvo_ea"/>
+        <constraint exp="" desc="" field="status_ea"/>
+        <constraint exp="" desc="" field="beslissing_datum_ea"/>
+        <constraint exp="" desc="" field="beslissing_aard_ea"/>
+        <constraint exp="" desc="" field="beslissing_link_ea"/>
+        <constraint exp="" desc="" field="beroep_ingediend"/>
+        <constraint exp="" desc="" field="vvo_la"/>
+        <constraint exp="" desc="" field="status_la"/>
+        <constraint exp="" desc="" field="beslissing_datum_la"/>
+        <constraint exp="" desc="" field="beslissing_aard_la"/>
+        <constraint exp="" desc="" field="beslissing_link_la"/>
+        <constraint exp="" desc="" field="ts_creatie"/>
+        <constraint exp="" desc="" field="ts_modificatie"/>
+        <constraint exp="" desc="" field="ct_update"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="dataengine_id"/>
+          <column hidden="0" width="-1" type="field" name="id"/>
+          <column hidden="0" width="-1" type="field" name="vegetatiewijziging_nummer"/>
+          <column hidden="0" width="-1" type="field" name="kbo_nummer"/>
+          <column hidden="0" width="-1" type="field" name="persoon"/>
+          <column hidden="0" width="-1" type="field" name="projectnummer"/>
+          <column hidden="0" width="-1" type="field" name="projecttype_code"/>
+          <column hidden="0" width="-1" type="field" name="projecttype_omschrijving"/>
+          <column hidden="0" width="-1" type="field" name="dt_indiening"/>
+          <column hidden="0" width="-1" type="field" name="vvo_ea"/>
+          <column hidden="0" width="-1" type="field" name="status_ea"/>
+          <column hidden="0" width="-1" type="field" name="beslissing_datum_ea"/>
+          <column hidden="0" width="-1" type="field" name="beslissing_aard_ea"/>
+          <column hidden="0" width="-1" type="field" name="beslissing_link_ea"/>
+          <column hidden="0" width="-1" type="field" name="beroep_ingediend"/>
+          <column hidden="0" width="-1" type="field" name="vvo_la"/>
+          <column hidden="0" width="-1" type="field" name="status_la"/>
+          <column hidden="0" width="-1" type="field" name="beslissing_datum_la"/>
+          <column hidden="0" width="-1" type="field" name="beslissing_aard_la"/>
+          <column hidden="0" width="-1" type="field" name="beslissing_link_la"/>
+          <column hidden="0" width="-1" type="field" name="ts_creatie"/>
+          <column hidden="0" width="-1" type="field" name="ts_modificatie"/>
+          <column hidden="0" width="-1" type="field" name="ct_update"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="beroep_ingediend"/>
+        <field editable="1" name="beslissing_aard_ea"/>
+        <field editable="1" name="beslissing_aard_la"/>
+        <field editable="1" name="beslissing_datum_ea"/>
+        <field editable="1" name="beslissing_datum_la"/>
+        <field editable="1" name="beslissing_link_ea"/>
+        <field editable="1" name="beslissing_link_la"/>
+        <field editable="1" name="ct_update"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="dt_indiening"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="kbo_nummer"/>
+        <field editable="1" name="persoon"/>
+        <field editable="1" name="projectnummer"/>
+        <field editable="1" name="projecttype_code"/>
+        <field editable="1" name="projecttype_omschrijving"/>
+        <field editable="1" name="status_ea"/>
+        <field editable="1" name="status_la"/>
+        <field editable="1" name="ts_creatie"/>
+        <field editable="1" name="ts_modificatie"/>
+        <field editable="1" name="vegetatiewijziging_nummer"/>
+        <field editable="1" name="vvo_ea"/>
+        <field editable="1" name="vvo_la"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="beroep_ingediend"/>
+        <field labelOnTop="0" name="beslissing_aard_ea"/>
+        <field labelOnTop="0" name="beslissing_aard_la"/>
+        <field labelOnTop="0" name="beslissing_datum_ea"/>
+        <field labelOnTop="0" name="beslissing_datum_la"/>
+        <field labelOnTop="0" name="beslissing_link_ea"/>
+        <field labelOnTop="0" name="beslissing_link_la"/>
+        <field labelOnTop="0" name="ct_update"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="dt_indiening"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="kbo_nummer"/>
+        <field labelOnTop="0" name="persoon"/>
+        <field labelOnTop="0" name="projectnummer"/>
+        <field labelOnTop="0" name="projecttype_code"/>
+        <field labelOnTop="0" name="projecttype_omschrijving"/>
+        <field labelOnTop="0" name="status_ea"/>
+        <field labelOnTop="0" name="status_la"/>
+        <field labelOnTop="0" name="ts_creatie"/>
+        <field labelOnTop="0" name="ts_modificatie"/>
+        <field labelOnTop="0" name="vegetatiewijziging_nummer"/>
+        <field labelOnTop="0" name="vvo_ea"/>
+        <field labelOnTop="0" name="vvo_la"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
