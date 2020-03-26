@@ -1,0 +1,843 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer id="POI_KenG_6a2e25bf_bb13_4de4_b731_5b3f53befb92" expanded="1" providerKey="ogr" checked="Qt::Checked" name="Kinderopvangvoorzieningen_erkend_door_Kind_en_Gezin_via_POI_service_202003" source="./Kinderopvangvoorzieningen_erkend_door_Kind_en_Gezin/Shapefile/POI_KenG.shp">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" geometry="Point" refreshOnNotifyMessage="" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" maxScale="0" type="vector" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" labelsEnabled="0" simplifyLocal="1" simplifyMaxScale="1" simplifyDrawingHints="0">
+      <extent>
+        <xmin>25008.28438409030786715</xmin>
+        <ymin>153733.72067341301590204</ymin>
+        <xmax>252140.23777822137344629</xmax>
+        <ymax>242550.72602933552116156</ymax>
+      </extent>
+      <id>POI_KenG_6a2e25bf_bb13_4de4_b731_5b3f53befb92</id>
+      <datasource>./Kinderopvangvoorzieningen_erkend_door_Kind_en_Gezin/Shapefile/POI_KenG.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Kinderopvangvoorzieningen_erkend_door_Kind_en_Gezin_via_POI_service_202003</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" maxz="0" dimensions="2" crs="" minx="0" maxx="0" minz="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" type="RuleRenderer" forceraster="0" symbollevels="0">
+        <rules key="{6ebcc972-70b4-4416-a6c8-c11ada693c4d}">
+          <rule label="Buitenschoolse opvang" symbol="0" filter="poitype = 'Buitenschoolse opvang'" key="{3c7e2809-caaa-4cea-b695-30623a3ac8c4}"/>
+          <rule label="Gezinsopvang baby's en peuters" symbol="1" filter="poitype = 'Gezinsopvang baby''s en peuters'" key="{ebd9dec6-ec69-4ca5-b410-82f319f28715}"/>
+          <rule label="Groepsopvang baby's en peuters" symbol="2" filter="poitype = 'Groepsopvang baby''s en peuters'" key="{c402d396-5204-4191-80a1-d2783e7dee66}"/>
+        </rules>
+        <symbols>
+          <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="0">
+            <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="227,26,28,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="7" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="1">
+            <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="255,127,0,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="7" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="2">
+            <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="230,225,92,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="7" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory backgroundAlpha="255" enabled="0" penWidth="0" width="15" minimumSize="0" rotationOffset="270" minScaleDenominator="0" height="15" penAlpha="255" diagramOrientation="Up" lineSizeType="MM" maxScaleDenominator="1e+08" sizeType="MM" scaleDependency="Area" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" scaleBasedVisibility="0" opacity="1" barWidth="5">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" placement="0" linePlacementFlags="18" showAll="1" priority="0" zIndex="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="POIID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CREATED">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UPDATED">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BEGINDATUM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EINDDATUM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAAM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALTNAAM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOTITIE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OMSCHR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TELEFOON">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EMAIL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STRAAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HUISNUMMER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BUSNUMMER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POSTCODE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEMEENTE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADRESTYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUNTTYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUNTKWAL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUNTAUT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUNTAUTTY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POITYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POITYPESYM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CATEGORIE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="THEMA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINKOMSCH1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LITYOMSCH1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINKOMSCH2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LITYOMSCH2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINKOMSCH3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LITYOMSCH3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LICTYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LICURL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LICOMSCHR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AUTEUR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AUTURL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AUTTYPE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="METADATURL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="POIID" index="0" name=""/>
+        <alias field="CREATED" index="1" name=""/>
+        <alias field="UPDATED" index="2" name=""/>
+        <alias field="BEGINDATUM" index="3" name=""/>
+        <alias field="EINDDATUM" index="4" name=""/>
+        <alias field="NAAM" index="5" name=""/>
+        <alias field="ALTNAAM" index="6" name=""/>
+        <alias field="NOTITIE" index="7" name=""/>
+        <alias field="OMSCHR" index="8" name=""/>
+        <alias field="TELEFOON" index="9" name=""/>
+        <alias field="EMAIL" index="10" name=""/>
+        <alias field="STRAAT" index="11" name=""/>
+        <alias field="HUISNUMMER" index="12" name=""/>
+        <alias field="BUSNUMMER" index="13" name=""/>
+        <alias field="POSTCODE" index="14" name=""/>
+        <alias field="GEMEENTE" index="15" name=""/>
+        <alias field="ADRESTYPE" index="16" name=""/>
+        <alias field="PUNTTYPE" index="17" name=""/>
+        <alias field="PUNTKWAL" index="18" name=""/>
+        <alias field="PUNTAUT" index="19" name=""/>
+        <alias field="PUNTAUTTY" index="20" name=""/>
+        <alias field="POITYPE" index="21" name=""/>
+        <alias field="POITYPESYM" index="22" name=""/>
+        <alias field="CATEGORIE" index="23" name=""/>
+        <alias field="THEMA" index="24" name=""/>
+        <alias field="LINK1" index="25" name=""/>
+        <alias field="LINKOMSCH1" index="26" name=""/>
+        <alias field="LITYOMSCH1" index="27" name=""/>
+        <alias field="LINK2" index="28" name=""/>
+        <alias field="LINKOMSCH2" index="29" name=""/>
+        <alias field="LITYOMSCH2" index="30" name=""/>
+        <alias field="LINK3" index="31" name=""/>
+        <alias field="LINKOMSCH3" index="32" name=""/>
+        <alias field="LITYOMSCH3" index="33" name=""/>
+        <alias field="LICTYPE" index="34" name=""/>
+        <alias field="LICURL" index="35" name=""/>
+        <alias field="LICOMSCHR" index="36" name=""/>
+        <alias field="AUTEUR" index="37" name=""/>
+        <alias field="AUTURL" index="38" name=""/>
+        <alias field="AUTTYPE" index="39" name=""/>
+        <alias field="METADATURL" index="40" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="POIID" expression=""/>
+        <default applyOnUpdate="0" field="CREATED" expression=""/>
+        <default applyOnUpdate="0" field="UPDATED" expression=""/>
+        <default applyOnUpdate="0" field="BEGINDATUM" expression=""/>
+        <default applyOnUpdate="0" field="EINDDATUM" expression=""/>
+        <default applyOnUpdate="0" field="NAAM" expression=""/>
+        <default applyOnUpdate="0" field="ALTNAAM" expression=""/>
+        <default applyOnUpdate="0" field="NOTITIE" expression=""/>
+        <default applyOnUpdate="0" field="OMSCHR" expression=""/>
+        <default applyOnUpdate="0" field="TELEFOON" expression=""/>
+        <default applyOnUpdate="0" field="EMAIL" expression=""/>
+        <default applyOnUpdate="0" field="STRAAT" expression=""/>
+        <default applyOnUpdate="0" field="HUISNUMMER" expression=""/>
+        <default applyOnUpdate="0" field="BUSNUMMER" expression=""/>
+        <default applyOnUpdate="0" field="POSTCODE" expression=""/>
+        <default applyOnUpdate="0" field="GEMEENTE" expression=""/>
+        <default applyOnUpdate="0" field="ADRESTYPE" expression=""/>
+        <default applyOnUpdate="0" field="PUNTTYPE" expression=""/>
+        <default applyOnUpdate="0" field="PUNTKWAL" expression=""/>
+        <default applyOnUpdate="0" field="PUNTAUT" expression=""/>
+        <default applyOnUpdate="0" field="PUNTAUTTY" expression=""/>
+        <default applyOnUpdate="0" field="POITYPE" expression=""/>
+        <default applyOnUpdate="0" field="POITYPESYM" expression=""/>
+        <default applyOnUpdate="0" field="CATEGORIE" expression=""/>
+        <default applyOnUpdate="0" field="THEMA" expression=""/>
+        <default applyOnUpdate="0" field="LINK1" expression=""/>
+        <default applyOnUpdate="0" field="LINKOMSCH1" expression=""/>
+        <default applyOnUpdate="0" field="LITYOMSCH1" expression=""/>
+        <default applyOnUpdate="0" field="LINK2" expression=""/>
+        <default applyOnUpdate="0" field="LINKOMSCH2" expression=""/>
+        <default applyOnUpdate="0" field="LITYOMSCH2" expression=""/>
+        <default applyOnUpdate="0" field="LINK3" expression=""/>
+        <default applyOnUpdate="0" field="LINKOMSCH3" expression=""/>
+        <default applyOnUpdate="0" field="LITYOMSCH3" expression=""/>
+        <default applyOnUpdate="0" field="LICTYPE" expression=""/>
+        <default applyOnUpdate="0" field="LICURL" expression=""/>
+        <default applyOnUpdate="0" field="LICOMSCHR" expression=""/>
+        <default applyOnUpdate="0" field="AUTEUR" expression=""/>
+        <default applyOnUpdate="0" field="AUTURL" expression=""/>
+        <default applyOnUpdate="0" field="AUTTYPE" expression=""/>
+        <default applyOnUpdate="0" field="METADATURL" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="POIID" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="CREATED" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="UPDATED" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="BEGINDATUM" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="EINDDATUM" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="NAAM" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="ALTNAAM" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="NOTITIE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="OMSCHR" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="TELEFOON" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="EMAIL" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="STRAAT" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="HUISNUMMER" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="BUSNUMMER" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="POSTCODE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="GEMEENTE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="ADRESTYPE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="PUNTTYPE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="PUNTKWAL" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="PUNTAUT" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="PUNTAUTTY" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="POITYPE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="POITYPESYM" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="CATEGORIE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="THEMA" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LINK1" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LINKOMSCH1" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LITYOMSCH1" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LINK2" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LINKOMSCH2" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LITYOMSCH2" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LINK3" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LINKOMSCH3" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LITYOMSCH3" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LICTYPE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LICURL" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="LICOMSCHR" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="AUTEUR" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="AUTURL" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="AUTTYPE" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" field="METADATURL" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="POIID" desc=""/>
+        <constraint exp="" field="CREATED" desc=""/>
+        <constraint exp="" field="UPDATED" desc=""/>
+        <constraint exp="" field="BEGINDATUM" desc=""/>
+        <constraint exp="" field="EINDDATUM" desc=""/>
+        <constraint exp="" field="NAAM" desc=""/>
+        <constraint exp="" field="ALTNAAM" desc=""/>
+        <constraint exp="" field="NOTITIE" desc=""/>
+        <constraint exp="" field="OMSCHR" desc=""/>
+        <constraint exp="" field="TELEFOON" desc=""/>
+        <constraint exp="" field="EMAIL" desc=""/>
+        <constraint exp="" field="STRAAT" desc=""/>
+        <constraint exp="" field="HUISNUMMER" desc=""/>
+        <constraint exp="" field="BUSNUMMER" desc=""/>
+        <constraint exp="" field="POSTCODE" desc=""/>
+        <constraint exp="" field="GEMEENTE" desc=""/>
+        <constraint exp="" field="ADRESTYPE" desc=""/>
+        <constraint exp="" field="PUNTTYPE" desc=""/>
+        <constraint exp="" field="PUNTKWAL" desc=""/>
+        <constraint exp="" field="PUNTAUT" desc=""/>
+        <constraint exp="" field="PUNTAUTTY" desc=""/>
+        <constraint exp="" field="POITYPE" desc=""/>
+        <constraint exp="" field="POITYPESYM" desc=""/>
+        <constraint exp="" field="CATEGORIE" desc=""/>
+        <constraint exp="" field="THEMA" desc=""/>
+        <constraint exp="" field="LINK1" desc=""/>
+        <constraint exp="" field="LINKOMSCH1" desc=""/>
+        <constraint exp="" field="LITYOMSCH1" desc=""/>
+        <constraint exp="" field="LINK2" desc=""/>
+        <constraint exp="" field="LINKOMSCH2" desc=""/>
+        <constraint exp="" field="LITYOMSCH2" desc=""/>
+        <constraint exp="" field="LINK3" desc=""/>
+        <constraint exp="" field="LINKOMSCH3" desc=""/>
+        <constraint exp="" field="LITYOMSCH3" desc=""/>
+        <constraint exp="" field="LICTYPE" desc=""/>
+        <constraint exp="" field="LICURL" desc=""/>
+        <constraint exp="" field="LICOMSCHR" desc=""/>
+        <constraint exp="" field="AUTEUR" desc=""/>
+        <constraint exp="" field="AUTURL" desc=""/>
+        <constraint exp="" field="AUTTYPE" desc=""/>
+        <constraint exp="" field="METADATURL" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" type="field" hidden="0" name="POIID"/>
+          <column width="-1" type="field" hidden="0" name="CREATED"/>
+          <column width="-1" type="field" hidden="0" name="UPDATED"/>
+          <column width="-1" type="field" hidden="0" name="BEGINDATUM"/>
+          <column width="-1" type="field" hidden="0" name="EINDDATUM"/>
+          <column width="-1" type="field" hidden="0" name="NAAM"/>
+          <column width="-1" type="field" hidden="0" name="ALTNAAM"/>
+          <column width="-1" type="field" hidden="0" name="NOTITIE"/>
+          <column width="-1" type="field" hidden="0" name="OMSCHR"/>
+          <column width="-1" type="field" hidden="0" name="TELEFOON"/>
+          <column width="-1" type="field" hidden="0" name="EMAIL"/>
+          <column width="-1" type="field" hidden="0" name="STRAAT"/>
+          <column width="-1" type="field" hidden="0" name="HUISNUMMER"/>
+          <column width="-1" type="field" hidden="0" name="BUSNUMMER"/>
+          <column width="-1" type="field" hidden="0" name="POSTCODE"/>
+          <column width="-1" type="field" hidden="0" name="GEMEENTE"/>
+          <column width="-1" type="field" hidden="0" name="ADRESTYPE"/>
+          <column width="-1" type="field" hidden="0" name="PUNTTYPE"/>
+          <column width="-1" type="field" hidden="0" name="PUNTKWAL"/>
+          <column width="-1" type="field" hidden="0" name="PUNTAUT"/>
+          <column width="-1" type="field" hidden="0" name="PUNTAUTTY"/>
+          <column width="-1" type="field" hidden="0" name="POITYPE"/>
+          <column width="-1" type="field" hidden="0" name="POITYPESYM"/>
+          <column width="-1" type="field" hidden="0" name="CATEGORIE"/>
+          <column width="-1" type="field" hidden="0" name="THEMA"/>
+          <column width="-1" type="field" hidden="0" name="LINK1"/>
+          <column width="-1" type="field" hidden="0" name="LINKOMSCH1"/>
+          <column width="-1" type="field" hidden="0" name="LITYOMSCH1"/>
+          <column width="-1" type="field" hidden="0" name="LINK2"/>
+          <column width="-1" type="field" hidden="0" name="LINKOMSCH2"/>
+          <column width="-1" type="field" hidden="0" name="LITYOMSCH2"/>
+          <column width="-1" type="field" hidden="0" name="LINK3"/>
+          <column width="-1" type="field" hidden="0" name="LINKOMSCH3"/>
+          <column width="-1" type="field" hidden="0" name="LITYOMSCH3"/>
+          <column width="-1" type="field" hidden="0" name="LICTYPE"/>
+          <column width="-1" type="field" hidden="0" name="LICURL"/>
+          <column width="-1" type="field" hidden="0" name="LICOMSCHR"/>
+          <column width="-1" type="field" hidden="0" name="AUTEUR"/>
+          <column width="-1" type="field" hidden="0" name="AUTURL"/>
+          <column width="-1" type="field" hidden="0" name="AUTTYPE"/>
+          <column width="-1" type="field" hidden="0" name="METADATURL"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="ADRESTYPE"/>
+        <field editable="1" name="ALTNAAM"/>
+        <field editable="1" name="AUTEUR"/>
+        <field editable="1" name="AUTTYPE"/>
+        <field editable="1" name="AUTURL"/>
+        <field editable="1" name="BEGINDATUM"/>
+        <field editable="1" name="BUSNUMMER"/>
+        <field editable="1" name="CATEGORIE"/>
+        <field editable="1" name="CREATED"/>
+        <field editable="1" name="EINDDATUM"/>
+        <field editable="1" name="EMAIL"/>
+        <field editable="1" name="GEMEENTE"/>
+        <field editable="1" name="HUISNUMMER"/>
+        <field editable="1" name="LICOMSCHR"/>
+        <field editable="1" name="LICTYPE"/>
+        <field editable="1" name="LICURL"/>
+        <field editable="1" name="LINK1"/>
+        <field editable="1" name="LINK2"/>
+        <field editable="1" name="LINK3"/>
+        <field editable="1" name="LINKOMSCH1"/>
+        <field editable="1" name="LINKOMSCH2"/>
+        <field editable="1" name="LINKOMSCH3"/>
+        <field editable="1" name="LITYOMSCH1"/>
+        <field editable="1" name="LITYOMSCH2"/>
+        <field editable="1" name="LITYOMSCH3"/>
+        <field editable="1" name="METADATURL"/>
+        <field editable="1" name="NAAM"/>
+        <field editable="1" name="NOTITIE"/>
+        <field editable="1" name="OMSCHR"/>
+        <field editable="1" name="POIID"/>
+        <field editable="1" name="POITYPE"/>
+        <field editable="1" name="POITYPESYM"/>
+        <field editable="1" name="POSTCODE"/>
+        <field editable="1" name="PUNTAUT"/>
+        <field editable="1" name="PUNTAUTTY"/>
+        <field editable="1" name="PUNTKWAL"/>
+        <field editable="1" name="PUNTTYPE"/>
+        <field editable="1" name="STRAAT"/>
+        <field editable="1" name="TELEFOON"/>
+        <field editable="1" name="THEMA"/>
+        <field editable="1" name="UPDATED"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="ADRESTYPE"/>
+        <field labelOnTop="0" name="ALTNAAM"/>
+        <field labelOnTop="0" name="AUTEUR"/>
+        <field labelOnTop="0" name="AUTTYPE"/>
+        <field labelOnTop="0" name="AUTURL"/>
+        <field labelOnTop="0" name="BEGINDATUM"/>
+        <field labelOnTop="0" name="BUSNUMMER"/>
+        <field labelOnTop="0" name="CATEGORIE"/>
+        <field labelOnTop="0" name="CREATED"/>
+        <field labelOnTop="0" name="EINDDATUM"/>
+        <field labelOnTop="0" name="EMAIL"/>
+        <field labelOnTop="0" name="GEMEENTE"/>
+        <field labelOnTop="0" name="HUISNUMMER"/>
+        <field labelOnTop="0" name="LICOMSCHR"/>
+        <field labelOnTop="0" name="LICTYPE"/>
+        <field labelOnTop="0" name="LICURL"/>
+        <field labelOnTop="0" name="LINK1"/>
+        <field labelOnTop="0" name="LINK2"/>
+        <field labelOnTop="0" name="LINK3"/>
+        <field labelOnTop="0" name="LINKOMSCH1"/>
+        <field labelOnTop="0" name="LINKOMSCH2"/>
+        <field labelOnTop="0" name="LINKOMSCH3"/>
+        <field labelOnTop="0" name="LITYOMSCH1"/>
+        <field labelOnTop="0" name="LITYOMSCH2"/>
+        <field labelOnTop="0" name="LITYOMSCH3"/>
+        <field labelOnTop="0" name="METADATURL"/>
+        <field labelOnTop="0" name="NAAM"/>
+        <field labelOnTop="0" name="NOTITIE"/>
+        <field labelOnTop="0" name="OMSCHR"/>
+        <field labelOnTop="0" name="POIID"/>
+        <field labelOnTop="0" name="POITYPE"/>
+        <field labelOnTop="0" name="POITYPESYM"/>
+        <field labelOnTop="0" name="POSTCODE"/>
+        <field labelOnTop="0" name="PUNTAUT"/>
+        <field labelOnTop="0" name="PUNTAUTTY"/>
+        <field labelOnTop="0" name="PUNTKWAL"/>
+        <field labelOnTop="0" name="PUNTTYPE"/>
+        <field labelOnTop="0" name="STRAAT"/>
+        <field labelOnTop="0" name="TELEFOON"/>
+        <field labelOnTop="0" name="THEMA"/>
+        <field labelOnTop="0" name="UPDATED"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>POIID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
