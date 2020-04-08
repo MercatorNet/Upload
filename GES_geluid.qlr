@@ -1,0 +1,133 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" providerKey="gdal" name="GES_geluid" expanded="1" id="GES_geluid_6297e2b1_ffd3_4cd0_a4bc_8298b885ebfc" source="./GES_geluid.tif">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" type="raster" autoRefreshEnabled="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>22041.22500000043510227</xmin>
+        <ymin>153049.4380000036326237</ymin>
+        <xmax>258881.22500000044237822</xmax>
+        <ymax>244029.4380000036326237</ymax>
+      </extent>
+      <id>GES_geluid_6297e2b1_ffd3_4cd0_a4bc_8298b885ebfc</id>
+      <datasource>./GES_geluid.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>GES_geluid</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=49.8333339 +lat_2=51.16666723333333 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.01256 +y_0=5400088.4378 +ellps=intl +units=m +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Automatisch aangemaakte CRS (+proj=lcc +lat_1=49.8333339 +lat_2=51.16666723333333 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.01256 +y_0=5400088.4378 +ellps=intl +units=m +no_defs)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" minz="0" dimensions="2" miny="0" maxx="0" maxz="0" crs="" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" classificationMin="0" alphaBand="-1" band="1" type="singlebandpseudocolor" classificationMax="8">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader classificationMode="1" colorRampType="INTERPOLATED" clip="0">
+              <colorramp name="[source]" type="gradient">
+                <prop v="123,50,148,255" k="color1"/>
+                <prop v="0,136,55,255" k="color2"/>
+                <prop v="0" k="discrete"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="0.25;194,165,207,255:0.5;247,247,247,255:0.75;166,219,160,255" k="stops"/>
+              </colorramp>
+              <item alpha="255" color="#ccff66" label="0" value="0"/>
+              <item alpha="255" color="#00ff00" label="1" value="1"/>
+              <item alpha="255" color="#ffff66" label="2" value="2"/>
+              <item alpha="255" color="#ffff32" label="3" value="3"/>
+              <item alpha="255" color="#ff9935" label="4" value="4"/>
+              <item alpha="255" color="#ff6600" label="5" value="5"/>
+              <item alpha="255" color="#ff0000" label="6" value="6"/>
+              <item alpha="255" color="#ff0066" label="7" value="7"/>
+              <item alpha="255" color="#990099" label="8" value="8"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeOn="0" grayscaleMode="0" saturation="0" colorizeStrength="100" colorizeRed="255" colorizeBlue="128" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
