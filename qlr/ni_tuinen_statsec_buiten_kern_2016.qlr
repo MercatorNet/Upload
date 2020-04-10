@@ -1,0 +1,819 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" id="ni_tuinen_statsec_buiten_kern_50e8f4b6_4052_4e82_ac55_b536572b4e0f" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table=&quot;rwo&quot;.&quot;ni_tuinen_statsec_buiten_kern&quot; (geom) sql=" expanded="1" name="ni_tuinen_statsec_buiten_kern" providerKey="postgres">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyMaxScale="1" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyLocal="1" autoRefreshEnabled="0" type="vector" minScale="1e+08" simplifyAlgorithm="0" maxScale="0" readOnly="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" geometry="Polygon" simplifyDrawingHints="1">
+      <extent>
+        <xmin>22265.44900000100096804</xmin>
+        <ymin>153062.5940000010014046</ymin>
+        <xmax>258872.2030000019876752</xmax>
+        <ymax>244027.9059999989985954</ymax>
+      </extent>
+      <id>ni_tuinen_statsec_buiten_kern_50e8f4b6_4052_4e82_ac55_b536572b4e0f</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon table="rwo"."ni_tuinen_statsec_buiten_kern" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ni_tuinen_statsec_buiten_kern</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" maxz="0" minz="0" dimensions="2" miny="0" maxx="0" crs="EPSG:31370" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" graduatedMethod="GraduatedColor" type="graduatedSymbol" forceraster="0" attr="aandeel2" symbollevels="0">
+        <ranges>
+          <range lower="0.000000000000000" upper="0.020000000000000" render="true" symbol="0" label="&lt; 2%"/>
+          <range lower="0.020000000000000" upper="0.050000000000000" render="true" symbol="1" label="2% - 5%"/>
+          <range lower="0.050000000000000" upper="0.100000000000000" render="true" symbol="2" label="5% - 10%"/>
+          <range lower="0.100000000000000" upper="0.400000000000000" render="true" symbol="3" label="10% - 40%"/>
+          <range lower="0.400000000000000" upper="9.500000000000000" render="true" symbol="4" label="> 40%"/>
+        </ranges>
+        <symbols>
+          <symbol type="fill" clip_to_extent="1" force_rhr="0" name="0" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,255,128,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="fill" clip_to_extent="1" force_rhr="0" name="1" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="250,209,85,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="fill" clip_to_extent="1" force_rhr="0" name="2" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="242,145,28,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="fill" clip_to_extent="1" force_rhr="0" name="3" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="182,91,44,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="fill" clip_to_extent="1" force_rhr="0" name="4" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="105,88,65,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol type="fill" clip_to_extent="1" force_rhr="0" name="0" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="255,255,255,255"/>
+          <prop k="color2" v="255,0,0,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="rampType" v="gradient"/>
+        </colorramp>
+        <mode name="equal"/>
+        <symmetricMode symmetryPoint="0" enabled="false" astride="false"/>
+        <rotation/>
+        <sizescale/>
+        <labelformat trimtrailingzeroes="false" decimalplaces="1" format="%1 - %2"/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" diagramOrientation="Up" barWidth="5" lineSizeType="MM" opacity="1" backgroundAlpha="255" enabled="0" backgroundColor="#ffffff" rotationOffset="270" minScaleDenominator="0" width="15" maxScaleDenominator="0" sizeType="MM" sizeScale="3x:0,0,0,0,0,0" lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" labelPlacementMethod="XHeight" scaleDependency="Area" minimumSize="0" penWidth="0" penColor="#000000" height="15">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" zIndex="0" obstacle="0" priority="0" placement="1" linePlacementFlags="18" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="codsec">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="niscode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sec">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oppervl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id_statsec">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="inwoners">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tewerkstel">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opp">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rbpct">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="inwdicht">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="werkdicht">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type_code">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="som">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aantal">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gemiddelde">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sector">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oid_">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fid_">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="value_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="value_2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="value_3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="value_4">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tuinen">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aandeel">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tuin_2">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opp_min_ke">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aandeel2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="dataengine_id" name=""/>
+        <alias index="1" field="id" name=""/>
+        <alias index="2" field="gid" name=""/>
+        <alias index="3" field="codsec" name=""/>
+        <alias index="4" field="niscode" name=""/>
+        <alias index="5" field="sec" name=""/>
+        <alias index="6" field="oppervl" name=""/>
+        <alias index="7" field="id_statsec" name=""/>
+        <alias index="8" field="inwoners" name=""/>
+        <alias index="9" field="tewerkstel" name=""/>
+        <alias index="10" field="opp" name=""/>
+        <alias index="11" field="rbpct" name=""/>
+        <alias index="12" field="label" name=""/>
+        <alias index="13" field="inwdicht" name=""/>
+        <alias index="14" field="werkdicht" name=""/>
+        <alias index="15" field="type_code" name=""/>
+        <alias index="16" field="type" name=""/>
+        <alias index="17" field="som" name=""/>
+        <alias index="18" field="aantal" name=""/>
+        <alias index="19" field="gemiddelde" name=""/>
+        <alias index="20" field="sector" name=""/>
+        <alias index="21" field="oid_" name=""/>
+        <alias index="22" field="fid_" name=""/>
+        <alias index="23" field="value_1" name=""/>
+        <alias index="24" field="value_2" name=""/>
+        <alias index="25" field="value_3" name=""/>
+        <alias index="26" field="value_4" name=""/>
+        <alias index="27" field="tuinen" name=""/>
+        <alias index="28" field="aandeel" name=""/>
+        <alias index="29" field="tuin_2" name=""/>
+        <alias index="30" field="opp_min_ke" name=""/>
+        <alias index="31" field="aandeel2" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="dataengine_id"/>
+        <default applyOnUpdate="0" expression="" field="id"/>
+        <default applyOnUpdate="0" expression="" field="gid"/>
+        <default applyOnUpdate="0" expression="" field="codsec"/>
+        <default applyOnUpdate="0" expression="" field="niscode"/>
+        <default applyOnUpdate="0" expression="" field="sec"/>
+        <default applyOnUpdate="0" expression="" field="oppervl"/>
+        <default applyOnUpdate="0" expression="" field="id_statsec"/>
+        <default applyOnUpdate="0" expression="" field="inwoners"/>
+        <default applyOnUpdate="0" expression="" field="tewerkstel"/>
+        <default applyOnUpdate="0" expression="" field="opp"/>
+        <default applyOnUpdate="0" expression="" field="rbpct"/>
+        <default applyOnUpdate="0" expression="" field="label"/>
+        <default applyOnUpdate="0" expression="" field="inwdicht"/>
+        <default applyOnUpdate="0" expression="" field="werkdicht"/>
+        <default applyOnUpdate="0" expression="" field="type_code"/>
+        <default applyOnUpdate="0" expression="" field="type"/>
+        <default applyOnUpdate="0" expression="" field="som"/>
+        <default applyOnUpdate="0" expression="" field="aantal"/>
+        <default applyOnUpdate="0" expression="" field="gemiddelde"/>
+        <default applyOnUpdate="0" expression="" field="sector"/>
+        <default applyOnUpdate="0" expression="" field="oid_"/>
+        <default applyOnUpdate="0" expression="" field="fid_"/>
+        <default applyOnUpdate="0" expression="" field="value_1"/>
+        <default applyOnUpdate="0" expression="" field="value_2"/>
+        <default applyOnUpdate="0" expression="" field="value_3"/>
+        <default applyOnUpdate="0" expression="" field="value_4"/>
+        <default applyOnUpdate="0" expression="" field="tuinen"/>
+        <default applyOnUpdate="0" expression="" field="aandeel"/>
+        <default applyOnUpdate="0" expression="" field="tuin_2"/>
+        <default applyOnUpdate="0" expression="" field="opp_min_ke"/>
+        <default applyOnUpdate="0" expression="" field="aandeel2"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" exp_strength="0" unique_strength="1" field="dataengine_id" notnull_strength="1"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="id" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="gid" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="codsec" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="niscode" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="sec" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="oppervl" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="id_statsec" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="inwoners" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="tewerkstel" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opp" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="rbpct" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="label" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="inwdicht" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="werkdicht" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="type_code" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="type" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="som" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="aantal" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="gemiddelde" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="sector" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="oid_" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="fid_" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="value_1" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="value_2" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="value_3" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="value_4" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="tuinen" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="aandeel" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="tuin_2" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="opp_min_ke" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="aandeel2" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="dataengine_id" exp=""/>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="gid" exp=""/>
+        <constraint desc="" field="codsec" exp=""/>
+        <constraint desc="" field="niscode" exp=""/>
+        <constraint desc="" field="sec" exp=""/>
+        <constraint desc="" field="oppervl" exp=""/>
+        <constraint desc="" field="id_statsec" exp=""/>
+        <constraint desc="" field="inwoners" exp=""/>
+        <constraint desc="" field="tewerkstel" exp=""/>
+        <constraint desc="" field="opp" exp=""/>
+        <constraint desc="" field="rbpct" exp=""/>
+        <constraint desc="" field="label" exp=""/>
+        <constraint desc="" field="inwdicht" exp=""/>
+        <constraint desc="" field="werkdicht" exp=""/>
+        <constraint desc="" field="type_code" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+        <constraint desc="" field="som" exp=""/>
+        <constraint desc="" field="aantal" exp=""/>
+        <constraint desc="" field="gemiddelde" exp=""/>
+        <constraint desc="" field="sector" exp=""/>
+        <constraint desc="" field="oid_" exp=""/>
+        <constraint desc="" field="fid_" exp=""/>
+        <constraint desc="" field="value_1" exp=""/>
+        <constraint desc="" field="value_2" exp=""/>
+        <constraint desc="" field="value_3" exp=""/>
+        <constraint desc="" field="value_4" exp=""/>
+        <constraint desc="" field="tuinen" exp=""/>
+        <constraint desc="" field="aandeel" exp=""/>
+        <constraint desc="" field="tuin_2" exp=""/>
+        <constraint desc="" field="opp_min_ke" exp=""/>
+        <constraint desc="" field="aandeel2" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column type="field" hidden="0" name="som" width="-1"/>
+          <column type="field" hidden="0" name="aantal" width="-1"/>
+          <column type="field" hidden="0" name="gemiddelde" width="-1"/>
+          <column type="field" hidden="0" name="sector" width="-1"/>
+          <column type="field" hidden="0" name="tuinen" width="-1"/>
+          <column type="field" hidden="0" name="aandeel" width="-1"/>
+          <column type="field" hidden="0" name="tuin_2" width="-1"/>
+          <column type="field" hidden="0" name="opp_min_ke" width="-1"/>
+          <column type="field" hidden="0" name="aandeel2" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+          <column type="field" hidden="0" name="dataengine_id" width="-1"/>
+          <column type="field" hidden="0" name="id" width="-1"/>
+          <column type="field" hidden="0" name="gid" width="-1"/>
+          <column type="field" hidden="0" name="codsec" width="-1"/>
+          <column type="field" hidden="0" name="niscode" width="-1"/>
+          <column type="field" hidden="0" name="sec" width="-1"/>
+          <column type="field" hidden="0" name="oppervl" width="-1"/>
+          <column type="field" hidden="0" name="id_statsec" width="-1"/>
+          <column type="field" hidden="0" name="inwoners" width="-1"/>
+          <column type="field" hidden="0" name="tewerkstel" width="-1"/>
+          <column type="field" hidden="0" name="opp" width="-1"/>
+          <column type="field" hidden="0" name="rbpct" width="-1"/>
+          <column type="field" hidden="0" name="label" width="-1"/>
+          <column type="field" hidden="0" name="inwdicht" width="-1"/>
+          <column type="field" hidden="0" name="werkdicht" width="-1"/>
+          <column type="field" hidden="0" name="type_code" width="-1"/>
+          <column type="field" hidden="0" name="type" width="-1"/>
+          <column type="field" hidden="0" name="oid_" width="-1"/>
+          <column type="field" hidden="0" name="fid_" width="-1"/>
+          <column type="field" hidden="0" name="value_1" width="-1"/>
+          <column type="field" hidden="0" name="value_2" width="-1"/>
+          <column type="field" hidden="0" name="value_3" width="-1"/>
+          <column type="field" hidden="0" name="value_4" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CODSEC"/>
+        <field editable="1" name="FID_"/>
+        <field editable="1" name="GID"/>
+        <field editable="1" name="ID_STATSEC"/>
+        <field editable="1" name="INWDICHT"/>
+        <field editable="1" name="INWONERS"/>
+        <field editable="1" name="LABEL"/>
+        <field editable="1" name="NISCODE"/>
+        <field editable="1" name="OID_"/>
+        <field editable="1" name="OPP"/>
+        <field editable="1" name="OPPERVL"/>
+        <field editable="1" name="RBPCT"/>
+        <field editable="1" name="SEC"/>
+        <field editable="1" name="TEWERKSTEL"/>
+        <field editable="1" name="TYPE"/>
+        <field editable="1" name="TYPE_CODE"/>
+        <field editable="1" name="VALUE_1"/>
+        <field editable="1" name="VALUE_2"/>
+        <field editable="1" name="VALUE_3"/>
+        <field editable="1" name="VALUE_4"/>
+        <field editable="1" name="WERKDICHT"/>
+        <field editable="1" name="aandeel"/>
+        <field editable="1" name="aandeel2"/>
+        <field editable="1" name="aantal"/>
+        <field editable="1" name="codsec"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="fid_"/>
+        <field editable="1" name="gemiddelde"/>
+        <field editable="1" name="gid"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="id_statsec"/>
+        <field editable="1" name="inwdicht"/>
+        <field editable="1" name="inwoners"/>
+        <field editable="1" name="label"/>
+        <field editable="1" name="niscode"/>
+        <field editable="1" name="oid_"/>
+        <field editable="1" name="opp"/>
+        <field editable="1" name="opp_min_ke"/>
+        <field editable="1" name="oppervl"/>
+        <field editable="1" name="rbpct"/>
+        <field editable="1" name="sec"/>
+        <field editable="1" name="sector"/>
+        <field editable="1" name="som"/>
+        <field editable="1" name="tewerkstel"/>
+        <field editable="1" name="tuin_2"/>
+        <field editable="1" name="tuinen"/>
+        <field editable="1" name="type"/>
+        <field editable="1" name="type_code"/>
+        <field editable="1" name="value_1"/>
+        <field editable="1" name="value_2"/>
+        <field editable="1" name="value_3"/>
+        <field editable="1" name="value_4"/>
+        <field editable="1" name="werkdicht"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CODSEC"/>
+        <field labelOnTop="0" name="FID_"/>
+        <field labelOnTop="0" name="GID"/>
+        <field labelOnTop="0" name="ID_STATSEC"/>
+        <field labelOnTop="0" name="INWDICHT"/>
+        <field labelOnTop="0" name="INWONERS"/>
+        <field labelOnTop="0" name="LABEL"/>
+        <field labelOnTop="0" name="NISCODE"/>
+        <field labelOnTop="0" name="OID_"/>
+        <field labelOnTop="0" name="OPP"/>
+        <field labelOnTop="0" name="OPPERVL"/>
+        <field labelOnTop="0" name="RBPCT"/>
+        <field labelOnTop="0" name="SEC"/>
+        <field labelOnTop="0" name="TEWERKSTEL"/>
+        <field labelOnTop="0" name="TYPE"/>
+        <field labelOnTop="0" name="TYPE_CODE"/>
+        <field labelOnTop="0" name="VALUE_1"/>
+        <field labelOnTop="0" name="VALUE_2"/>
+        <field labelOnTop="0" name="VALUE_3"/>
+        <field labelOnTop="0" name="VALUE_4"/>
+        <field labelOnTop="0" name="WERKDICHT"/>
+        <field labelOnTop="0" name="aandeel"/>
+        <field labelOnTop="0" name="aandeel2"/>
+        <field labelOnTop="0" name="aantal"/>
+        <field labelOnTop="0" name="codsec"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="fid_"/>
+        <field labelOnTop="0" name="gemiddelde"/>
+        <field labelOnTop="0" name="gid"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="id_statsec"/>
+        <field labelOnTop="0" name="inwdicht"/>
+        <field labelOnTop="0" name="inwoners"/>
+        <field labelOnTop="0" name="label"/>
+        <field labelOnTop="0" name="niscode"/>
+        <field labelOnTop="0" name="oid_"/>
+        <field labelOnTop="0" name="opp"/>
+        <field labelOnTop="0" name="opp_min_ke"/>
+        <field labelOnTop="0" name="oppervl"/>
+        <field labelOnTop="0" name="rbpct"/>
+        <field labelOnTop="0" name="sec"/>
+        <field labelOnTop="0" name="sector"/>
+        <field labelOnTop="0" name="som"/>
+        <field labelOnTop="0" name="tewerkstel"/>
+        <field labelOnTop="0" name="tuin_2"/>
+        <field labelOnTop="0" name="tuinen"/>
+        <field labelOnTop="0" name="type"/>
+        <field labelOnTop="0" name="type_code"/>
+        <field labelOnTop="0" name="value_1"/>
+        <field labelOnTop="0" name="value_2"/>
+        <field labelOnTop="0" name="value_3"/>
+        <field labelOnTop="0" name="value_4"/>
+        <field labelOnTop="0" name="werkdicht"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>gid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
