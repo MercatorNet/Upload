@@ -1,0 +1,446 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" name="" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer id="lu_gembvo_ct_a7f8db41_6f96_4faf_bdac_6f3f8957a33d" providerKey="postgres" expanded="1" name="lu_gembvo_ct" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;lu_gembvo_ct&quot; (geometrie) sql=" checked="Qt::Checked">
+      <customproperties>
+        <property key="showFeatureCount" value="1"/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" autoRefreshTime="0" styleCategories="AllStyleCategories" simplifyLocal="1" minScale="1e+08" type="vector" hasScaleBasedVisibilityFlag="0" readOnly="0" labelsEnabled="0" geometry="Polygon" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>36655.81599999959871639</xmin>
+        <ymin>160339.62424999801442027</ymin>
+        <xmax>223200.515625</xmax>
+        <ymax>238597.00019901001360267</ymax>
+      </extent>
+      <id>lu_gembvo_ct_a7f8db41_6f96_4faf_bdac_6f3f8957a33d</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."lu_gembvo_ct" (geometrie) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lu_gembvo_ct</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" crs="EPSG:31370" minx="0" miny="0" dimensions="2" maxx="0" maxz="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol clip_to_extent="1" type="fill" name="0" force_rhr="0" alpha="1">
+            <layer enabled="1" pass="0" class="SimpleLine" locked="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="Pixel" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="115,115,115,127" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="1" k="line_width"/>
+              <prop v="Pixel" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" penWidth="0" minimumSize="0" maxScaleDenominator="1e+08" minScaleDenominator="0" barWidth="5" backgroundAlpha="255" rotationOffset="270" scaleDependency="Area" height="15" backgroundColor="#ffffff" penAlpha="255" sizeType="MM" penColor="#000000" enabled="0" width="15" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" lineSizeType="MM" diagramOrientation="Up" opacity="1" scaleBasedVisibility="0">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" dist="0" linePlacementFlags="18" zIndex="0" placement="1" priority="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dossiertype">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="algplanid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fase">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geometrie_oppervlakte">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geometrie_omtrek">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="do_eigen">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ondergrond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aard_ond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_ond">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opm">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="prec_ond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fichelink">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fasedatum">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_bs">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="dataengine_id" name=""/>
+        <alias index="1" field="id" name=""/>
+        <alias index="2" field="dossiertype" name=""/>
+        <alias index="3" field="algplanid" name=""/>
+        <alias index="4" field="naam" name=""/>
+        <alias index="5" field="fase" name=""/>
+        <alias index="6" field="geometrie_oppervlakte" name=""/>
+        <alias index="7" field="geometrie_omtrek" name=""/>
+        <alias index="8" field="do_eigen" name=""/>
+        <alias index="9" field="ondergrond" name=""/>
+        <alias index="10" field="aard_ond" name=""/>
+        <alias index="11" field="d_ond" name=""/>
+        <alias index="12" field="opm" name=""/>
+        <alias index="13" field="prec_ond" name=""/>
+        <alias index="14" field="fichelink" name=""/>
+        <alias index="15" field="fasedatum" name=""/>
+        <alias index="16" field="d_bs" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" expression="" applyOnUpdate="0"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="dossiertype" expression="" applyOnUpdate="0"/>
+        <default field="algplanid" expression="" applyOnUpdate="0"/>
+        <default field="naam" expression="" applyOnUpdate="0"/>
+        <default field="fase" expression="" applyOnUpdate="0"/>
+        <default field="geometrie_oppervlakte" expression="" applyOnUpdate="0"/>
+        <default field="geometrie_omtrek" expression="" applyOnUpdate="0"/>
+        <default field="do_eigen" expression="" applyOnUpdate="0"/>
+        <default field="ondergrond" expression="" applyOnUpdate="0"/>
+        <default field="aard_ond" expression="" applyOnUpdate="0"/>
+        <default field="d_ond" expression="" applyOnUpdate="0"/>
+        <default field="opm" expression="" applyOnUpdate="0"/>
+        <default field="prec_ond" expression="" applyOnUpdate="0"/>
+        <default field="fichelink" expression="" applyOnUpdate="0"/>
+        <default field="fasedatum" expression="" applyOnUpdate="0"/>
+        <default field="d_bs" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" exp_strength="0" field="dataengine_id" notnull_strength="1" unique_strength="1"/>
+        <constraint constraints="0" exp_strength="0" field="id" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="dossiertype" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="algplanid" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="naam" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="fase" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="geometrie_oppervlakte" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="geometrie_omtrek" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="do_eigen" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ondergrond" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="aard_ond" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="d_ond" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="opm" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="prec_ond" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="fichelink" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="fasedatum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="d_bs" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="dataengine_id" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="dossiertype" desc="" exp=""/>
+        <constraint field="algplanid" desc="" exp=""/>
+        <constraint field="naam" desc="" exp=""/>
+        <constraint field="fase" desc="" exp=""/>
+        <constraint field="geometrie_oppervlakte" desc="" exp=""/>
+        <constraint field="geometrie_omtrek" desc="" exp=""/>
+        <constraint field="do_eigen" desc="" exp=""/>
+        <constraint field="ondergrond" desc="" exp=""/>
+        <constraint field="aard_ond" desc="" exp=""/>
+        <constraint field="d_ond" desc="" exp=""/>
+        <constraint field="opm" desc="" exp=""/>
+        <constraint field="prec_ond" desc="" exp=""/>
+        <constraint field="fichelink" desc="" exp=""/>
+        <constraint field="fasedatum" desc="" exp=""/>
+        <constraint field="d_bs" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="dataengine_id"/>
+          <column hidden="0" width="-1" type="field" name="id"/>
+          <column hidden="0" width="-1" type="field" name="dossiertype"/>
+          <column hidden="0" width="-1" type="field" name="algplanid"/>
+          <column hidden="0" width="-1" type="field" name="naam"/>
+          <column hidden="0" width="-1" type="field" name="fase"/>
+          <column hidden="0" width="-1" type="field" name="geometrie_oppervlakte"/>
+          <column hidden="0" width="-1" type="field" name="geometrie_omtrek"/>
+          <column hidden="0" width="-1" type="field" name="do_eigen"/>
+          <column hidden="0" width="-1" type="field" name="ondergrond"/>
+          <column hidden="0" width="-1" type="field" name="aard_ond"/>
+          <column hidden="0" width="-1" type="field" name="d_ond"/>
+          <column hidden="0" width="-1" type="field" name="opm"/>
+          <column hidden="0" width="-1" type="field" name="prec_ond"/>
+          <column hidden="0" width="-1" type="field" name="fichelink"/>
+          <column hidden="0" width="-1" type="field" name="fasedatum"/>
+          <column hidden="0" width="-1" type="field" name="d_bs"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="aard_ond"/>
+        <field editable="1" name="algplanid"/>
+        <field editable="1" name="d_bs"/>
+        <field editable="1" name="d_ond"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="do_eigen"/>
+        <field editable="1" name="dossiertype"/>
+        <field editable="1" name="fase"/>
+        <field editable="1" name="fasedatum"/>
+        <field editable="1" name="fichelink"/>
+        <field editable="1" name="geometrie_omtrek"/>
+        <field editable="1" name="geometrie_oppervlakte"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="naam"/>
+        <field editable="1" name="ondergrond"/>
+        <field editable="1" name="opm"/>
+        <field editable="1" name="prec_ond"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="aard_ond"/>
+        <field labelOnTop="0" name="algplanid"/>
+        <field labelOnTop="0" name="d_bs"/>
+        <field labelOnTop="0" name="d_ond"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="do_eigen"/>
+        <field labelOnTop="0" name="dossiertype"/>
+        <field labelOnTop="0" name="fase"/>
+        <field labelOnTop="0" name="fasedatum"/>
+        <field labelOnTop="0" name="fichelink"/>
+        <field labelOnTop="0" name="geometrie_omtrek"/>
+        <field labelOnTop="0" name="geometrie_oppervlakte"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="naam"/>
+        <field labelOnTop="0" name="ondergrond"/>
+        <field labelOnTop="0" name="opm"/>
+        <field labelOnTop="0" name="prec_ond"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
