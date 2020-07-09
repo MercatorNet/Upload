@@ -1,0 +1,570 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;lu_rvv&quot; (geometrie) sql=" providerKey="postgres" name="lu_rvv" expanded="1" checked="Qt::Checked" id="lu_rvv_fc8a40a1_e084_413e_8f68_6983953741aa">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" geometry="Polygon" hasScaleBasedVisibilityFlag="0" minScale="1e+08" readOnly="0" type="vector" simplifyLocal="1" simplifyAlgorithm="0" autoRefreshTime="0" maxScale="0" labelsEnabled="0" simplifyDrawingHints="1" simplifyMaxScale="1">
+      <extent>
+        <xmin>113593.00265701899479609</xmin>
+        <ymin>208583.31377787800738588</ymin>
+        <xmax>113760.27629999800410587</xmax>
+        <ymax>208773.06184848299017176</ymax>
+      </extent>
+      <id>lu_rvv_fc8a40a1_e084_413e_8f68_6983953741aa</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."lu_rvv" (geometrie) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lu_rvv</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="EPSG:31370" maxy="0" maxx="0" miny="0" dimensions="2" minx="0" maxz="0" minz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="0" type="fill">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop v="square" k="capstyle"/>
+              <prop v="" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="Pixel" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0,0,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="1" k="line_width"/>
+              <prop v="Pixel" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory width="15" enabled="0" scaleBasedVisibility="0" minScaleDenominator="0" scaleDependency="Area" opacity="1" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000" rotationOffset="270" penWidth="0" sizeScale="3x:0,0,0,0,0,0" height="15" backgroundAlpha="255" diagramOrientation="Up" lineSizeType="MM" maxScaleDenominator="1e+08" sizeType="MM" backgroundColor="#ffffff" labelPlacementMethod="XHeight" penAlpha="255" barWidth="5">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" obstacle="0" dist="0" zIndex="0" priority="0" linePlacementFlags="18" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dossiertype">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="algplanid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fase">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geometrie_oppervlakte">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geometrie_omtrek">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="planafgid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="srttypeid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bgunstid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bgunstid2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bgunstid3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bgunstid4">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bgunstid5">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bdrvv">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="edrvv">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opm">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ondergrond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aard_ond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_ond">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="prec_ond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fichelink">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fasedatum">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_bs">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="creation_timestamp">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" name="" index="0"/>
+        <alias field="id" name="" index="1"/>
+        <alias field="dossiertype" name="" index="2"/>
+        <alias field="algplanid" name="" index="3"/>
+        <alias field="naam" name="" index="4"/>
+        <alias field="fase" name="" index="5"/>
+        <alias field="geometrie_oppervlakte" name="" index="6"/>
+        <alias field="geometrie_omtrek" name="" index="7"/>
+        <alias field="planafgid" name="" index="8"/>
+        <alias field="srttypeid" name="" index="9"/>
+        <alias field="bgunstid" name="" index="10"/>
+        <alias field="bgunstid2" name="" index="11"/>
+        <alias field="bgunstid3" name="" index="12"/>
+        <alias field="bgunstid4" name="" index="13"/>
+        <alias field="bgunstid5" name="" index="14"/>
+        <alias field="bdrvv" name="" index="15"/>
+        <alias field="edrvv" name="" index="16"/>
+        <alias field="opm" name="" index="17"/>
+        <alias field="ondergrond" name="" index="18"/>
+        <alias field="aard_ond" name="" index="19"/>
+        <alias field="d_ond" name="" index="20"/>
+        <alias field="prec_ond" name="" index="21"/>
+        <alias field="fichelink" name="" index="22"/>
+        <alias field="fasedatum" name="" index="23"/>
+        <alias field="d_bs" name="" index="24"/>
+        <alias field="creation_timestamp" name="" index="25"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="dossiertype" applyOnUpdate="0" expression=""/>
+        <default field="algplanid" applyOnUpdate="0" expression=""/>
+        <default field="naam" applyOnUpdate="0" expression=""/>
+        <default field="fase" applyOnUpdate="0" expression=""/>
+        <default field="geometrie_oppervlakte" applyOnUpdate="0" expression=""/>
+        <default field="geometrie_omtrek" applyOnUpdate="0" expression=""/>
+        <default field="planafgid" applyOnUpdate="0" expression=""/>
+        <default field="srttypeid" applyOnUpdate="0" expression=""/>
+        <default field="bgunstid" applyOnUpdate="0" expression=""/>
+        <default field="bgunstid2" applyOnUpdate="0" expression=""/>
+        <default field="bgunstid3" applyOnUpdate="0" expression=""/>
+        <default field="bgunstid4" applyOnUpdate="0" expression=""/>
+        <default field="bgunstid5" applyOnUpdate="0" expression=""/>
+        <default field="bdrvv" applyOnUpdate="0" expression=""/>
+        <default field="edrvv" applyOnUpdate="0" expression=""/>
+        <default field="opm" applyOnUpdate="0" expression=""/>
+        <default field="ondergrond" applyOnUpdate="0" expression=""/>
+        <default field="aard_ond" applyOnUpdate="0" expression=""/>
+        <default field="d_ond" applyOnUpdate="0" expression=""/>
+        <default field="prec_ond" applyOnUpdate="0" expression=""/>
+        <default field="fichelink" applyOnUpdate="0" expression=""/>
+        <default field="fasedatum" applyOnUpdate="0" expression=""/>
+        <default field="d_bs" applyOnUpdate="0" expression=""/>
+        <default field="creation_timestamp" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" field="dataengine_id" unique_strength="1" constraints="3" exp_strength="0"/>
+        <constraint notnull_strength="0" field="id" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="dossiertype" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="algplanid" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="naam" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="fase" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="geometrie_oppervlakte" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="geometrie_omtrek" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="planafgid" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="srttypeid" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bgunstid" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bgunstid2" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bgunstid3" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bgunstid4" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bgunstid5" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="bdrvv" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="edrvv" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="opm" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="ondergrond" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="aard_ond" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="d_ond" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="prec_ond" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="fichelink" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="fasedatum" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="d_bs" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" field="creation_timestamp" unique_strength="0" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="dataengine_id"/>
+        <constraint desc="" exp="" field="id"/>
+        <constraint desc="" exp="" field="dossiertype"/>
+        <constraint desc="" exp="" field="algplanid"/>
+        <constraint desc="" exp="" field="naam"/>
+        <constraint desc="" exp="" field="fase"/>
+        <constraint desc="" exp="" field="geometrie_oppervlakte"/>
+        <constraint desc="" exp="" field="geometrie_omtrek"/>
+        <constraint desc="" exp="" field="planafgid"/>
+        <constraint desc="" exp="" field="srttypeid"/>
+        <constraint desc="" exp="" field="bgunstid"/>
+        <constraint desc="" exp="" field="bgunstid2"/>
+        <constraint desc="" exp="" field="bgunstid3"/>
+        <constraint desc="" exp="" field="bgunstid4"/>
+        <constraint desc="" exp="" field="bgunstid5"/>
+        <constraint desc="" exp="" field="bdrvv"/>
+        <constraint desc="" exp="" field="edrvv"/>
+        <constraint desc="" exp="" field="opm"/>
+        <constraint desc="" exp="" field="ondergrond"/>
+        <constraint desc="" exp="" field="aard_ond"/>
+        <constraint desc="" exp="" field="d_ond"/>
+        <constraint desc="" exp="" field="prec_ond"/>
+        <constraint desc="" exp="" field="fichelink"/>
+        <constraint desc="" exp="" field="fasedatum"/>
+        <constraint desc="" exp="" field="d_bs"/>
+        <constraint desc="" exp="" field="creation_timestamp"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" name="dataengine_id" type="field"/>
+          <column width="-1" hidden="0" name="id" type="field"/>
+          <column width="-1" hidden="0" name="dossiertype" type="field"/>
+          <column width="-1" hidden="0" name="algplanid" type="field"/>
+          <column width="-1" hidden="0" name="naam" type="field"/>
+          <column width="-1" hidden="0" name="fase" type="field"/>
+          <column width="-1" hidden="0" name="geometrie_oppervlakte" type="field"/>
+          <column width="-1" hidden="0" name="geometrie_omtrek" type="field"/>
+          <column width="-1" hidden="0" name="planafgid" type="field"/>
+          <column width="-1" hidden="0" name="srttypeid" type="field"/>
+          <column width="-1" hidden="0" name="bgunstid" type="field"/>
+          <column width="-1" hidden="0" name="bgunstid2" type="field"/>
+          <column width="-1" hidden="0" name="bgunstid3" type="field"/>
+          <column width="-1" hidden="0" name="bgunstid4" type="field"/>
+          <column width="-1" hidden="0" name="bgunstid5" type="field"/>
+          <column width="-1" hidden="0" name="bdrvv" type="field"/>
+          <column width="-1" hidden="0" name="edrvv" type="field"/>
+          <column width="-1" hidden="0" name="opm" type="field"/>
+          <column width="-1" hidden="0" name="ondergrond" type="field"/>
+          <column width="-1" hidden="0" name="aard_ond" type="field"/>
+          <column width="-1" hidden="0" name="d_ond" type="field"/>
+          <column width="-1" hidden="0" name="prec_ond" type="field"/>
+          <column width="-1" hidden="0" name="fichelink" type="field"/>
+          <column width="-1" hidden="0" name="fasedatum" type="field"/>
+          <column width="-1" hidden="0" name="d_bs" type="field"/>
+          <column width="-1" hidden="0" name="creation_timestamp" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="aard_ond" editable="1"/>
+        <field name="algplanid" editable="1"/>
+        <field name="bdrvv" editable="1"/>
+        <field name="bgunstid" editable="1"/>
+        <field name="bgunstid2" editable="1"/>
+        <field name="bgunstid3" editable="1"/>
+        <field name="bgunstid4" editable="1"/>
+        <field name="bgunstid5" editable="1"/>
+        <field name="creation_timestamp" editable="1"/>
+        <field name="d_bs" editable="1"/>
+        <field name="d_ond" editable="1"/>
+        <field name="dataengine_id" editable="1"/>
+        <field name="dossiertype" editable="1"/>
+        <field name="edrvv" editable="1"/>
+        <field name="fase" editable="1"/>
+        <field name="fasedatum" editable="1"/>
+        <field name="fichelink" editable="1"/>
+        <field name="geometrie_omtrek" editable="1"/>
+        <field name="geometrie_oppervlakte" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="naam" editable="1"/>
+        <field name="ondergrond" editable="1"/>
+        <field name="opm" editable="1"/>
+        <field name="planafgid" editable="1"/>
+        <field name="prec_ond" editable="1"/>
+        <field name="srttypeid" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="aard_ond" labelOnTop="0"/>
+        <field name="algplanid" labelOnTop="0"/>
+        <field name="bdrvv" labelOnTop="0"/>
+        <field name="bgunstid" labelOnTop="0"/>
+        <field name="bgunstid2" labelOnTop="0"/>
+        <field name="bgunstid3" labelOnTop="0"/>
+        <field name="bgunstid4" labelOnTop="0"/>
+        <field name="bgunstid5" labelOnTop="0"/>
+        <field name="creation_timestamp" labelOnTop="0"/>
+        <field name="d_bs" labelOnTop="0"/>
+        <field name="d_ond" labelOnTop="0"/>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="dossiertype" labelOnTop="0"/>
+        <field name="edrvv" labelOnTop="0"/>
+        <field name="fase" labelOnTop="0"/>
+        <field name="fasedatum" labelOnTop="0"/>
+        <field name="fichelink" labelOnTop="0"/>
+        <field name="geometrie_omtrek" labelOnTop="0"/>
+        <field name="geometrie_oppervlakte" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="naam" labelOnTop="0"/>
+        <field name="ondergrond" labelOnTop="0"/>
+        <field name="opm" labelOnTop="0"/>
+        <field name="planafgid" labelOnTop="0"/>
+        <field name="prec_ond" labelOnTop="0"/>
+        <field name="srttypeid" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
