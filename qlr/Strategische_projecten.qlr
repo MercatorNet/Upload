@@ -1,0 +1,421 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" name="ni_strat_proj" id="ni_strat_proj_eeff4cf7_56f7_4a99_b686_6b08be58233a" expanded="1" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;ni_strat_proj&quot; (shape) sql=" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyEnabled="0" simplifyAlgorithm="0" labelsEnabled="0" autoRefreshTime="0" geometry="Polygon" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" type="vector" simplifyDrawingTol="1" minScale="1e+08" autoRefreshEnabled="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" maxScale="0" readOnly="0" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>49040.67589999739720952</xmin>
+        <ymin>143759.89000000100350007</ymin>
+        <xmax>259464.84369999900809489</xmax>
+        <ymax>233947.97789999798987992</ymax>
+      </extent>
+      <id>ni_strat_proj_eeff4cf7_56f7_4a99_b686_6b08be58233a</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."ni_strat_proj" (shape) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ni_strat_proj</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" maxz="0" minz="0" miny="0" crs="EPSG:31370" maxy="0" dimensions="2" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="RuleRenderer">
+        <rules key="{7f5ae242-2bbe-4688-8e9f-5740b4115b5b}">
+          <rule filter="nummering = 'Ja'" label="Afgerond" key="{18ce778c-f5e6-41fd-8894-0eb9af34e9c4}" symbol="0"/>
+          <rule filter="nummering = 'Nee'" label="Lopend" key="{2ac3670e-c77f-4f2f-bd49-9c3b45697d32}" symbol="1"/>
+        </rules>
+        <symbols>
+          <symbol name="0" alpha="1" type="fill" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="252,184,206,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="1" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="1" alpha="1" type="fill" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="189,252,187,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="1" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory penAlpha="255" enabled="0" backgroundColor="#ffffff" scaleBasedVisibility="0" minScaleDenominator="0" labelPlacementMethod="XHeight" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" width="15" opacity="1" maxScaleDenominator="1e+08" height="15" rotationOffset="270" scaleDependency="Area" minimumSize="0" penColor="#000000" sizeType="MM" diagramOrientation="Up" penWidth="0" barWidth="5" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" placement="1" showAll="1" zIndex="0" dist="0" linePlacementFlags="18" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objectid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="thema">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="legende">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="subsidiepe">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="jaar_vastl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="link">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nummering">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="subsidie_e">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="globalid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gdb_geomattr_data">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="dataengine_id" index="0"/>
+        <alias name="" field="objectid" index="1"/>
+        <alias name="" field="naam" index="2"/>
+        <alias name="" field="datum" index="3"/>
+        <alias name="" field="thema" index="4"/>
+        <alias name="" field="label" index="5"/>
+        <alias name="" field="legende" index="6"/>
+        <alias name="" field="subsidiepe" index="7"/>
+        <alias name="" field="jaar_vastl" index="8"/>
+        <alias name="" field="link" index="9"/>
+        <alias name="" field="nummering" index="10"/>
+        <alias name="" field="subsidie_e" index="11"/>
+        <alias name="" field="globalid" index="12"/>
+        <alias name="" field="gdb_geomattr_data" index="13"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="dataengine_id" expression=""/>
+        <default applyOnUpdate="0" field="objectid" expression=""/>
+        <default applyOnUpdate="0" field="naam" expression=""/>
+        <default applyOnUpdate="0" field="datum" expression=""/>
+        <default applyOnUpdate="0" field="thema" expression=""/>
+        <default applyOnUpdate="0" field="label" expression=""/>
+        <default applyOnUpdate="0" field="legende" expression=""/>
+        <default applyOnUpdate="0" field="subsidiepe" expression=""/>
+        <default applyOnUpdate="0" field="jaar_vastl" expression=""/>
+        <default applyOnUpdate="0" field="link" expression=""/>
+        <default applyOnUpdate="0" field="nummering" expression=""/>
+        <default applyOnUpdate="0" field="subsidie_e" expression=""/>
+        <default applyOnUpdate="0" field="globalid" expression=""/>
+        <default applyOnUpdate="0" field="gdb_geomattr_data" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" field="dataengine_id" exp_strength="0" unique_strength="1" constraints="3"/>
+        <constraint notnull_strength="0" field="objectid" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="naam" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="datum" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="thema" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="label" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="legende" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="subsidiepe" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="jaar_vastl" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="link" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="nummering" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="subsidie_e" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="globalid" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="gdb_geomattr_data" exp_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="dataengine_id" desc=""/>
+        <constraint exp="" field="objectid" desc=""/>
+        <constraint exp="" field="naam" desc=""/>
+        <constraint exp="" field="datum" desc=""/>
+        <constraint exp="" field="thema" desc=""/>
+        <constraint exp="" field="label" desc=""/>
+        <constraint exp="" field="legende" desc=""/>
+        <constraint exp="" field="subsidiepe" desc=""/>
+        <constraint exp="" field="jaar_vastl" desc=""/>
+        <constraint exp="" field="link" desc=""/>
+        <constraint exp="" field="nummering" desc=""/>
+        <constraint exp="" field="subsidie_e" desc=""/>
+        <constraint exp="" field="globalid" desc=""/>
+        <constraint exp="" field="gdb_geomattr_data" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="dataengine_id" type="field" hidden="0" width="-1"/>
+          <column name="objectid" type="field" hidden="0" width="-1"/>
+          <column name="naam" type="field" hidden="0" width="-1"/>
+          <column name="datum" type="field" hidden="0" width="-1"/>
+          <column name="thema" type="field" hidden="0" width="-1"/>
+          <column name="label" type="field" hidden="0" width="-1"/>
+          <column name="legende" type="field" hidden="0" width="-1"/>
+          <column name="subsidiepe" type="field" hidden="0" width="-1"/>
+          <column name="jaar_vastl" type="field" hidden="0" width="-1"/>
+          <column name="link" type="field" hidden="0" width="-1"/>
+          <column name="nummering" type="field" hidden="0" width="-1"/>
+          <column name="subsidie_e" type="field" hidden="0" width="-1"/>
+          <column name="globalid" type="field" hidden="0" width="-1"/>
+          <column name="gdb_geomattr_data" type="field" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="dataengine_id" editable="1"/>
+        <field name="datum" editable="1"/>
+        <field name="gdb_geomattr_data" editable="1"/>
+        <field name="globalid" editable="1"/>
+        <field name="jaar_vastl" editable="1"/>
+        <field name="label" editable="1"/>
+        <field name="legende" editable="1"/>
+        <field name="link" editable="1"/>
+        <field name="naam" editable="1"/>
+        <field name="nummering" editable="1"/>
+        <field name="objectid" editable="1"/>
+        <field name="subsidie_e" editable="1"/>
+        <field name="subsidiepe" editable="1"/>
+        <field name="thema" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="datum" labelOnTop="0"/>
+        <field name="gdb_geomattr_data" labelOnTop="0"/>
+        <field name="globalid" labelOnTop="0"/>
+        <field name="jaar_vastl" labelOnTop="0"/>
+        <field name="label" labelOnTop="0"/>
+        <field name="legende" labelOnTop="0"/>
+        <field name="link" labelOnTop="0"/>
+        <field name="naam" labelOnTop="0"/>
+        <field name="nummering" labelOnTop="0"/>
+        <field name="objectid" labelOnTop="0"/>
+        <field name="subsidie_e" labelOnTop="0"/>
+        <field name="subsidiepe" labelOnTop="0"/>
+        <field name="thema" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
