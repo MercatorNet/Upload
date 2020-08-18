@@ -1,0 +1,519 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" name="" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" expanded="1" id="lu_arr_intr_gewrup_intern_438c8af9_0966_4412_98b3_70598dbb3978" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;lu_arr_intr_gewrup_intern&quot; (shape) sql=" name="lu_arr_intr_gewrup_intern" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyLocal="1" hasScaleBasedVisibilityFlag="0" minScale="1e+08" simplifyDrawingTol="1" labelsEnabled="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" geometry="Polygon" autoRefreshTime="0" readOnly="0" type="vector" simplifyAlgorithm="0">
+      <extent>
+        <xmin>31960.60400000209847349</xmin>
+        <ymin>157890.46479999998700805</ymin>
+        <xmax>229110.89320000298903324</xmax>
+        <ymax>228799.16070000099716708</ymax>
+      </extent>
+      <id>lu_arr_intr_gewrup_intern_438c8af9_0966_4412_98b3_70598dbb3978</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."lu_arr_intr_gewrup_intern" (shape) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lu_arr_intr_gewrup_intern</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxy="0" minx="0" dimensions="2" crs="EPSG:31370" miny="0" maxx="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="RuleRenderer">
+        <rules key="{6375b45b-c9b5-4a60-96f8-0979435827ce}">
+          <rule filter="beslissing = 'gedeeltelijke schorsing' OR beslissing = 'volledige schorsing'" symbol="0" key="{bf77faa8-cb3e-47be-bee2-4593fb462abf}" label="Schorsing"/>
+          <rule filter="beslissing = 'volledige vernietiging' OR beslissing = 'gedeeltelijke vernietiging' OR beslissing = 'gedeeltelijke intrekking' OR beslissing = 'volledige intrekking'" symbol="1" key="{5e3fb967-3afd-4ec2-9652-b7111c68b759}" label="Vernietiging/Intrekking"/>
+          <rule filter="beslissing = 'opheffing schorsing'" symbol="2" key="{78b226c2-fad1-4659-9325-a5072c55aead}" label="Opheffing schorsing"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" force_rhr="0" clip_to_extent="1" name="0" type="fill">
+            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="128,128,128,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="103,254,238,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="1" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" force_rhr="0" clip_to_extent="1" name="1" type="fill">
+            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="103,254,238,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="103,254,238,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="1" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" force_rhr="0" clip_to_extent="1" name="2" type="fill">
+            <layer enabled="1" class="SimpleLine" pass="0" locked="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="Pixel" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0,1,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="1" k="line_width"/>
+              <prop v="Pixel" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory scaleBasedVisibility="0" penAlpha="255" minScaleDenominator="0" penWidth="0" scaleDependency="Area" width="15" opacity="1" backgroundAlpha="255" penColor="#000000" diagramOrientation="Up" sizeType="MM" lineSizeType="MM" barWidth="5" labelPlacementMethod="XHeight" enabled="0" sizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" backgroundColor="#ffffff" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" height="15">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" placement="1" linePlacementFlags="18" obstacle="0" priority="0" showAll="1" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objectid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="algplanid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arrestnr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beslissing">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_bs">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="einddatum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opm">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ondergrond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aard_ond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_ond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="prec_ond">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arrest">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam_plan">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dt_plan">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="deelgebied">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="globalid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gdb_geomattr_data">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="objectid" index="1" name=""/>
+        <alias field="algplanid" index="2" name=""/>
+        <alias field="arrestnr" index="3" name=""/>
+        <alias field="beslissing" index="4" name=""/>
+        <alias field="datum" index="5" name=""/>
+        <alias field="datum_bs" index="6" name=""/>
+        <alias field="einddatum" index="7" name=""/>
+        <alias field="opm" index="8" name=""/>
+        <alias field="ondergrond" index="9" name=""/>
+        <alias field="aard_ond" index="10" name=""/>
+        <alias field="d_ond" index="11" name=""/>
+        <alias field="prec_ond" index="12" name=""/>
+        <alias field="arrest" index="13" name=""/>
+        <alias field="naam_plan" index="14" name=""/>
+        <alias field="dt_plan" index="15" name=""/>
+        <alias field="deelgebied" index="16" name=""/>
+        <alias field="globalid" index="17" name=""/>
+        <alias field="gdb_geomattr_data" index="18" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" expression="" applyOnUpdate="0"/>
+        <default field="objectid" expression="" applyOnUpdate="0"/>
+        <default field="algplanid" expression="" applyOnUpdate="0"/>
+        <default field="arrestnr" expression="" applyOnUpdate="0"/>
+        <default field="beslissing" expression="" applyOnUpdate="0"/>
+        <default field="datum" expression="" applyOnUpdate="0"/>
+        <default field="datum_bs" expression="" applyOnUpdate="0"/>
+        <default field="einddatum" expression="" applyOnUpdate="0"/>
+        <default field="opm" expression="" applyOnUpdate="0"/>
+        <default field="ondergrond" expression="" applyOnUpdate="0"/>
+        <default field="aard_ond" expression="" applyOnUpdate="0"/>
+        <default field="d_ond" expression="" applyOnUpdate="0"/>
+        <default field="prec_ond" expression="" applyOnUpdate="0"/>
+        <default field="arrest" expression="" applyOnUpdate="0"/>
+        <default field="naam_plan" expression="" applyOnUpdate="0"/>
+        <default field="dt_plan" expression="" applyOnUpdate="0"/>
+        <default field="deelgebied" expression="" applyOnUpdate="0"/>
+        <default field="globalid" expression="" applyOnUpdate="0"/>
+        <default field="gdb_geomattr_data" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="dataengine_id" notnull_strength="1" constraints="3" exp_strength="0" unique_strength="1"/>
+        <constraint field="objectid" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="algplanid" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="arrestnr" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="beslissing" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="datum" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="datum_bs" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="einddatum" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="opm" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="ondergrond" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="aard_ond" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="d_ond" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="prec_ond" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="arrest" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="naam_plan" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="dt_plan" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="deelgebied" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="globalid" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint field="gdb_geomattr_data" notnull_strength="0" constraints="0" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="dataengine_id" desc="" exp=""/>
+        <constraint field="objectid" desc="" exp=""/>
+        <constraint field="algplanid" desc="" exp=""/>
+        <constraint field="arrestnr" desc="" exp=""/>
+        <constraint field="beslissing" desc="" exp=""/>
+        <constraint field="datum" desc="" exp=""/>
+        <constraint field="datum_bs" desc="" exp=""/>
+        <constraint field="einddatum" desc="" exp=""/>
+        <constraint field="opm" desc="" exp=""/>
+        <constraint field="ondergrond" desc="" exp=""/>
+        <constraint field="aard_ond" desc="" exp=""/>
+        <constraint field="d_ond" desc="" exp=""/>
+        <constraint field="prec_ond" desc="" exp=""/>
+        <constraint field="arrest" desc="" exp=""/>
+        <constraint field="naam_plan" desc="" exp=""/>
+        <constraint field="dt_plan" desc="" exp=""/>
+        <constraint field="deelgebied" desc="" exp=""/>
+        <constraint field="globalid" desc="" exp=""/>
+        <constraint field="gdb_geomattr_data" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="dataengine_id" width="-1" type="field"/>
+          <column hidden="0" name="objectid" width="-1" type="field"/>
+          <column hidden="0" name="algplanid" width="-1" type="field"/>
+          <column hidden="0" name="arrestnr" width="-1" type="field"/>
+          <column hidden="0" name="beslissing" width="-1" type="field"/>
+          <column hidden="0" name="datum" width="-1" type="field"/>
+          <column hidden="0" name="datum_bs" width="-1" type="field"/>
+          <column hidden="0" name="einddatum" width="-1" type="field"/>
+          <column hidden="0" name="opm" width="-1" type="field"/>
+          <column hidden="0" name="ondergrond" width="-1" type="field"/>
+          <column hidden="0" name="aard_ond" width="-1" type="field"/>
+          <column hidden="0" name="d_ond" width="-1" type="field"/>
+          <column hidden="0" name="prec_ond" width="-1" type="field"/>
+          <column hidden="0" name="arrest" width="-1" type="field"/>
+          <column hidden="0" name="naam_plan" width="-1" type="field"/>
+          <column hidden="0" name="dt_plan" width="-1" type="field"/>
+          <column hidden="0" name="deelgebied" width="-1" type="field"/>
+          <column hidden="0" name="globalid" width="-1" type="field"/>
+          <column hidden="0" name="gdb_geomattr_data" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="aard_ond"/>
+        <field editable="1" name="algplanid"/>
+        <field editable="1" name="arrest"/>
+        <field editable="1" name="arrestnr"/>
+        <field editable="1" name="beslissing"/>
+        <field editable="1" name="d_ond"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="datum"/>
+        <field editable="1" name="datum_bs"/>
+        <field editable="1" name="deelgebied"/>
+        <field editable="1" name="dt_plan"/>
+        <field editable="1" name="einddatum"/>
+        <field editable="1" name="gdb_geomattr_data"/>
+        <field editable="1" name="globalid"/>
+        <field editable="1" name="naam_plan"/>
+        <field editable="1" name="objectid"/>
+        <field editable="1" name="ondergrond"/>
+        <field editable="1" name="opm"/>
+        <field editable="1" name="prec_ond"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="aard_ond"/>
+        <field labelOnTop="0" name="algplanid"/>
+        <field labelOnTop="0" name="arrest"/>
+        <field labelOnTop="0" name="arrestnr"/>
+        <field labelOnTop="0" name="beslissing"/>
+        <field labelOnTop="0" name="d_ond"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="datum"/>
+        <field labelOnTop="0" name="datum_bs"/>
+        <field labelOnTop="0" name="deelgebied"/>
+        <field labelOnTop="0" name="dt_plan"/>
+        <field labelOnTop="0" name="einddatum"/>
+        <field labelOnTop="0" name="gdb_geomattr_data"/>
+        <field labelOnTop="0" name="globalid"/>
+        <field labelOnTop="0" name="naam_plan"/>
+        <field labelOnTop="0" name="objectid"/>
+        <field labelOnTop="0" name="ondergrond"/>
+        <field labelOnTop="0" name="opm"/>
+        <field labelOnTop="0" name="prec_ond"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
