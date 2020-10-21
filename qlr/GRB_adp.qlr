@@ -1,0 +1,413 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" providerKey="postgres" name="grb_adp" expanded="1" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='oidn' srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;agiv&quot;.&quot;grb_adp&quot; (geom) sql=" id="grb_adp_1d5edca2_74fe_4042_8393_fe401bcedee5">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer geometry="Polygon" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" type="vector" simplifyLocal="1" readOnly="0" autoRefreshTime="0" autoRefreshEnabled="0" simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" minScale="1e+08" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" labelsEnabled="0">
+      <extent>
+        <xmin>22282.29912297429837054</xmin>
+        <ymin>153060.42103639998822473</ymin>
+        <xmax>258866.46171850000973791</xmax>
+        <ymax>244027.21002727700397372</ymax>
+      </extent>
+      <id>grb_adp_1d5edca2_74fe_4042_8393_fe401bcedee5</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='oidn' srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="agiv"."grb_adp" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>grb_adp</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" clip_to_extent="1" name="0" alpha="1" force_rhr="0">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,158,23,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="oidn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uidn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="versie">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="begindatum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="versdatum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="capakey">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="canu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fiscdatum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bhrdr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lblbhrdr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="niscode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bgninv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lblbgninv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lengte">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oppervl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="percid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kadgemnr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sectie">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="grondnr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="exponent">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="macht">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bisnr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kadlabel">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="oidn" name="" index="0"/>
+        <alias field="uidn" name="" index="1"/>
+        <alias field="versie" name="" index="2"/>
+        <alias field="begindatum" name="" index="3"/>
+        <alias field="versdatum" name="" index="4"/>
+        <alias field="capakey" name="" index="5"/>
+        <alias field="canu" name="" index="6"/>
+        <alias field="fiscdatum" name="" index="7"/>
+        <alias field="bhrdr" name="" index="8"/>
+        <alias field="lblbhrdr" name="" index="9"/>
+        <alias field="niscode" name="" index="10"/>
+        <alias field="bgninv" name="" index="11"/>
+        <alias field="lblbgninv" name="" index="12"/>
+        <alias field="lengte" name="" index="13"/>
+        <alias field="oppervl" name="" index="14"/>
+        <alias field="percid" name="" index="15"/>
+        <alias field="kadgemnr" name="" index="16"/>
+        <alias field="sectie" name="" index="17"/>
+        <alias field="grondnr" name="" index="18"/>
+        <alias field="exponent" name="" index="19"/>
+        <alias field="macht" name="" index="20"/>
+        <alias field="bisnr" name="" index="21"/>
+        <alias field="kadlabel" name="" index="22"/>
+        <alias field="gid" name="" index="23"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="oidn" expression="" applyOnUpdate="0"/>
+        <default field="uidn" expression="" applyOnUpdate="0"/>
+        <default field="versie" expression="" applyOnUpdate="0"/>
+        <default field="begindatum" expression="" applyOnUpdate="0"/>
+        <default field="versdatum" expression="" applyOnUpdate="0"/>
+        <default field="capakey" expression="" applyOnUpdate="0"/>
+        <default field="canu" expression="" applyOnUpdate="0"/>
+        <default field="fiscdatum" expression="" applyOnUpdate="0"/>
+        <default field="bhrdr" expression="" applyOnUpdate="0"/>
+        <default field="lblbhrdr" expression="" applyOnUpdate="0"/>
+        <default field="niscode" expression="" applyOnUpdate="0"/>
+        <default field="bgninv" expression="" applyOnUpdate="0"/>
+        <default field="lblbgninv" expression="" applyOnUpdate="0"/>
+        <default field="lengte" expression="" applyOnUpdate="0"/>
+        <default field="oppervl" expression="" applyOnUpdate="0"/>
+        <default field="percid" expression="" applyOnUpdate="0"/>
+        <default field="kadgemnr" expression="" applyOnUpdate="0"/>
+        <default field="sectie" expression="" applyOnUpdate="0"/>
+        <default field="grondnr" expression="" applyOnUpdate="0"/>
+        <default field="exponent" expression="" applyOnUpdate="0"/>
+        <default field="macht" expression="" applyOnUpdate="0"/>
+        <default field="bisnr" expression="" applyOnUpdate="0"/>
+        <default field="kadlabel" expression="" applyOnUpdate="0"/>
+        <default field="gid" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="oidn" exp_strength="0" constraints="3" unique_strength="1" notnull_strength="1"/>
+        <constraint field="uidn" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="versie" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="begindatum" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="versdatum" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="capakey" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="canu" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="fiscdatum" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="bhrdr" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="lblbhrdr" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="niscode" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="bgninv" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="lblbgninv" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="lengte" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="oppervl" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="percid" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="kadgemnr" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="sectie" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="grondnr" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="exponent" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="macht" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="bisnr" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="kadlabel" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="gid" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="oidn" desc="" exp=""/>
+        <constraint field="uidn" desc="" exp=""/>
+        <constraint field="versie" desc="" exp=""/>
+        <constraint field="begindatum" desc="" exp=""/>
+        <constraint field="versdatum" desc="" exp=""/>
+        <constraint field="capakey" desc="" exp=""/>
+        <constraint field="canu" desc="" exp=""/>
+        <constraint field="fiscdatum" desc="" exp=""/>
+        <constraint field="bhrdr" desc="" exp=""/>
+        <constraint field="lblbhrdr" desc="" exp=""/>
+        <constraint field="niscode" desc="" exp=""/>
+        <constraint field="bgninv" desc="" exp=""/>
+        <constraint field="lblbgninv" desc="" exp=""/>
+        <constraint field="lengte" desc="" exp=""/>
+        <constraint field="oppervl" desc="" exp=""/>
+        <constraint field="percid" desc="" exp=""/>
+        <constraint field="kadgemnr" desc="" exp=""/>
+        <constraint field="sectie" desc="" exp=""/>
+        <constraint field="grondnr" desc="" exp=""/>
+        <constraint field="exponent" desc="" exp=""/>
+        <constraint field="macht" desc="" exp=""/>
+        <constraint field="bisnr" desc="" exp=""/>
+        <constraint field="kadlabel" desc="" exp=""/>
+        <constraint field="gid" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
