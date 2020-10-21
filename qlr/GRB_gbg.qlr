@@ -7,7 +7,7 @@
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer geometry="Polygon" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" type="vector" simplifyLocal="1" readOnly="0" autoRefreshTime="0" autoRefreshEnabled="0" simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" minScale="1e+08" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" labelsEnabled="0">
+    <maplayer geometry="Polygon" hasScaleBasedVisibilityFlag="1" simplifyDrawingTol="1" type="vector" simplifyLocal="1" readOnly="0" autoRefreshTime="0" autoRefreshEnabled="0" simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyAlgorithm="0" minScale="10000" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" labelsEnabled="0">
       <extent>
         <xmin>22885.78648339210121776</xmin>
         <ymin>153169.65278047698666342</ymin>
@@ -39,6 +39,15 @@
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -54,7 +63,15 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial maxy="0" minx="0" dimensions="2" maxx="0" minz="0" maxz="0" crs="EPSG:31370" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider encoding="UTF-8">postgres</provider>
       <vectorjoins/>
@@ -99,103 +116,119 @@
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <customproperties/>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" minimumSize="0" penColor="#000000" lineSizeType="MM" backgroundAlpha="255" barWidth="5" height="15" sizeType="MM" diagramOrientation="Up" labelPlacementMethod="XHeight" opacity="1" penWidth="0" backgroundColor="#ffffff" sizeScale="3x:0,0,0,0,0,0" rotationOffset="270" maxScaleDenominator="1e+08" penAlpha="255" minScaleDenominator="0" width="15" scaleDependency="Area" enabled="0" lineSizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" zIndex="0" showAll="1" priority="0" placement="1" linePlacementFlags="18" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
-        <activeChecks type="StringList">
-          <Option type="QString" value=""/>
-        </activeChecks>
+        <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
       <fieldConfiguration>
         <field name="gid">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="oidn">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="uidn">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="versie">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="begindatum">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="versdatum">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="type">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="lbltype">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="opndatum">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="bgninv">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="lblbgninv">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="lengte">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field name="oppervl">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -269,7 +302,22 @@
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
       <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
-        <columns/>
+        <columns>
+          <column type="field" name="gid" width="-1" hidden="0"/>
+          <column type="field" name="oidn" width="-1" hidden="0"/>
+          <column type="field" name="uidn" width="-1" hidden="0"/>
+          <column type="field" name="versie" width="-1" hidden="0"/>
+          <column type="field" name="begindatum" width="-1" hidden="0"/>
+          <column type="field" name="versdatum" width="-1" hidden="0"/>
+          <column type="field" name="type" width="-1" hidden="0"/>
+          <column type="field" name="lbltype" width="-1" hidden="0"/>
+          <column type="field" name="opndatum" width="-1" hidden="0"/>
+          <column type="field" name="bgninv" width="-1" hidden="0"/>
+          <column type="field" name="lblbgninv" width="-1" hidden="0"/>
+          <column type="field" name="lengte" width="-1" hidden="0"/>
+          <column type="field" name="oppervl" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -279,13 +327,56 @@
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
+      <editable>
+        <field name="begindatum" editable="1"/>
+        <field name="bgninv" editable="1"/>
+        <field name="gid" editable="1"/>
+        <field name="lblbgninv" editable="1"/>
+        <field name="lbltype" editable="1"/>
+        <field name="lengte" editable="1"/>
+        <field name="oidn" editable="1"/>
+        <field name="opndatum" editable="1"/>
+        <field name="oppervl" editable="1"/>
+        <field name="type" editable="1"/>
+        <field name="uidn" editable="1"/>
+        <field name="versdatum" editable="1"/>
+        <field name="versie" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="begindatum" labelOnTop="0"/>
+        <field name="bgninv" labelOnTop="0"/>
+        <field name="gid" labelOnTop="0"/>
+        <field name="lblbgninv" labelOnTop="0"/>
+        <field name="lbltype" labelOnTop="0"/>
+        <field name="lengte" labelOnTop="0"/>
+        <field name="oidn" labelOnTop="0"/>
+        <field name="opndatum" labelOnTop="0"/>
+        <field name="oppervl" labelOnTop="0"/>
+        <field name="type" labelOnTop="0"/>
+        <field name="uidn" labelOnTop="0"/>
+        <field name="versdatum" labelOnTop="0"/>
+        <field name="versie" labelOnTop="0"/>
+      </labelOnTop>
       <widgets/>
-      <previewExpression></previewExpression>
+      <previewExpression>gid</previewExpression>
       <mapTip></mapTip>
     </maplayer>
   </maplayers>
