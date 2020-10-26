@@ -1,0 +1,444 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="user='mercator_gdi_lezer' pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:31370' typename='ni:ni_vergreg_verk' url='https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?' version='auto' table=&quot;&quot; sql=" providerKey="WFS" id="ni_ni_vergreg_verk_e80c68b5_9988_4dbb_a599_6322912642f9" name="ni:ni_vergreg_verk">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" maxScale="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" readOnly="0" simplifyAlgorithm="0" simplifyLocal="1" simplifyDrawingTol="1" geometry="Polygon" autoRefreshEnabled="0" minScale="1e+08" autoRefreshTime="0" type="vector">
+      <extent>
+        <xmin>36212.99250000000029104</xmin>
+        <ymin>168421.73279999999795109</ymin>
+        <xmax>38096.29349999999976717</xmax>
+        <ymax>169742.09479999999166466</ymax>
+      </extent>
+      <id>ni_ni_vergreg_verk_e80c68b5_9988_4dbb_a599_6322912642f9</id>
+      <datasource>user='mercator_gdi_lezer' password='jN$pGoyG' pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:31370' typename='ni:ni_vergreg_verk' url='https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?' version='auto' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ni:ni_vergreg_verk</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" minz="0" crs="" maxz="0" maxx="0" maxy="0" dimensions="2" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="fill" force_rhr="0" name="0">
+            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+              <prop v="square" k="capstyle"/>
+              <prop v="" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="Pixel" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="255,165,0,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="1" k="line_width"/>
+              <prop v="Pixel" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory minimumSize="0" scaleBasedVisibility="0" scaleDependency="Area" minScaleDenominator="0" opacity="1" sizeType="MM" penAlpha="255" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" barWidth="5" maxScaleDenominator="1e+08" penWidth="0" sizeScale="3x:0,0,0,0,0,0" enabled="0" width="15" rotationOffset="270" diagramOrientation="Up" backgroundColor="#ffffff" lineSizeType="MM" labelPlacementMethod="XHeight" height="15">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" dist="0" placement="1" priority="0" linePlacementFlags="18" showAll="1" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="objectid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="capakey">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="percid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kadgemnr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bredero_nr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dossier_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_beslisg">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="a_beslisg">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_beslisd">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="a_beslisd">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_schors">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="a_schors">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_verniet">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_verniet">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="doss_perc">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="globalid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gdb_geomattr_data">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="objectid" name=""/>
+        <alias index="1" field="capakey" name=""/>
+        <alias index="2" field="percid" name=""/>
+        <alias index="3" field="kadgemnr" name=""/>
+        <alias index="4" field="bredero_nr" name=""/>
+        <alias index="5" field="dossier_id" name=""/>
+        <alias index="6" field="d_beslisg" name=""/>
+        <alias index="7" field="a_beslisg" name=""/>
+        <alias index="8" field="d_beslisd" name=""/>
+        <alias index="9" field="a_beslisd" name=""/>
+        <alias index="10" field="d_schors" name=""/>
+        <alias index="11" field="a_schors" name=""/>
+        <alias index="12" field="d_verniet" name=""/>
+        <alias index="13" field="c_verniet" name=""/>
+        <alias index="14" field="doss_perc" name=""/>
+        <alias index="15" field="globalid" name=""/>
+        <alias index="16" field="gdb_geomattr_data" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="objectid" applyOnUpdate="0"/>
+        <default expression="" field="capakey" applyOnUpdate="0"/>
+        <default expression="" field="percid" applyOnUpdate="0"/>
+        <default expression="" field="kadgemnr" applyOnUpdate="0"/>
+        <default expression="" field="bredero_nr" applyOnUpdate="0"/>
+        <default expression="" field="dossier_id" applyOnUpdate="0"/>
+        <default expression="" field="d_beslisg" applyOnUpdate="0"/>
+        <default expression="" field="a_beslisg" applyOnUpdate="0"/>
+        <default expression="" field="d_beslisd" applyOnUpdate="0"/>
+        <default expression="" field="a_beslisd" applyOnUpdate="0"/>
+        <default expression="" field="d_schors" applyOnUpdate="0"/>
+        <default expression="" field="a_schors" applyOnUpdate="0"/>
+        <default expression="" field="d_verniet" applyOnUpdate="0"/>
+        <default expression="" field="c_verniet" applyOnUpdate="0"/>
+        <default expression="" field="doss_perc" applyOnUpdate="0"/>
+        <default expression="" field="globalid" applyOnUpdate="0"/>
+        <default expression="" field="gdb_geomattr_data" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="objectid" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="capakey" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="percid" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="kadgemnr" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="bredero_nr" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="dossier_id" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="d_beslisg" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="a_beslisg" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="d_beslisd" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="a_beslisd" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="d_schors" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="a_schors" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="d_verniet" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="c_verniet" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="doss_perc" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="globalid" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gdb_geomattr_data" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="objectid"/>
+        <constraint desc="" exp="" field="capakey"/>
+        <constraint desc="" exp="" field="percid"/>
+        <constraint desc="" exp="" field="kadgemnr"/>
+        <constraint desc="" exp="" field="bredero_nr"/>
+        <constraint desc="" exp="" field="dossier_id"/>
+        <constraint desc="" exp="" field="d_beslisg"/>
+        <constraint desc="" exp="" field="a_beslisg"/>
+        <constraint desc="" exp="" field="d_beslisd"/>
+        <constraint desc="" exp="" field="a_beslisd"/>
+        <constraint desc="" exp="" field="d_schors"/>
+        <constraint desc="" exp="" field="a_schors"/>
+        <constraint desc="" exp="" field="d_verniet"/>
+        <constraint desc="" exp="" field="c_verniet"/>
+        <constraint desc="" exp="" field="doss_perc"/>
+        <constraint desc="" exp="" field="globalid"/>
+        <constraint desc="" exp="" field="gdb_geomattr_data"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" type="field" width="-1" name="objectid"/>
+          <column hidden="0" type="field" width="-1" name="capakey"/>
+          <column hidden="0" type="field" width="-1" name="percid"/>
+          <column hidden="0" type="field" width="-1" name="kadgemnr"/>
+          <column hidden="0" type="field" width="-1" name="bredero_nr"/>
+          <column hidden="0" type="field" width="-1" name="dossier_id"/>
+          <column hidden="0" type="field" width="-1" name="d_beslisg"/>
+          <column hidden="0" type="field" width="-1" name="a_beslisg"/>
+          <column hidden="0" type="field" width="-1" name="d_beslisd"/>
+          <column hidden="0" type="field" width="-1" name="a_beslisd"/>
+          <column hidden="0" type="field" width="-1" name="d_schors"/>
+          <column hidden="0" type="field" width="-1" name="a_schors"/>
+          <column hidden="0" type="field" width="-1" name="d_verniet"/>
+          <column hidden="0" type="field" width="-1" name="c_verniet"/>
+          <column hidden="0" type="field" width="-1" name="doss_perc"/>
+          <column hidden="0" type="field" width="-1" name="globalid"/>
+          <column hidden="0" type="field" width="-1" name="gdb_geomattr_data"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="a_beslisd"/>
+        <field editable="1" name="a_beslisg"/>
+        <field editable="1" name="a_schors"/>
+        <field editable="1" name="bredero_nr"/>
+        <field editable="1" name="c_verniet"/>
+        <field editable="1" name="capakey"/>
+        <field editable="1" name="d_beslisd"/>
+        <field editable="1" name="d_beslisg"/>
+        <field editable="1" name="d_schors"/>
+        <field editable="1" name="d_verniet"/>
+        <field editable="1" name="doss_perc"/>
+        <field editable="1" name="dossier_id"/>
+        <field editable="1" name="gdb_geomattr_data"/>
+        <field editable="1" name="globalid"/>
+        <field editable="1" name="kadgemnr"/>
+        <field editable="1" name="objectid"/>
+        <field editable="1" name="percid"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="a_beslisd"/>
+        <field labelOnTop="0" name="a_beslisg"/>
+        <field labelOnTop="0" name="a_schors"/>
+        <field labelOnTop="0" name="bredero_nr"/>
+        <field labelOnTop="0" name="c_verniet"/>
+        <field labelOnTop="0" name="capakey"/>
+        <field labelOnTop="0" name="d_beslisd"/>
+        <field labelOnTop="0" name="d_beslisg"/>
+        <field labelOnTop="0" name="d_schors"/>
+        <field labelOnTop="0" name="d_verniet"/>
+        <field labelOnTop="0" name="doss_perc"/>
+        <field labelOnTop="0" name="dossier_id"/>
+        <field labelOnTop="0" name="gdb_geomattr_data"/>
+        <field labelOnTop="0" name="globalid"/>
+        <field labelOnTop="0" name="kadgemnr"/>
+        <field labelOnTop="0" name="objectid"/>
+        <field labelOnTop="0" name="percid"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>objectid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

@@ -1,0 +1,397 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;ni_plan_att_284&quot; (shape) sql=" providerKey="postgres" id="ni_plan_att_284_d6d1cac6_0e3f_4738_ad0b_7a066cbbb2ce" name="ni_plan_att_284">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" maxScale="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" readOnly="0" simplifyAlgorithm="0" simplifyLocal="1" simplifyDrawingTol="1" geometry="Polygon" autoRefreshEnabled="0" minScale="1e+08" autoRefreshTime="0" type="vector">
+      <extent>
+        <xmin>25619.33760000019901781</xmin>
+        <ymin>154326.00039999900036491</ymin>
+        <xmax>250094.62210000300547108</xmax>
+        <ymax>240858.57499999899300747</ymax>
+      </extent>
+      <id>ni_plan_att_284_d6d1cac6_0e3f_4738_ad0b_7a066cbbb2ce</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."ni_plan_att_284" (shape) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ni_plan_att_284</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" minz="0" crs="EPSG:31370" maxz="0" maxx="0" maxy="0" dimensions="2" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" type="fill" force_rhr="0" name="0">
+            <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="128,128,128,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="255,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="4" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory minimumSize="0" scaleBasedVisibility="0" scaleDependency="Area" minScaleDenominator="0" opacity="1" sizeType="MM" penAlpha="255" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" barWidth="5" maxScaleDenominator="1e+08" penWidth="0" sizeScale="3x:0,0,0,0,0,0" enabled="0" width="15" rotationOffset="270" diagramOrientation="Up" backgroundColor="#ffffff" lineSizeType="MM" labelPlacementMethod="XHeight" height="15">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" dist="0" placement="1" priority="0" linePlacementFlags="18" showAll="1" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objectid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dosnr_ro">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aanvrager">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="adres">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="niscode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="basiskaart">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_ontv">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum_besl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beslissing">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="onderwerp">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gemeente">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="globalid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gdb_geomattr_data">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="dataengine_id" name=""/>
+        <alias index="1" field="objectid" name=""/>
+        <alias index="2" field="dosnr_ro" name=""/>
+        <alias index="3" field="aanvrager" name=""/>
+        <alias index="4" field="adres" name=""/>
+        <alias index="5" field="niscode" name=""/>
+        <alias index="6" field="basiskaart" name=""/>
+        <alias index="7" field="datum_ontv" name=""/>
+        <alias index="8" field="datum_besl" name=""/>
+        <alias index="9" field="beslissing" name=""/>
+        <alias index="10" field="onderwerp" name=""/>
+        <alias index="11" field="gemeente" name=""/>
+        <alias index="12" field="globalid" name=""/>
+        <alias index="13" field="gdb_geomattr_data" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="dataengine_id" applyOnUpdate="0"/>
+        <default expression="" field="objectid" applyOnUpdate="0"/>
+        <default expression="" field="dosnr_ro" applyOnUpdate="0"/>
+        <default expression="" field="aanvrager" applyOnUpdate="0"/>
+        <default expression="" field="adres" applyOnUpdate="0"/>
+        <default expression="" field="niscode" applyOnUpdate="0"/>
+        <default expression="" field="basiskaart" applyOnUpdate="0"/>
+        <default expression="" field="datum_ontv" applyOnUpdate="0"/>
+        <default expression="" field="datum_besl" applyOnUpdate="0"/>
+        <default expression="" field="beslissing" applyOnUpdate="0"/>
+        <default expression="" field="onderwerp" applyOnUpdate="0"/>
+        <default expression="" field="gemeente" applyOnUpdate="0"/>
+        <default expression="" field="globalid" applyOnUpdate="0"/>
+        <default expression="" field="gdb_geomattr_data" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" exp_strength="0" notnull_strength="1" field="dataengine_id" constraints="3"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="objectid" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="dosnr_ro" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="aanvrager" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="adres" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="niscode" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="basiskaart" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="datum_ontv" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="datum_besl" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="beslissing" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="onderwerp" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gemeente" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="globalid" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gdb_geomattr_data" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="dataengine_id"/>
+        <constraint desc="" exp="" field="objectid"/>
+        <constraint desc="" exp="" field="dosnr_ro"/>
+        <constraint desc="" exp="" field="aanvrager"/>
+        <constraint desc="" exp="" field="adres"/>
+        <constraint desc="" exp="" field="niscode"/>
+        <constraint desc="" exp="" field="basiskaart"/>
+        <constraint desc="" exp="" field="datum_ontv"/>
+        <constraint desc="" exp="" field="datum_besl"/>
+        <constraint desc="" exp="" field="beslissing"/>
+        <constraint desc="" exp="" field="onderwerp"/>
+        <constraint desc="" exp="" field="gemeente"/>
+        <constraint desc="" exp="" field="globalid"/>
+        <constraint desc="" exp="" field="gdb_geomattr_data"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" type="field" width="-1" name="dataengine_id"/>
+          <column hidden="0" type="field" width="-1" name="objectid"/>
+          <column hidden="0" type="field" width="-1" name="dosnr_ro"/>
+          <column hidden="0" type="field" width="-1" name="aanvrager"/>
+          <column hidden="0" type="field" width="-1" name="adres"/>
+          <column hidden="0" type="field" width="-1" name="niscode"/>
+          <column hidden="0" type="field" width="-1" name="basiskaart"/>
+          <column hidden="0" type="field" width="-1" name="datum_ontv"/>
+          <column hidden="0" type="field" width="-1" name="datum_besl"/>
+          <column hidden="0" type="field" width="-1" name="beslissing"/>
+          <column hidden="0" type="field" width="-1" name="onderwerp"/>
+          <column hidden="0" type="field" width="-1" name="gemeente"/>
+          <column hidden="0" type="field" width="-1" name="globalid"/>
+          <column hidden="0" type="field" width="-1" name="gdb_geomattr_data"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="aanvrager"/>
+        <field editable="1" name="adres"/>
+        <field editable="1" name="basiskaart"/>
+        <field editable="1" name="beslissing"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="datum_besl"/>
+        <field editable="1" name="datum_ontv"/>
+        <field editable="1" name="dosnr_ro"/>
+        <field editable="1" name="gdb_geomattr_data"/>
+        <field editable="1" name="gemeente"/>
+        <field editable="1" name="globalid"/>
+        <field editable="1" name="niscode"/>
+        <field editable="1" name="objectid"/>
+        <field editable="1" name="onderwerp"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="aanvrager"/>
+        <field labelOnTop="0" name="adres"/>
+        <field labelOnTop="0" name="basiskaart"/>
+        <field labelOnTop="0" name="beslissing"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="datum_besl"/>
+        <field labelOnTop="0" name="datum_ontv"/>
+        <field labelOnTop="0" name="dosnr_ro"/>
+        <field labelOnTop="0" name="gdb_geomattr_data"/>
+        <field labelOnTop="0" name="gemeente"/>
+        <field labelOnTop="0" name="globalid"/>
+        <field labelOnTop="0" name="niscode"/>
+        <field labelOnTop="0" name="objectid"/>
+        <field labelOnTop="0" name="onderwerp"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
