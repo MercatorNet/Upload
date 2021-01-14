@@ -1,0 +1,427 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" expanded="0" checked="Qt::Unchecked" id="er_wrmtk_wkk_verm_2019_1b57b561_5ca5_4f0a_9ab4_b86d34e99bad" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=Point table=&quot;lne&quot;.&quot;er_wrmtk_wkk_verm_2019&quot; (geom) sql=" name="er_wrmtk_wkk_verm_2019">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer maxScale="0" autoRefreshEnabled="0" readOnly="0" simplifyDrawingTol="1" minScale="1e+08" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="0" simplifyMaxScale="1" type="vector" labelsEnabled="0" autoRefreshTime="0" geometry="Point" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>47365</xmin>
+        <ymin>165647</ymin>
+        <xmax>239608</xmax>
+        <ymax>230020</ymax>
+      </extent>
+      <id>er_wrmtk_wkk_verm_2019_1b57b561_5ca5_4f0a_9ab4_b86d34e99bad</id>
+      <datasource>dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=Point table="lne"."er_wrmtk_wkk_verm_2019" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>er_wrmtk_wkk_verm_2019</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" minz="0" crs="EPSG:31370" miny="0" dimensions="2" minx="0" maxy="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="RuleRenderer" forceraster="0">
+        <rules key="{bf11ef48-5f08-4e0a-a05a-42737761f599}">
+          <rule symbol="0" filter="vermog_mwe = '&lt; 5'" label="&lt; 5 MWe" key="{6382bd20-8e91-44d8-b6f9-e8c68a50c097}"/>
+          <rule symbol="1" filter="vermog_mwe = '5 - 10'" label="5 - 10 MWe" key="{6065761e-7090-47be-bdb8-d875b7e16975}"/>
+          <rule symbol="2" filter="vermog_mwe = '10 - 20'" label="10 - 20 MWe" key="{43973c80-e402-4946-9592-260f508ffaaf}"/>
+          <rule symbol="3" filter="vermog_mwe = '20 - 30'" label="20 - 30 MWe" key="{342ac67c-9e55-4c18-9d65-a88300d1de69}"/>
+          <rule symbol="4" filter="vermog_mwe = '>= 30'" label=">= 30 MWe" key="{0933e83f-5b58-40f0-a893-7de1d6d80d25}"/>
+        </rules>
+        <symbols>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="51,160,44,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" alpha="1" name="1" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="51,160,44,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="10" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" alpha="1" name="2" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="51,160,44,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="16" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" alpha="1" name="3" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="51,160,44,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="22" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" alpha="1" name="4" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="51,160,44,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="29" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory scaleBasedVisibility="0" height="15" sizeType="MM" opacity="1" scaleDependency="Area" backgroundColor="#ffffff" backgroundAlpha="255" enabled="0" penWidth="0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" rotationOffset="270" maxScaleDenominator="1e+08" minScaleDenominator="0" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" diagramOrientation="Up" width="15" minimumSize="0" lineSizeType="MM" labelPlacementMethod="XHeight">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" dist="0" linePlacementFlags="18" obstacle="0" priority="0" placement="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="locatie">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sector_nac">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vermog_mwe">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="id" index="1" name=""/>
+        <alias field="naam" index="2" name=""/>
+        <alias field="locatie" index="3" name=""/>
+        <alias field="sector_nac" index="4" name=""/>
+        <alias field="type" index="5" name=""/>
+        <alias field="vermog_mwe" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="dataengine_id" applyOnUpdate="0"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="naam" applyOnUpdate="0"/>
+        <default expression="" field="locatie" applyOnUpdate="0"/>
+        <default expression="" field="sector_nac" applyOnUpdate="0"/>
+        <default expression="" field="type" applyOnUpdate="0"/>
+        <default expression="" field="vermog_mwe" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" exp_strength="0" notnull_strength="1" unique_strength="1" field="dataengine_id"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="id"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="naam"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="locatie"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="sector_nac"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="type"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="vermog_mwe"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="dataengine_id"/>
+        <constraint desc="" exp="" field="id"/>
+        <constraint desc="" exp="" field="naam"/>
+        <constraint desc="" exp="" field="locatie"/>
+        <constraint desc="" exp="" field="sector_nac"/>
+        <constraint desc="" exp="" field="type"/>
+        <constraint desc="" exp="" field="vermog_mwe"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" type="field" name="dataengine_id" hidden="0"/>
+          <column width="-1" type="field" name="id" hidden="0"/>
+          <column width="-1" type="field" name="naam" hidden="0"/>
+          <column width="-1" type="field" name="locatie" hidden="0"/>
+          <column width="-1" type="field" name="sector_nac" hidden="0"/>
+          <column width="-1" type="field" name="type" hidden="0"/>
+          <column width="-1" type="field" name="vermog_mwe" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="locatie"/>
+        <field editable="1" name="naam"/>
+        <field editable="1" name="sector_nac"/>
+        <field editable="1" name="type"/>
+        <field editable="1" name="vermog_mwe"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="locatie"/>
+        <field labelOnTop="0" name="naam"/>
+        <field labelOnTop="0" name="sector_nac"/>
+        <field labelOnTop="0" name="type"/>
+        <field labelOnTop="0" name="vermog_mwe"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

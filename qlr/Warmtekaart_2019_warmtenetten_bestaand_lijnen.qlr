@@ -1,0 +1,500 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" expanded="1" checked="Qt::Unchecked" id="er_wrmtk_wnet_bs_ln_2019_44585308_8a4f_4319_a949_695526436b7f" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=MultiLineString table=&quot;lne&quot;.&quot;er_wrmtk_wnet_bs_ln_2019&quot; (geom) sql=" name="er_wrmtk_wnet_bs_ln_2019">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer maxScale="0" autoRefreshEnabled="0" readOnly="0" simplifyDrawingTol="1" minScale="1e+08" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" simplifyMaxScale="1" type="vector" labelsEnabled="0" autoRefreshTime="0" geometry="Line" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>43934.96875</xmin>
+        <ymin>169715.875</ymin>
+        <xmax>234456</xmax>
+        <ymax>224140</ymax>
+      </extent>
+      <id>er_wrmtk_wnet_bs_ln_2019_44585308_8a4f_4319_a949_695526436b7f</id>
+      <datasource>dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=MultiLineString table="lne"."er_wrmtk_wnet_bs_ln_2019" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>er_wrmtk_wnet_bs_ln_2019</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" minz="0" crs="EPSG:31370" miny="0" dimensions="2" minx="0" maxy="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol type="line" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleLine" locked="0" pass="0" enabled="1">
+              <prop v="square" k="capstyle"/>
+              <prop v="" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="Pixel" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="51,160,44,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="4" k="line_width"/>
+              <prop v="Pixel" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory scaleBasedVisibility="0" height="15" sizeType="MM" opacity="1" scaleDependency="Area" backgroundColor="#ffffff" backgroundAlpha="255" enabled="0" penWidth="0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" rotationOffset="270" maxScaleDenominator="1e+08" minScaleDenominator="0" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" diagramOrientation="Up" width="15" minimumSize="0" lineSizeType="MM" labelPlacementMethod="XHeight">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" dist="0" linePlacementFlags="18" obstacle="0" priority="0" placement="2" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="project">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gemeente">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beheerder">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="leveranc">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aan_resid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aan_indus">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aan_tert">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="temp_niv">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sleufl_km">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opwekkers">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="energ_gele">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hern_restw">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nt_hern_rw">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hern_nt_rw">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nt_h_nt_rw">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="finan_ontv">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="financ_uit">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uitbr_gepl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="id" index="1" name=""/>
+        <alias field="project" index="2" name=""/>
+        <alias field="type" index="3" name=""/>
+        <alias field="gemeente" index="4" name=""/>
+        <alias field="beheerder" index="5" name=""/>
+        <alias field="leveranc" index="6" name=""/>
+        <alias field="aan_resid" index="7" name=""/>
+        <alias field="aan_indus" index="8" name=""/>
+        <alias field="aan_tert" index="9" name=""/>
+        <alias field="temp_niv" index="10" name=""/>
+        <alias field="sleufl_km" index="11" name=""/>
+        <alias field="opwekkers" index="12" name=""/>
+        <alias field="energ_gele" index="13" name=""/>
+        <alias field="hern_restw" index="14" name=""/>
+        <alias field="nt_hern_rw" index="15" name=""/>
+        <alias field="hern_nt_rw" index="16" name=""/>
+        <alias field="nt_h_nt_rw" index="17" name=""/>
+        <alias field="finan_ontv" index="18" name=""/>
+        <alias field="financ_uit" index="19" name=""/>
+        <alias field="uitbr_gepl" index="20" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="dataengine_id" applyOnUpdate="0"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="project" applyOnUpdate="0"/>
+        <default expression="" field="type" applyOnUpdate="0"/>
+        <default expression="" field="gemeente" applyOnUpdate="0"/>
+        <default expression="" field="beheerder" applyOnUpdate="0"/>
+        <default expression="" field="leveranc" applyOnUpdate="0"/>
+        <default expression="" field="aan_resid" applyOnUpdate="0"/>
+        <default expression="" field="aan_indus" applyOnUpdate="0"/>
+        <default expression="" field="aan_tert" applyOnUpdate="0"/>
+        <default expression="" field="temp_niv" applyOnUpdate="0"/>
+        <default expression="" field="sleufl_km" applyOnUpdate="0"/>
+        <default expression="" field="opwekkers" applyOnUpdate="0"/>
+        <default expression="" field="energ_gele" applyOnUpdate="0"/>
+        <default expression="" field="hern_restw" applyOnUpdate="0"/>
+        <default expression="" field="nt_hern_rw" applyOnUpdate="0"/>
+        <default expression="" field="hern_nt_rw" applyOnUpdate="0"/>
+        <default expression="" field="nt_h_nt_rw" applyOnUpdate="0"/>
+        <default expression="" field="finan_ontv" applyOnUpdate="0"/>
+        <default expression="" field="financ_uit" applyOnUpdate="0"/>
+        <default expression="" field="uitbr_gepl" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" exp_strength="0" notnull_strength="1" unique_strength="1" field="dataengine_id"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="id"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="project"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="type"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="gemeente"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="beheerder"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="leveranc"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="aan_resid"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="aan_indus"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="aan_tert"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="temp_niv"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="sleufl_km"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="opwekkers"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="energ_gele"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="hern_restw"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="nt_hern_rw"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="hern_nt_rw"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="nt_h_nt_rw"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="finan_ontv"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="financ_uit"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="uitbr_gepl"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="dataengine_id"/>
+        <constraint desc="" exp="" field="id"/>
+        <constraint desc="" exp="" field="project"/>
+        <constraint desc="" exp="" field="type"/>
+        <constraint desc="" exp="" field="gemeente"/>
+        <constraint desc="" exp="" field="beheerder"/>
+        <constraint desc="" exp="" field="leveranc"/>
+        <constraint desc="" exp="" field="aan_resid"/>
+        <constraint desc="" exp="" field="aan_indus"/>
+        <constraint desc="" exp="" field="aan_tert"/>
+        <constraint desc="" exp="" field="temp_niv"/>
+        <constraint desc="" exp="" field="sleufl_km"/>
+        <constraint desc="" exp="" field="opwekkers"/>
+        <constraint desc="" exp="" field="energ_gele"/>
+        <constraint desc="" exp="" field="hern_restw"/>
+        <constraint desc="" exp="" field="nt_hern_rw"/>
+        <constraint desc="" exp="" field="hern_nt_rw"/>
+        <constraint desc="" exp="" field="nt_h_nt_rw"/>
+        <constraint desc="" exp="" field="finan_ontv"/>
+        <constraint desc="" exp="" field="financ_uit"/>
+        <constraint desc="" exp="" field="uitbr_gepl"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" type="field" name="dataengine_id" hidden="0"/>
+          <column width="-1" type="field" name="id" hidden="0"/>
+          <column width="-1" type="field" name="project" hidden="0"/>
+          <column width="-1" type="field" name="type" hidden="0"/>
+          <column width="-1" type="field" name="gemeente" hidden="0"/>
+          <column width="-1" type="field" name="beheerder" hidden="0"/>
+          <column width="-1" type="field" name="leveranc" hidden="0"/>
+          <column width="-1" type="field" name="aan_resid" hidden="0"/>
+          <column width="-1" type="field" name="aan_indus" hidden="0"/>
+          <column width="-1" type="field" name="aan_tert" hidden="0"/>
+          <column width="-1" type="field" name="temp_niv" hidden="0"/>
+          <column width="-1" type="field" name="sleufl_km" hidden="0"/>
+          <column width="-1" type="field" name="opwekkers" hidden="0"/>
+          <column width="-1" type="field" name="energ_gele" hidden="0"/>
+          <column width="-1" type="field" name="hern_restw" hidden="0"/>
+          <column width="-1" type="field" name="nt_hern_rw" hidden="0"/>
+          <column width="-1" type="field" name="hern_nt_rw" hidden="0"/>
+          <column width="-1" type="field" name="nt_h_nt_rw" hidden="0"/>
+          <column width="-1" type="field" name="finan_ontv" hidden="0"/>
+          <column width="-1" type="field" name="financ_uit" hidden="0"/>
+          <column width="-1" type="field" name="uitbr_gepl" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="aan_indus"/>
+        <field editable="1" name="aan_resid"/>
+        <field editable="1" name="aan_tert"/>
+        <field editable="1" name="beheerder"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="energ_gele"/>
+        <field editable="1" name="finan_ontv"/>
+        <field editable="1" name="financ_uit"/>
+        <field editable="1" name="gemeente"/>
+        <field editable="1" name="hern_nt_rw"/>
+        <field editable="1" name="hern_restw"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="leveranc"/>
+        <field editable="1" name="nt_h_nt_rw"/>
+        <field editable="1" name="nt_hern_rw"/>
+        <field editable="1" name="opwekkers"/>
+        <field editable="1" name="project"/>
+        <field editable="1" name="sleufl_km"/>
+        <field editable="1" name="temp_niv"/>
+        <field editable="1" name="type"/>
+        <field editable="1" name="uitbr_gepl"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="aan_indus"/>
+        <field labelOnTop="0" name="aan_resid"/>
+        <field labelOnTop="0" name="aan_tert"/>
+        <field labelOnTop="0" name="beheerder"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="energ_gele"/>
+        <field labelOnTop="0" name="finan_ontv"/>
+        <field labelOnTop="0" name="financ_uit"/>
+        <field labelOnTop="0" name="gemeente"/>
+        <field labelOnTop="0" name="hern_nt_rw"/>
+        <field labelOnTop="0" name="hern_restw"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="leveranc"/>
+        <field labelOnTop="0" name="nt_h_nt_rw"/>
+        <field labelOnTop="0" name="nt_hern_rw"/>
+        <field labelOnTop="0" name="opwekkers"/>
+        <field labelOnTop="0" name="project"/>
+        <field labelOnTop="0" name="sleufl_km"/>
+        <field labelOnTop="0" name="temp_niv"/>
+        <field labelOnTop="0" name="type"/>
+        <field labelOnTop="0" name="uitbr_gepl"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>

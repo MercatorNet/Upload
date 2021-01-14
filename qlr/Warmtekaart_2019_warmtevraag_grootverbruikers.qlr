@@ -1,0 +1,481 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" expanded="0" checked="Qt::Unchecked" id="er_wrmtk_wvrg_grtverbr_2019_04d1f0cd_8005_4efc_9973_6f2544d64666" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=Point table=&quot;lne&quot;.&quot;er_wrmtk_wvrg_grtverbr_2019&quot; (geom) sql=" name="er_wrmtk_wvrg_grtverbr_2019">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer maxScale="0" autoRefreshEnabled="0" readOnly="0" simplifyDrawingTol="1" minScale="1e+08" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="0" simplifyMaxScale="1" type="vector" labelsEnabled="0" autoRefreshTime="0" geometry="Point" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>23910.158203125</xmin>
+        <ymin>155426.96875</ymin>
+        <xmax>250322.078125</xmax>
+        <ymax>243703.171875</ymax>
+      </extent>
+      <id>er_wrmtk_wvrg_grtverbr_2019_04d1f0cd_8005_4efc_9973_6f2544d64666</id>
+      <datasource>dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 key='dataengine_id' srid=31370 type=Point table="lne"."er_wrmtk_wvrg_grtverbr_2019" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>er_wrmtk_wvrg_grtverbr_2019</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" minz="0" crs="EPSG:31370" miny="0" dimensions="2" minx="0" maxy="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="RuleRenderer" forceraster="0">
+        <rules key="{744d43ec-42b4-45f4-b24c-28a6657fcaf0}">
+          <rule symbol="0" filter="categorie = '0,2 - 1 GWh/jaar'" label="0,2 - 1 GWh/jaar" key="{e1cfc882-d84a-4687-986d-f6e1f85fb6cf}"/>
+          <rule symbol="1" filter="categorie = '1 - 20 GWh/jaar'" label="1 - 20 GWh/jaar" key="{0b97bd69-c191-47de-a4bb-aecd4fe03446}"/>
+          <rule symbol="2" filter="categorie = '20 - 200 GWh/jaar'" label="20 - 200 GWh/jaar" key="{8c963f25-07ab-483e-9569-dd94de3fcc04}"/>
+          <rule symbol="3" filter="categorie = '> 200 GWh/jaar'" label="> 200 GWh/jaar" key="{9e839fbf-77c9-4c94-9f1d-d45bea2ccfe6}"/>
+        </rules>
+        <symbols>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="255,245,240,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="8" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" alpha="1" name="1" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="252,164,135,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="10" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" alpha="1" name="2" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="235,54,42,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="12" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="marker" alpha="1" name="3" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="103,0,13,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="14" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="Pixel" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory scaleBasedVisibility="0" height="15" sizeType="MM" opacity="1" scaleDependency="Area" backgroundColor="#ffffff" backgroundAlpha="255" enabled="0" penWidth="0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" rotationOffset="270" maxScaleDenominator="1e+08" minScaleDenominator="0" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" diagramOrientation="Up" width="15" minimumSize="0" lineSizeType="MM" labelPlacementMethod="XHeight">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" dist="0" linePlacementFlags="18" obstacle="0" priority="0" placement="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sector/sub">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="categorie">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ean_ele">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ean_gas">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pv_vlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gemeente">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postcode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="straat">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nummer">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bron">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="id" index="1" name=""/>
+        <alias field="naam" index="2" name=""/>
+        <alias field="sector/sub" index="3" name=""/>
+        <alias field="categorie" index="4" name=""/>
+        <alias field="ean_ele" index="5" name=""/>
+        <alias field="ean_gas" index="6" name=""/>
+        <alias field="pv_vlag" index="7" name=""/>
+        <alias field="gemeente" index="8" name=""/>
+        <alias field="postcode" index="9" name=""/>
+        <alias field="straat" index="10" name=""/>
+        <alias field="nummer" index="11" name=""/>
+        <alias field="bron" index="12" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="dataengine_id" applyOnUpdate="0"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="naam" applyOnUpdate="0"/>
+        <default expression="" field="sector/sub" applyOnUpdate="0"/>
+        <default expression="" field="categorie" applyOnUpdate="0"/>
+        <default expression="" field="ean_ele" applyOnUpdate="0"/>
+        <default expression="" field="ean_gas" applyOnUpdate="0"/>
+        <default expression="" field="pv_vlag" applyOnUpdate="0"/>
+        <default expression="" field="gemeente" applyOnUpdate="0"/>
+        <default expression="" field="postcode" applyOnUpdate="0"/>
+        <default expression="" field="straat" applyOnUpdate="0"/>
+        <default expression="" field="nummer" applyOnUpdate="0"/>
+        <default expression="" field="bron" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" exp_strength="0" notnull_strength="1" unique_strength="1" field="dataengine_id"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="id"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="naam"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="sector/sub"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="categorie"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ean_ele"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="ean_gas"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="pv_vlag"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="gemeente"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="postcode"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="straat"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="nummer"/>
+        <constraint constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0" field="bron"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="dataengine_id"/>
+        <constraint desc="" exp="" field="id"/>
+        <constraint desc="" exp="" field="naam"/>
+        <constraint desc="" exp="" field="sector/sub"/>
+        <constraint desc="" exp="" field="categorie"/>
+        <constraint desc="" exp="" field="ean_ele"/>
+        <constraint desc="" exp="" field="ean_gas"/>
+        <constraint desc="" exp="" field="pv_vlag"/>
+        <constraint desc="" exp="" field="gemeente"/>
+        <constraint desc="" exp="" field="postcode"/>
+        <constraint desc="" exp="" field="straat"/>
+        <constraint desc="" exp="" field="nummer"/>
+        <constraint desc="" exp="" field="bron"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" type="field" name="dataengine_id" hidden="0"/>
+          <column width="-1" type="field" name="id" hidden="0"/>
+          <column width="-1" type="field" name="naam" hidden="0"/>
+          <column width="-1" type="field" name="sector/sub" hidden="0"/>
+          <column width="-1" type="field" name="categorie" hidden="0"/>
+          <column width="-1" type="field" name="ean_ele" hidden="0"/>
+          <column width="-1" type="field" name="ean_gas" hidden="0"/>
+          <column width="-1" type="field" name="pv_vlag" hidden="0"/>
+          <column width="-1" type="field" name="gemeente" hidden="0"/>
+          <column width="-1" type="field" name="postcode" hidden="0"/>
+          <column width="-1" type="field" name="straat" hidden="0"/>
+          <column width="-1" type="field" name="nummer" hidden="0"/>
+          <column width="-1" type="field" name="bron" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="bron"/>
+        <field editable="1" name="categorie"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="ean_ele"/>
+        <field editable="1" name="ean_gas"/>
+        <field editable="1" name="gemeente"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="naam"/>
+        <field editable="1" name="nummer"/>
+        <field editable="1" name="postcode"/>
+        <field editable="1" name="pv_vlag"/>
+        <field editable="1" name="sector/sub"/>
+        <field editable="1" name="straat"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="bron"/>
+        <field labelOnTop="0" name="categorie"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="ean_ele"/>
+        <field labelOnTop="0" name="ean_gas"/>
+        <field labelOnTop="0" name="gemeente"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="naam"/>
+        <field labelOnTop="0" name="nummer"/>
+        <field labelOnTop="0" name="postcode"/>
+        <field labelOnTop="0" name="pv_vlag"/>
+        <field labelOnTop="0" name="sector/sub"/>
+        <field labelOnTop="0" name="straat"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
