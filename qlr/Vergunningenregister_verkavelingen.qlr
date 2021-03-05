@@ -1,25 +1,25 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1">
     <customproperties/>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" source="user='mercator_gdi_lezer' pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:31370' typename='ni:ni_vergreg_verk' url='https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?' version='auto' table=&quot;&quot; sql=" providerKey="WFS" id="ni_ni_vergreg_verk_e80c68b5_9988_4dbb_a599_6322912642f9" name="ni:ni_vergreg_verk">
+    <layer-tree-layer checked="Qt::Checked" name="ni_vergreg_verk" id="ni_vergreg_verk_61cbab14_68ad_45ea_a9ec_6c134c36d270" providerKey="postgres" expanded="1" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;ni_vergreg_verk&quot; (geom) sql=">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" maxScale="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" readOnly="0" simplifyAlgorithm="0" simplifyLocal="1" simplifyDrawingTol="1" geometry="Polygon" autoRefreshEnabled="0" minScale="1e+08" autoRefreshTime="0" type="vector">
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" readOnly="0" autoRefreshTime="0" autoRefreshEnabled="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" geometry="Polygon" simplifyMaxScale="1" type="vector" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyLocal="1">
       <extent>
-        <xmin>36212.99250000000029104</xmin>
-        <ymin>168421.73279999999795109</ymin>
-        <xmax>38096.29349999999976717</xmax>
-        <ymax>169742.09479999999166466</ymax>
+        <xmin>23345.74263997629896039</xmin>
+        <ymin>153417.52729883301071823</ymin>
+        <xmax>257161.65404002298600972</xmax>
+        <ymax>243939.6793989879952278</ymax>
       </extent>
-      <id>ni_ni_vergreg_verk_e80c68b5_9988_4dbb_a599_6322912642f9</id>
-      <datasource>user='mercator_gdi_lezer' password='jN$pGoyG' pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:31370' typename='ni:ni_vergreg_verk' url='https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?' version='auto' table="" sql=</datasource>
+      <id>ni_vergreg_verk_61cbab14_68ad_45ea_a9ec_6c134c36d270</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."ni_vergreg_verk" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>ni:ni_vergreg_verk</layername>
+      <layername>ni_vergreg_verk</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
@@ -36,7 +36,7 @@
         <identifier></identifier>
         <parentidentifier></parentidentifier>
         <language></language>
-        <type></type>
+        <type>dataset</type>
         <title></title>
         <abstract></abstract>
         <contact>
@@ -53,18 +53,18 @@
         <encoding></encoding>
         <crs>
           <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" minz="0" crs="" maxz="0" maxx="0" maxy="0" dimensions="2" minx="0"/>
+          <spatial crs="EPSG:31370" maxz="0" miny="0" minz="0" maxy="0" dimensions="2" minx="0" maxx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -73,7 +73,7 @@
           </temporal>
         </extent>
       </resourceMetadata>
-      <provider encoding="UTF-8">WFS</provider>
+      <provider encoding="UTF-8">postgres</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -88,10 +88,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" type="fill" force_rhr="0" name="0">
-            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+          <symbol alpha="1" name="0" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer enabled="1" locked="0" class="SimpleLine" pass="0">
               <prop v="square" k="capstyle"/>
               <prop v="" k="customdash"/>
               <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -110,9 +110,9 @@
               <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option name="name" type="QString" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option name="type" type="QString" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -122,33 +122,40 @@
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory minimumSize="0" scaleBasedVisibility="0" scaleDependency="Area" minScaleDenominator="0" opacity="1" sizeType="MM" penAlpha="255" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" barWidth="5" maxScaleDenominator="1e+08" penWidth="0" sizeScale="3x:0,0,0,0,0,0" enabled="0" width="15" rotationOffset="270" diagramOrientation="Up" backgroundColor="#ffffff" lineSizeType="MM" labelPlacementMethod="XHeight" height="15">
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory penColor="#000000" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" sizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" width="15" penAlpha="255" barWidth="5" backgroundColor="#ffffff" minScaleDenominator="0" lineSizeType="MM" backgroundAlpha="255" maxScaleDenominator="1e+08" opacity="1" scaleDependency="Area" labelPlacementMethod="XHeight" rotationOffset="270" enabled="0" penWidth="0" diagramOrientation="Up" height="15">
           <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" dist="0" placement="1" priority="0" linePlacementFlags="18" showAll="1" obstacle="0">
+      <DiagramLayerSettings priority="0" zIndex="0" obstacle="0" placement="1" linePlacementFlags="18" dist="0" showAll="1">
         <properties>
           <Option type="Map">
-            <Option value="" type="QString" name="name"/>
+            <Option name="name" type="QString" value=""/>
             <Option name="properties"/>
-            <Option value="collection" type="QString" name="type"/>
+            <Option name="type" type="QString" value="collection"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
       <fieldConfiguration>
-        <field name="objectid">
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
           <editWidget type="Range">
             <config>
               <Option/>
@@ -162,7 +169,7 @@
             </config>
           </editWidget>
         </field>
-        <field name="percid">
+        <field name="perc_id">
           <editWidget type="TextEdit">
             <config>
               <Option/>
@@ -183,7 +190,28 @@
             </config>
           </editWidget>
         </field>
+        <field name="a_aanvraag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="dossier_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_adviesa">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="a_adviesa">
           <editWidget type="TextEdit">
             <config>
               <Option/>
@@ -218,6 +246,48 @@
             </config>
           </editWidget>
         </field>
+        <field name="d_beslisr">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="a_beslisr">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_beslisa">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="a_beslisa">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_beroepd">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_beroepd">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="d_schors">
           <editWidget type="DateTime">
             <config>
@@ -225,7 +295,7 @@
             </config>
           </editWidget>
         </field>
-        <field name="a_schors">
+        <field name="c_schors">
           <editWidget type="TextEdit">
             <config>
               <Option/>
@@ -246,21 +316,35 @@
             </config>
           </editWidget>
         </field>
-        <field name="doss_perc">
+        <field name="c_verval">
           <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="globalid">
+        <field name="d_verval">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rednverval">
           <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="gdb_geomattr_data">
+        <field name="toestand">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="verk_type">
           <editWidget type="TextEdit">
             <config>
               <Option/>
@@ -269,107 +353,167 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="objectid" name=""/>
-        <alias index="1" field="capakey" name=""/>
-        <alias index="2" field="percid" name=""/>
-        <alias index="3" field="kadgemnr" name=""/>
-        <alias index="4" field="bredero_nr" name=""/>
-        <alias index="5" field="dossier_id" name=""/>
-        <alias index="6" field="d_beslisg" name=""/>
-        <alias index="7" field="a_beslisg" name=""/>
-        <alias index="8" field="d_beslisd" name=""/>
-        <alias index="9" field="a_beslisd" name=""/>
-        <alias index="10" field="d_schors" name=""/>
-        <alias index="11" field="a_schors" name=""/>
-        <alias index="12" field="d_verniet" name=""/>
-        <alias index="13" field="c_verniet" name=""/>
-        <alias index="14" field="doss_perc" name=""/>
-        <alias index="15" field="globalid" name=""/>
-        <alias index="16" field="gdb_geomattr_data" name=""/>
+        <alias name="" index="0" field="dataengine_id"/>
+        <alias name="" index="1" field="id"/>
+        <alias name="" index="2" field="capakey"/>
+        <alias name="" index="3" field="perc_id"/>
+        <alias name="" index="4" field="kadgemnr"/>
+        <alias name="" index="5" field="bredero_nr"/>
+        <alias name="" index="6" field="a_aanvraag"/>
+        <alias name="" index="7" field="dossier_id"/>
+        <alias name="" index="8" field="d_adviesa"/>
+        <alias name="" index="9" field="a_adviesa"/>
+        <alias name="" index="10" field="d_beslisg"/>
+        <alias name="" index="11" field="a_beslisg"/>
+        <alias name="" index="12" field="d_beslisd"/>
+        <alias name="" index="13" field="a_beslisd"/>
+        <alias name="" index="14" field="d_beslisr"/>
+        <alias name="" index="15" field="a_beslisr"/>
+        <alias name="" index="16" field="d_beslisa"/>
+        <alias name="" index="17" field="a_beslisa"/>
+        <alias name="" index="18" field="c_beroepd"/>
+        <alias name="" index="19" field="d_beroepd"/>
+        <alias name="" index="20" field="d_schors"/>
+        <alias name="" index="21" field="c_schors"/>
+        <alias name="" index="22" field="d_verniet"/>
+        <alias name="" index="23" field="c_verniet"/>
+        <alias name="" index="24" field="c_verval"/>
+        <alias name="" index="25" field="d_verval"/>
+        <alias name="" index="26" field="rednverval"/>
+        <alias name="" index="27" field="toestand"/>
+        <alias name="" index="28" field="verk_type"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="objectid" applyOnUpdate="0"/>
-        <default expression="" field="capakey" applyOnUpdate="0"/>
-        <default expression="" field="percid" applyOnUpdate="0"/>
-        <default expression="" field="kadgemnr" applyOnUpdate="0"/>
-        <default expression="" field="bredero_nr" applyOnUpdate="0"/>
-        <default expression="" field="dossier_id" applyOnUpdate="0"/>
-        <default expression="" field="d_beslisg" applyOnUpdate="0"/>
-        <default expression="" field="a_beslisg" applyOnUpdate="0"/>
-        <default expression="" field="d_beslisd" applyOnUpdate="0"/>
-        <default expression="" field="a_beslisd" applyOnUpdate="0"/>
-        <default expression="" field="d_schors" applyOnUpdate="0"/>
-        <default expression="" field="a_schors" applyOnUpdate="0"/>
-        <default expression="" field="d_verniet" applyOnUpdate="0"/>
-        <default expression="" field="c_verniet" applyOnUpdate="0"/>
-        <default expression="" field="doss_perc" applyOnUpdate="0"/>
-        <default expression="" field="globalid" applyOnUpdate="0"/>
-        <default expression="" field="gdb_geomattr_data" applyOnUpdate="0"/>
+        <default applyOnUpdate="0" expression="" field="dataengine_id"/>
+        <default applyOnUpdate="0" expression="" field="id"/>
+        <default applyOnUpdate="0" expression="" field="capakey"/>
+        <default applyOnUpdate="0" expression="" field="perc_id"/>
+        <default applyOnUpdate="0" expression="" field="kadgemnr"/>
+        <default applyOnUpdate="0" expression="" field="bredero_nr"/>
+        <default applyOnUpdate="0" expression="" field="a_aanvraag"/>
+        <default applyOnUpdate="0" expression="" field="dossier_id"/>
+        <default applyOnUpdate="0" expression="" field="d_adviesa"/>
+        <default applyOnUpdate="0" expression="" field="a_adviesa"/>
+        <default applyOnUpdate="0" expression="" field="d_beslisg"/>
+        <default applyOnUpdate="0" expression="" field="a_beslisg"/>
+        <default applyOnUpdate="0" expression="" field="d_beslisd"/>
+        <default applyOnUpdate="0" expression="" field="a_beslisd"/>
+        <default applyOnUpdate="0" expression="" field="d_beslisr"/>
+        <default applyOnUpdate="0" expression="" field="a_beslisr"/>
+        <default applyOnUpdate="0" expression="" field="d_beslisa"/>
+        <default applyOnUpdate="0" expression="" field="a_beslisa"/>
+        <default applyOnUpdate="0" expression="" field="c_beroepd"/>
+        <default applyOnUpdate="0" expression="" field="d_beroepd"/>
+        <default applyOnUpdate="0" expression="" field="d_schors"/>
+        <default applyOnUpdate="0" expression="" field="c_schors"/>
+        <default applyOnUpdate="0" expression="" field="d_verniet"/>
+        <default applyOnUpdate="0" expression="" field="c_verniet"/>
+        <default applyOnUpdate="0" expression="" field="c_verval"/>
+        <default applyOnUpdate="0" expression="" field="d_verval"/>
+        <default applyOnUpdate="0" expression="" field="rednverval"/>
+        <default applyOnUpdate="0" expression="" field="toestand"/>
+        <default applyOnUpdate="0" expression="" field="verk_type"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="objectid" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="capakey" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="percid" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="kadgemnr" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="bredero_nr" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="dossier_id" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="d_beslisg" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="a_beslisg" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="d_beslisd" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="a_beslisd" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="d_schors" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="a_schors" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="d_verniet" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="c_verniet" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="doss_perc" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="globalid" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gdb_geomattr_data" constraints="0"/>
+        <constraint notnull_strength="1" unique_strength="1" exp_strength="0" constraints="3" field="dataengine_id"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="id"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="capakey"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="perc_id"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="kadgemnr"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="bredero_nr"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="a_aanvraag"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="dossier_id"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_adviesa"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="a_adviesa"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_beslisg"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="a_beslisg"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_beslisd"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="a_beslisd"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_beslisr"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="a_beslisr"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_beslisa"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="a_beslisa"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="c_beroepd"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_beroepd"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_schors"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="c_schors"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_verniet"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="c_verniet"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="c_verval"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="d_verval"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="rednverval"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="toestand"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="verk_type"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" exp="" field="objectid"/>
-        <constraint desc="" exp="" field="capakey"/>
-        <constraint desc="" exp="" field="percid"/>
-        <constraint desc="" exp="" field="kadgemnr"/>
-        <constraint desc="" exp="" field="bredero_nr"/>
-        <constraint desc="" exp="" field="dossier_id"/>
-        <constraint desc="" exp="" field="d_beslisg"/>
-        <constraint desc="" exp="" field="a_beslisg"/>
-        <constraint desc="" exp="" field="d_beslisd"/>
-        <constraint desc="" exp="" field="a_beslisd"/>
-        <constraint desc="" exp="" field="d_schors"/>
-        <constraint desc="" exp="" field="a_schors"/>
-        <constraint desc="" exp="" field="d_verniet"/>
-        <constraint desc="" exp="" field="c_verniet"/>
-        <constraint desc="" exp="" field="doss_perc"/>
-        <constraint desc="" exp="" field="globalid"/>
-        <constraint desc="" exp="" field="gdb_geomattr_data"/>
+        <constraint exp="" desc="" field="dataengine_id"/>
+        <constraint exp="" desc="" field="id"/>
+        <constraint exp="" desc="" field="capakey"/>
+        <constraint exp="" desc="" field="perc_id"/>
+        <constraint exp="" desc="" field="kadgemnr"/>
+        <constraint exp="" desc="" field="bredero_nr"/>
+        <constraint exp="" desc="" field="a_aanvraag"/>
+        <constraint exp="" desc="" field="dossier_id"/>
+        <constraint exp="" desc="" field="d_adviesa"/>
+        <constraint exp="" desc="" field="a_adviesa"/>
+        <constraint exp="" desc="" field="d_beslisg"/>
+        <constraint exp="" desc="" field="a_beslisg"/>
+        <constraint exp="" desc="" field="d_beslisd"/>
+        <constraint exp="" desc="" field="a_beslisd"/>
+        <constraint exp="" desc="" field="d_beslisr"/>
+        <constraint exp="" desc="" field="a_beslisr"/>
+        <constraint exp="" desc="" field="d_beslisa"/>
+        <constraint exp="" desc="" field="a_beslisa"/>
+        <constraint exp="" desc="" field="c_beroepd"/>
+        <constraint exp="" desc="" field="d_beroepd"/>
+        <constraint exp="" desc="" field="d_schors"/>
+        <constraint exp="" desc="" field="c_schors"/>
+        <constraint exp="" desc="" field="d_verniet"/>
+        <constraint exp="" desc="" field="c_verniet"/>
+        <constraint exp="" desc="" field="c_verval"/>
+        <constraint exp="" desc="" field="d_verval"/>
+        <constraint exp="" desc="" field="rednverval"/>
+        <constraint exp="" desc="" field="toestand"/>
+        <constraint exp="" desc="" field="verk_type"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns>
-          <column hidden="0" type="field" width="-1" name="objectid"/>
-          <column hidden="0" type="field" width="-1" name="capakey"/>
-          <column hidden="0" type="field" width="-1" name="percid"/>
-          <column hidden="0" type="field" width="-1" name="kadgemnr"/>
-          <column hidden="0" type="field" width="-1" name="bredero_nr"/>
-          <column hidden="0" type="field" width="-1" name="dossier_id"/>
-          <column hidden="0" type="field" width="-1" name="d_beslisg"/>
-          <column hidden="0" type="field" width="-1" name="a_beslisg"/>
-          <column hidden="0" type="field" width="-1" name="d_beslisd"/>
-          <column hidden="0" type="field" width="-1" name="a_beslisd"/>
-          <column hidden="0" type="field" width="-1" name="d_schors"/>
-          <column hidden="0" type="field" width="-1" name="a_schors"/>
-          <column hidden="0" type="field" width="-1" name="d_verniet"/>
-          <column hidden="0" type="field" width="-1" name="c_verniet"/>
-          <column hidden="0" type="field" width="-1" name="doss_perc"/>
-          <column hidden="0" type="field" width="-1" name="globalid"/>
-          <column hidden="0" type="field" width="-1" name="gdb_geomattr_data"/>
-          <column hidden="1" type="actions" width="-1"/>
+          <column width="-1" name="dataengine_id" type="field" hidden="0"/>
+          <column width="-1" name="id" type="field" hidden="0"/>
+          <column width="-1" name="capakey" type="field" hidden="0"/>
+          <column width="-1" name="perc_id" type="field" hidden="0"/>
+          <column width="-1" name="kadgemnr" type="field" hidden="0"/>
+          <column width="-1" name="bredero_nr" type="field" hidden="0"/>
+          <column width="-1" name="a_aanvraag" type="field" hidden="0"/>
+          <column width="-1" name="dossier_id" type="field" hidden="0"/>
+          <column width="-1" name="d_adviesa" type="field" hidden="0"/>
+          <column width="-1" name="a_adviesa" type="field" hidden="0"/>
+          <column width="-1" name="d_beslisg" type="field" hidden="0"/>
+          <column width="-1" name="a_beslisg" type="field" hidden="0"/>
+          <column width="-1" name="d_beslisd" type="field" hidden="0"/>
+          <column width="-1" name="a_beslisd" type="field" hidden="0"/>
+          <column width="-1" name="d_beslisr" type="field" hidden="0"/>
+          <column width="-1" name="a_beslisr" type="field" hidden="0"/>
+          <column width="-1" name="d_beslisa" type="field" hidden="0"/>
+          <column width="-1" name="a_beslisa" type="field" hidden="0"/>
+          <column width="-1" name="c_beroepd" type="field" hidden="0"/>
+          <column width="-1" name="d_beroepd" type="field" hidden="0"/>
+          <column width="-1" name="d_schors" type="field" hidden="0"/>
+          <column width="-1" name="c_schors" type="field" hidden="0"/>
+          <column width="-1" name="d_verniet" type="field" hidden="0"/>
+          <column width="-1" name="c_verniet" type="field" hidden="0"/>
+          <column width="-1" name="c_verval" type="field" hidden="0"/>
+          <column width="-1" name="d_verval" type="field" hidden="0"/>
+          <column width="-1" name="rednverval" type="field" hidden="0"/>
+          <column width="-1" name="toestand" type="field" hidden="0"/>
+          <column width="-1" name="verk_type" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -399,45 +543,69 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <editable>
-        <field editable="1" name="a_beslisd"/>
-        <field editable="1" name="a_beslisg"/>
-        <field editable="1" name="a_schors"/>
-        <field editable="1" name="bredero_nr"/>
-        <field editable="1" name="c_verniet"/>
-        <field editable="1" name="capakey"/>
-        <field editable="1" name="d_beslisd"/>
-        <field editable="1" name="d_beslisg"/>
-        <field editable="1" name="d_schors"/>
-        <field editable="1" name="d_verniet"/>
-        <field editable="1" name="doss_perc"/>
-        <field editable="1" name="dossier_id"/>
-        <field editable="1" name="gdb_geomattr_data"/>
-        <field editable="1" name="globalid"/>
-        <field editable="1" name="kadgemnr"/>
-        <field editable="1" name="objectid"/>
-        <field editable="1" name="percid"/>
+        <field name="a_aanvraag" editable="1"/>
+        <field name="a_adviesa" editable="1"/>
+        <field name="a_beslisa" editable="1"/>
+        <field name="a_beslisd" editable="1"/>
+        <field name="a_beslisg" editable="1"/>
+        <field name="a_beslisr" editable="1"/>
+        <field name="bredero_nr" editable="1"/>
+        <field name="c_beroepd" editable="1"/>
+        <field name="c_schors" editable="1"/>
+        <field name="c_verniet" editable="1"/>
+        <field name="c_verval" editable="1"/>
+        <field name="capakey" editable="1"/>
+        <field name="d_adviesa" editable="1"/>
+        <field name="d_beroepd" editable="1"/>
+        <field name="d_beslisa" editable="1"/>
+        <field name="d_beslisd" editable="1"/>
+        <field name="d_beslisg" editable="1"/>
+        <field name="d_beslisr" editable="1"/>
+        <field name="d_schors" editable="1"/>
+        <field name="d_verniet" editable="1"/>
+        <field name="d_verval" editable="1"/>
+        <field name="dataengine_id" editable="1"/>
+        <field name="dossier_id" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="kadgemnr" editable="1"/>
+        <field name="perc_id" editable="1"/>
+        <field name="rednverval" editable="1"/>
+        <field name="toestand" editable="1"/>
+        <field name="verk_type" editable="1"/>
       </editable>
       <labelOnTop>
-        <field labelOnTop="0" name="a_beslisd"/>
-        <field labelOnTop="0" name="a_beslisg"/>
-        <field labelOnTop="0" name="a_schors"/>
-        <field labelOnTop="0" name="bredero_nr"/>
-        <field labelOnTop="0" name="c_verniet"/>
-        <field labelOnTop="0" name="capakey"/>
-        <field labelOnTop="0" name="d_beslisd"/>
-        <field labelOnTop="0" name="d_beslisg"/>
-        <field labelOnTop="0" name="d_schors"/>
-        <field labelOnTop="0" name="d_verniet"/>
-        <field labelOnTop="0" name="doss_perc"/>
-        <field labelOnTop="0" name="dossier_id"/>
-        <field labelOnTop="0" name="gdb_geomattr_data"/>
-        <field labelOnTop="0" name="globalid"/>
-        <field labelOnTop="0" name="kadgemnr"/>
-        <field labelOnTop="0" name="objectid"/>
-        <field labelOnTop="0" name="percid"/>
+        <field name="a_aanvraag" labelOnTop="0"/>
+        <field name="a_adviesa" labelOnTop="0"/>
+        <field name="a_beslisa" labelOnTop="0"/>
+        <field name="a_beslisd" labelOnTop="0"/>
+        <field name="a_beslisg" labelOnTop="0"/>
+        <field name="a_beslisr" labelOnTop="0"/>
+        <field name="bredero_nr" labelOnTop="0"/>
+        <field name="c_beroepd" labelOnTop="0"/>
+        <field name="c_schors" labelOnTop="0"/>
+        <field name="c_verniet" labelOnTop="0"/>
+        <field name="c_verval" labelOnTop="0"/>
+        <field name="capakey" labelOnTop="0"/>
+        <field name="d_adviesa" labelOnTop="0"/>
+        <field name="d_beroepd" labelOnTop="0"/>
+        <field name="d_beslisa" labelOnTop="0"/>
+        <field name="d_beslisd" labelOnTop="0"/>
+        <field name="d_beslisg" labelOnTop="0"/>
+        <field name="d_beslisr" labelOnTop="0"/>
+        <field name="d_schors" labelOnTop="0"/>
+        <field name="d_verniet" labelOnTop="0"/>
+        <field name="d_verval" labelOnTop="0"/>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="dossier_id" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="kadgemnr" labelOnTop="0"/>
+        <field name="perc_id" labelOnTop="0"/>
+        <field name="rednverval" labelOnTop="0"/>
+        <field name="toestand" labelOnTop="0"/>
+        <field name="verk_type" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
-      <previewExpression>objectid</previewExpression>
+      <previewExpression>dataengine_id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
   </maplayers>
