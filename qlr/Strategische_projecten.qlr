@@ -2,19 +2,19 @@
 <qlr>
   <layer-tree-group checked="Qt::Checked" name="" expanded="1">
     <customproperties/>
-    <layer-tree-layer checked="Qt::Checked" name="ni_strat_proj" id="ni_strat_proj_8a00c3b5_a93b_4955_83cd_ee4a5d29036f" providerKey="postgres" expanded="0" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;ni_strat_proj&quot; (geom) sql=">
+    <layer-tree-layer checked="Qt::Checked" name="ni_strat_proj" expanded="1" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;ni_strat_proj&quot; (geom) sql=" id="ni_strat_proj_a031a8ec_3fa3_40a8_9a3f_159324fee145" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
   <maplayers>
-    <maplayer styleCategories="AllStyleCategories" maxScale="0" readOnly="0" autoRefreshTime="0" autoRefreshEnabled="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" geometry="Polygon" simplifyMaxScale="1" type="vector" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyLocal="1">
+    <maplayer simplifyLocal="1" geometry="Polygon" minScale="1e+08" labelsEnabled="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" readOnly="0" autoRefreshTime="0" autoRefreshEnabled="0" simplifyDrawingTol="1" maxScale="0">
       <extent>
-        <xmin>49040.67589999739720952</xmin>
+        <xmin>27931.24955165030041826</xmin>
         <ymin>143759.89000000100350007</ymin>
         <xmax>259464.84369999900809489</xmax>
         <ymax>233947.97789999798987992</ymax>
       </extent>
-      <id>ni_strat_proj_8a00c3b5_a93b_4955_83cd_ee4a5d29036f</id>
+      <id>ni_strat_proj_a031a8ec_3fa3_40a8_9a3f_159324fee145</id>
       <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."ni_strat_proj" (geom) sql=</datasource>
       <keywordList>
         <value></value>
@@ -64,7 +64,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="EPSG:31370" maxz="0" miny="0" minz="0" maxy="0" dimensions="2" minx="0" maxx="0"/>
+          <spatial miny="0" maxz="0" maxx="0" crs="EPSG:31370" maxy="0" minz="0" dimensions="2" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -88,14 +88,14 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="RuleRenderer" forceraster="0">
-        <rules key="{2f1b6cee-a455-434f-a6b2-832ff6fd9083}">
-          <rule label="Afgerond" key="{9516d775-eba1-476b-817d-4d0f6a46644b}" filter="nummering = 'Ja'" symbol="0"/>
-          <rule label="Lopend" key="{65abe771-feba-4669-8cbd-be66e85a8604}" filter="nummering = 'Nee'" symbol="1"/>
+      <renderer-v2 symbollevels="0" type="RuleRenderer" forceraster="0" enableorderby="0">
+        <rules key="{b2204e51-2af2-4b35-bba0-acf70532ec8d}">
+          <rule filter="afgelopen = 'Ja'" symbol="0" key="{67ecce3b-ecc9-4c57-8e74-818d2ca4b3ef}" label="Afgerond"/>
+          <rule filter="afgelopen = 'Nee'" symbol="1" key="{7a8853d5-a5f5-4513-a623-1335ea610cc1}" label="Lopend"/>
         </rules>
         <symbols>
-          <symbol alpha="1" name="0" clip_to_extent="1" type="fill" force_rhr="0">
-            <layer enabled="1" locked="0" class="SimpleFill" pass="0">
+          <symbol name="0" force_rhr="0" alpha="1" type="fill" clip_to_extent="1">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="252,184,206,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -116,8 +116,8 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol alpha="1" name="1" clip_to_extent="1" type="fill" force_rhr="0">
-            <layer enabled="1" locked="0" class="SimpleFill" pass="0">
+          <symbol name="1" force_rhr="0" alpha="1" type="fill" clip_to_extent="1">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="189,252,187,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -149,11 +149,11 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory penColor="#000000" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" sizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" width="15" penAlpha="255" barWidth="5" backgroundColor="#ffffff" minScaleDenominator="0" lineSizeType="MM" backgroundAlpha="255" maxScaleDenominator="1e+08" opacity="1" scaleDependency="Area" labelPlacementMethod="XHeight" rotationOffset="270" enabled="0" penWidth="0" diagramOrientation="Up" height="15">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory sizeType="MM" opacity="1" scaleDependency="Area" rotationOffset="270" penWidth="0" diagramOrientation="Up" minScaleDenominator="0" barWidth="5" backgroundColor="#ffffff" width="15" lineSizeScale="3x:0,0,0,0,0,0" height="15" labelPlacementMethod="XHeight" enabled="0" backgroundAlpha="255" penColor="#000000" penAlpha="255" minimumSize="0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" lineSizeType="MM">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings priority="0" zIndex="0" obstacle="0" placement="1" linePlacementFlags="18" dist="0" showAll="1">
+      <DiagramLayerSettings dist="0" obstacle="0" zIndex="0" linePlacementFlags="18" placement="1" showAll="1" priority="0">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -162,7 +162,7 @@
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -314,128 +314,140 @@
             </config>
           </editWidget>
         </field>
+        <field name="afgelopen">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="dataengine_id"/>
-        <alias name="" index="1" field="id"/>
-        <alias name="" index="2" field="objectid"/>
-        <alias name="" index="3" field="naam"/>
-        <alias name="" index="4" field="datum"/>
-        <alias name="" index="5" field="thema"/>
-        <alias name="" index="6" field="label"/>
-        <alias name="" index="7" field="legende"/>
-        <alias name="" index="8" field="subsidiepe"/>
-        <alias name="" index="9" field="jaar_vastl"/>
-        <alias name="" index="10" field="link"/>
-        <alias name="" index="11" field="nummering"/>
-        <alias name="" index="12" field="subsidie_e"/>
-        <alias name="" index="13" field="globalid"/>
-        <alias name="" index="14" field="created_user"/>
-        <alias name="" index="15" field="created_date"/>
-        <alias name="" index="16" field="last_edited_user"/>
-        <alias name="" index="17" field="last_edited_date"/>
-        <alias name="" index="18" field="shape_length"/>
-        <alias name="" index="19" field="shape_area"/>
-        <alias name="" index="20" field="dosnr_ro"/>
+        <alias index="0" name="" field="dataengine_id"/>
+        <alias index="1" name="" field="id"/>
+        <alias index="2" name="" field="objectid"/>
+        <alias index="3" name="" field="naam"/>
+        <alias index="4" name="" field="datum"/>
+        <alias index="5" name="" field="thema"/>
+        <alias index="6" name="" field="label"/>
+        <alias index="7" name="" field="legende"/>
+        <alias index="8" name="" field="subsidiepe"/>
+        <alias index="9" name="" field="jaar_vastl"/>
+        <alias index="10" name="" field="link"/>
+        <alias index="11" name="" field="nummering"/>
+        <alias index="12" name="" field="subsidie_e"/>
+        <alias index="13" name="" field="globalid"/>
+        <alias index="14" name="" field="created_user"/>
+        <alias index="15" name="" field="created_date"/>
+        <alias index="16" name="" field="last_edited_user"/>
+        <alias index="17" name="" field="last_edited_date"/>
+        <alias index="18" name="" field="shape_length"/>
+        <alias index="19" name="" field="shape_area"/>
+        <alias index="20" name="" field="dosnr_ro"/>
+        <alias index="21" name="" field="afgelopen"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="dataengine_id"/>
-        <default applyOnUpdate="0" expression="" field="id"/>
-        <default applyOnUpdate="0" expression="" field="objectid"/>
-        <default applyOnUpdate="0" expression="" field="naam"/>
-        <default applyOnUpdate="0" expression="" field="datum"/>
-        <default applyOnUpdate="0" expression="" field="thema"/>
-        <default applyOnUpdate="0" expression="" field="label"/>
-        <default applyOnUpdate="0" expression="" field="legende"/>
-        <default applyOnUpdate="0" expression="" field="subsidiepe"/>
-        <default applyOnUpdate="0" expression="" field="jaar_vastl"/>
-        <default applyOnUpdate="0" expression="" field="link"/>
-        <default applyOnUpdate="0" expression="" field="nummering"/>
-        <default applyOnUpdate="0" expression="" field="subsidie_e"/>
-        <default applyOnUpdate="0" expression="" field="globalid"/>
-        <default applyOnUpdate="0" expression="" field="created_user"/>
-        <default applyOnUpdate="0" expression="" field="created_date"/>
-        <default applyOnUpdate="0" expression="" field="last_edited_user"/>
-        <default applyOnUpdate="0" expression="" field="last_edited_date"/>
-        <default applyOnUpdate="0" expression="" field="shape_length"/>
-        <default applyOnUpdate="0" expression="" field="shape_area"/>
-        <default applyOnUpdate="0" expression="" field="dosnr_ro"/>
+        <default field="dataengine_id" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="objectid" applyOnUpdate="0" expression=""/>
+        <default field="naam" applyOnUpdate="0" expression=""/>
+        <default field="datum" applyOnUpdate="0" expression=""/>
+        <default field="thema" applyOnUpdate="0" expression=""/>
+        <default field="label" applyOnUpdate="0" expression=""/>
+        <default field="legende" applyOnUpdate="0" expression=""/>
+        <default field="subsidiepe" applyOnUpdate="0" expression=""/>
+        <default field="jaar_vastl" applyOnUpdate="0" expression=""/>
+        <default field="link" applyOnUpdate="0" expression=""/>
+        <default field="nummering" applyOnUpdate="0" expression=""/>
+        <default field="subsidie_e" applyOnUpdate="0" expression=""/>
+        <default field="globalid" applyOnUpdate="0" expression=""/>
+        <default field="created_user" applyOnUpdate="0" expression=""/>
+        <default field="created_date" applyOnUpdate="0" expression=""/>
+        <default field="last_edited_user" applyOnUpdate="0" expression=""/>
+        <default field="last_edited_date" applyOnUpdate="0" expression=""/>
+        <default field="shape_length" applyOnUpdate="0" expression=""/>
+        <default field="shape_area" applyOnUpdate="0" expression=""/>
+        <default field="dosnr_ro" applyOnUpdate="0" expression=""/>
+        <default field="afgelopen" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="1" unique_strength="1" exp_strength="0" constraints="3" field="dataengine_id"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="id"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="objectid"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="naam"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="datum"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="thema"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="label"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="legende"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="subsidiepe"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="jaar_vastl"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="link"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="nummering"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="subsidie_e"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="globalid"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="created_user"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="created_date"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="last_edited_user"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="last_edited_date"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="shape_length"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="shape_area"/>
-        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="dosnr_ro"/>
+        <constraint constraints="3" field="dataengine_id" unique_strength="1" notnull_strength="1" exp_strength="0"/>
+        <constraint constraints="0" field="id" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="objectid" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="naam" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="datum" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="thema" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="label" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="legende" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="subsidiepe" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="jaar_vastl" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="link" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="nummering" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="subsidie_e" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="globalid" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="created_user" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="created_date" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="last_edited_user" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="last_edited_date" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_length" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shape_area" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="dosnr_ro" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="afgelopen" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="dataengine_id"/>
-        <constraint exp="" desc="" field="id"/>
-        <constraint exp="" desc="" field="objectid"/>
-        <constraint exp="" desc="" field="naam"/>
-        <constraint exp="" desc="" field="datum"/>
-        <constraint exp="" desc="" field="thema"/>
-        <constraint exp="" desc="" field="label"/>
-        <constraint exp="" desc="" field="legende"/>
-        <constraint exp="" desc="" field="subsidiepe"/>
-        <constraint exp="" desc="" field="jaar_vastl"/>
-        <constraint exp="" desc="" field="link"/>
-        <constraint exp="" desc="" field="nummering"/>
-        <constraint exp="" desc="" field="subsidie_e"/>
-        <constraint exp="" desc="" field="globalid"/>
-        <constraint exp="" desc="" field="created_user"/>
-        <constraint exp="" desc="" field="created_date"/>
-        <constraint exp="" desc="" field="last_edited_user"/>
-        <constraint exp="" desc="" field="last_edited_date"/>
-        <constraint exp="" desc="" field="shape_length"/>
-        <constraint exp="" desc="" field="shape_area"/>
-        <constraint exp="" desc="" field="dosnr_ro"/>
+        <constraint exp="" field="dataengine_id" desc=""/>
+        <constraint exp="" field="id" desc=""/>
+        <constraint exp="" field="objectid" desc=""/>
+        <constraint exp="" field="naam" desc=""/>
+        <constraint exp="" field="datum" desc=""/>
+        <constraint exp="" field="thema" desc=""/>
+        <constraint exp="" field="label" desc=""/>
+        <constraint exp="" field="legende" desc=""/>
+        <constraint exp="" field="subsidiepe" desc=""/>
+        <constraint exp="" field="jaar_vastl" desc=""/>
+        <constraint exp="" field="link" desc=""/>
+        <constraint exp="" field="nummering" desc=""/>
+        <constraint exp="" field="subsidie_e" desc=""/>
+        <constraint exp="" field="globalid" desc=""/>
+        <constraint exp="" field="created_user" desc=""/>
+        <constraint exp="" field="created_date" desc=""/>
+        <constraint exp="" field="last_edited_user" desc=""/>
+        <constraint exp="" field="last_edited_date" desc=""/>
+        <constraint exp="" field="shape_length" desc=""/>
+        <constraint exp="" field="shape_area" desc=""/>
+        <constraint exp="" field="dosnr_ro" desc=""/>
+        <constraint exp="" field="afgelopen" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column width="-1" name="dataengine_id" type="field" hidden="0"/>
-          <column width="-1" name="id" type="field" hidden="0"/>
-          <column width="-1" name="objectid" type="field" hidden="0"/>
-          <column width="-1" name="naam" type="field" hidden="0"/>
-          <column width="-1" name="datum" type="field" hidden="0"/>
-          <column width="-1" name="thema" type="field" hidden="0"/>
-          <column width="-1" name="label" type="field" hidden="0"/>
-          <column width="-1" name="legende" type="field" hidden="0"/>
-          <column width="-1" name="subsidiepe" type="field" hidden="0"/>
-          <column width="-1" name="jaar_vastl" type="field" hidden="0"/>
-          <column width="-1" name="link" type="field" hidden="0"/>
-          <column width="-1" name="nummering" type="field" hidden="0"/>
-          <column width="-1" name="subsidie_e" type="field" hidden="0"/>
-          <column width="-1" name="globalid" type="field" hidden="0"/>
-          <column width="-1" name="created_user" type="field" hidden="0"/>
-          <column width="-1" name="created_date" type="field" hidden="0"/>
-          <column width="-1" name="last_edited_user" type="field" hidden="0"/>
-          <column width="-1" name="last_edited_date" type="field" hidden="0"/>
-          <column width="-1" name="shape_length" type="field" hidden="0"/>
-          <column width="-1" name="shape_area" type="field" hidden="0"/>
-          <column width="-1" name="dosnr_ro" type="field" hidden="0"/>
+          <column name="dataengine_id" width="-1" type="field" hidden="0"/>
+          <column name="id" width="-1" type="field" hidden="0"/>
+          <column name="objectid" width="-1" type="field" hidden="0"/>
+          <column name="naam" width="-1" type="field" hidden="0"/>
+          <column name="datum" width="-1" type="field" hidden="0"/>
+          <column name="thema" width="-1" type="field" hidden="0"/>
+          <column name="label" width="-1" type="field" hidden="0"/>
+          <column name="legende" width="-1" type="field" hidden="0"/>
+          <column name="subsidiepe" width="-1" type="field" hidden="0"/>
+          <column name="jaar_vastl" width="-1" type="field" hidden="0"/>
+          <column name="link" width="-1" type="field" hidden="0"/>
+          <column name="nummering" width="-1" type="field" hidden="0"/>
+          <column name="subsidie_e" width="-1" type="field" hidden="0"/>
+          <column name="globalid" width="-1" type="field" hidden="0"/>
+          <column name="created_user" width="-1" type="field" hidden="0"/>
+          <column name="created_date" width="-1" type="field" hidden="0"/>
+          <column name="last_edited_user" width="-1" type="field" hidden="0"/>
+          <column name="last_edited_date" width="-1" type="field" hidden="0"/>
+          <column name="shape_length" width="-1" type="field" hidden="0"/>
+          <column name="shape_area" width="-1" type="field" hidden="0"/>
+          <column name="dosnr_ro" width="-1" type="field" hidden="0"/>
+          <column name="afgelopen" width="-1" type="field" hidden="0"/>
           <column width="-1" type="actions" hidden="1"/>
         </columns>
       </attributetableconfig>
@@ -466,6 +478,7 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <editable>
+        <field name="afgelopen" editable="1"/>
         <field name="created_date" editable="1"/>
         <field name="created_user" editable="1"/>
         <field name="dataengine_id" editable="1"/>
@@ -489,6 +502,7 @@ def my_form_open(dialog, layer, feature):
         <field name="thema" editable="1"/>
       </editable>
       <labelOnTop>
+        <field name="afgelopen" labelOnTop="0"/>
         <field name="created_date" labelOnTop="0"/>
         <field name="created_user" labelOnTop="0"/>
         <field name="dataengine_id" labelOnTop="0"/>
