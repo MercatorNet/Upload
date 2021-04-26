@@ -1,0 +1,361 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer providerKey="postgres" id="am_patdat_3b66d76a_2cd3_4539_9b05_f6f9ce167ea4" expanded="1" checked="Qt::Checked" name="am_patdat" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;anb&quot;.&quot;am_patdat&quot; (geom) sql=">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer autoRefreshTime="0" simplifyDrawingHints="1" simplifyLocal="1" maxScale="0" type="vector" minScale="1e+08" refreshOnNotifyMessage="" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" styleCategories="AllStyleCategories" geometry="Polygon" labelsEnabled="0" autoRefreshEnabled="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyDrawingTol="1">
+      <extent>
+        <xmin>22239.07489040300060879</xmin>
+        <ymin>153823.50334493000991642</ymin>
+        <xmax>257274.5850829110131599</xmax>
+        <ymax>243234.1813230520056095</ymax>
+      </extent>
+      <id>am_patdat_3b66d76a_2cd3_4539_9b05_f6f9ce167ea4</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="anb"."am_patdat" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>am_patdat</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" minz="0" dimensions="2" crs="EPSG:31370" maxz="0" minx="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" type="RuleRenderer" forceraster="0" symbollevels="0">
+        <rules key="{2db07097-41e4-42fe-95f1-a85f736b0fa2}">
+          <rule key="{724abd24-356e-4849-8e05-8d8d2d8f6f7f}" label="Eigendom" symbol="0"/>
+          <rule key="{038bf6a8-5828-4994-a4d5-02d9cd3b023e}" filter="rechtenanb = 'Protocol landsverdediging'" label="Protocol landsverdediging" symbol="1"/>
+          <rule key="{5458c7e4-16e1-4f1e-95e6-cca0337517e3}" filter="rechtenanb = 'Technisch beheer conform bosdecreet'" label="Technisch beheer conform bosdecreet" symbol="2"/>
+        </rules>
+        <symbols>
+          <symbol type="fill" force_rhr="0" name="0" clip_to_extent="1" alpha="1">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="0,85,0,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="72,117,36,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="1" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="fill" force_rhr="0" name="1" clip_to_extent="1" alpha="1">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="170,170,0,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="170,170,127,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="1" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="fill" force_rhr="0" name="2" clip_to_extent="1" alpha="1">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="239,169,3,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="118,55,24,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="1" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory diagramOrientation="Up" labelPlacementMethod="XHeight" barWidth="5" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" width="15" scaleDependency="Area" enabled="0" rotationOffset="270" maxScaleDenominator="1e+08" backgroundColor="#ffffff" sizeType="MM" penWidth="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" penColor="#000000" backgroundAlpha="255" opacity="1" minScaleDenominator="0" height="15" scaleBasedVisibility="0">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" obstacle="0" dist="0" linePlacementFlags="18" priority="0" placement="1" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="domeinnaam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="provincie">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="regio">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rechtenanb">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="beheerder">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="contact_email">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="id" index="1" name=""/>
+        <alias field="domeinnaam" index="2" name=""/>
+        <alias field="provincie" index="3" name=""/>
+        <alias field="regio" index="4" name=""/>
+        <alias field="rechtenanb" index="5" name=""/>
+        <alias field="beheerder" index="6" name=""/>
+        <alias field="contact_email" index="7" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="domeinnaam" applyOnUpdate="0" expression=""/>
+        <default field="provincie" applyOnUpdate="0" expression=""/>
+        <default field="regio" applyOnUpdate="0" expression=""/>
+        <default field="rechtenanb" applyOnUpdate="0" expression=""/>
+        <default field="beheerder" applyOnUpdate="0" expression=""/>
+        <default field="contact_email" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="dataengine_id" constraints="3" notnull_strength="1" unique_strength="1" exp_strength="0"/>
+        <constraint field="id" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="domeinnaam" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="provincie" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="regio" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="rechtenanb" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="beheerder" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="contact_email" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="dataengine_id" exp="" desc=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="domeinnaam" exp="" desc=""/>
+        <constraint field="provincie" exp="" desc=""/>
+        <constraint field="regio" exp="" desc=""/>
+        <constraint field="rechtenanb" exp="" desc=""/>
+        <constraint field="beheerder" exp="" desc=""/>
+        <constraint field="contact_email" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column type="field" hidden="0" width="-1" name="dataengine_id"/>
+          <column type="field" hidden="0" width="-1" name="id"/>
+          <column type="field" hidden="0" width="-1" name="domeinnaam"/>
+          <column type="field" hidden="0" width="-1" name="provincie"/>
+          <column type="field" hidden="0" width="-1" name="regio"/>
+          <column type="field" hidden="0" width="-1" name="rechtenanb"/>
+          <column type="field" hidden="0" width="-1" name="beheerder"/>
+          <column type="field" hidden="0" width="-1" name="contact_email"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="beheerder"/>
+        <field editable="1" name="contact_email"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="domeinnaam"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="provincie"/>
+        <field editable="1" name="rechtenanb"/>
+        <field editable="1" name="regio"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="beheerder"/>
+        <field labelOnTop="0" name="contact_email"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="domeinnaam"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="provincie"/>
+        <field labelOnTop="0" name="rechtenanb"/>
+        <field labelOnTop="0" name="regio"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
