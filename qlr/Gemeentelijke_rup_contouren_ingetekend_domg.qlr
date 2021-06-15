@@ -1,0 +1,500 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer id="lu_gemrup_ct_domg_dbb49731_4772_46a2_b8f3_0503daafb473" checked="Qt::Checked" source="dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;lu_gemrup_ct_domg&quot; (geom) sql=" expanded="1" providerKey="postgres" name="lu_gemrup_ct_domg">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0" autoRefreshTime="0" geometry="Polygon" simplifyDrawingTol="1" refreshOnNotifyMessage="" simplifyMaxScale="1" styleCategories="AllStyleCategories" maxScale="0" simplifyDrawingHints="1" readOnly="0" labelsEnabled="0" autoRefreshEnabled="0" minScale="1e+08">
+      <extent>
+        <xmin>22877.02399999650151585</xmin>
+        <ymin>154910.54549999898881651</ymin>
+        <xmax>256769.32760000199778005</xmax>
+        <ymax>241875.66010000198730268</ymax>
+      </extent>
+      <id>lu_gemrup_ct_domg_dbb49731_4772_46a2_b8f3_0503daafb473</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."lu_gemrup_ct_domg" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lu_gemrup_ct_domg</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>intl</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" maxx="0" miny="0" minz="0" maxy="0" maxz="0" crs="EPSG:31370" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol type="fill" clip_to_extent="1" alpha="1" force_rhr="0" name="0">
+            <layer locked="0" pass="0" class="SimpleLine" enabled="1">
+              <prop v="square" k="capstyle"/>
+              <prop v="" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="Pixel" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="85,170,255,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.8" k="line_width"/>
+              <prop v="Pixel" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="Pixel" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penAlpha="255" height="15" sizeType="MM" opacity="1" barWidth="5" backgroundColor="#ffffff" minScaleDenominator="0" minimumSize="0" labelPlacementMethod="XHeight" lineSizeType="MM" penColor="#000000" width="15" backgroundAlpha="255" diagramOrientation="Up" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" penWidth="0" scaleBasedVisibility="0" enabled="0" maxScaleDenominator="1e+08" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" dist="0" linePlacementFlags="18" obstacle="0" showAll="1" zIndex="0" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="dataengine_id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="num">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objectid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dosnr_rp">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dosnr_ro">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="besluit">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="algplanid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="deelplnr">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pacode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="link_bld">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="link_leg">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="niscode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="basiskaart">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dat_omh">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dat_eind">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="perimeter">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="stadium">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fase">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="dataengine_id" index="0" name=""/>
+        <alias field="num" index="1" name=""/>
+        <alias field="id" index="2" name=""/>
+        <alias field="objectid" index="3" name=""/>
+        <alias field="dosnr_rp" index="4" name=""/>
+        <alias field="dosnr_ro" index="5" name=""/>
+        <alias field="datum" index="6" name=""/>
+        <alias field="naam" index="7" name=""/>
+        <alias field="besluit" index="8" name=""/>
+        <alias field="algplanid" index="9" name=""/>
+        <alias field="deelplnr" index="10" name=""/>
+        <alias field="pacode" index="11" name=""/>
+        <alias field="link_bld" index="12" name=""/>
+        <alias field="link_leg" index="13" name=""/>
+        <alias field="niscode" index="14" name=""/>
+        <alias field="basiskaart" index="15" name=""/>
+        <alias field="dat_omh" index="16" name=""/>
+        <alias field="dat_eind" index="17" name=""/>
+        <alias field="perimeter" index="18" name=""/>
+        <alias field="stadium" index="19" name=""/>
+        <alias field="fase" index="20" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="dataengine_id" expression="" applyOnUpdate="0"/>
+        <default field="num" expression="" applyOnUpdate="0"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="objectid" expression="" applyOnUpdate="0"/>
+        <default field="dosnr_rp" expression="" applyOnUpdate="0"/>
+        <default field="dosnr_ro" expression="" applyOnUpdate="0"/>
+        <default field="datum" expression="" applyOnUpdate="0"/>
+        <default field="naam" expression="" applyOnUpdate="0"/>
+        <default field="besluit" expression="" applyOnUpdate="0"/>
+        <default field="algplanid" expression="" applyOnUpdate="0"/>
+        <default field="deelplnr" expression="" applyOnUpdate="0"/>
+        <default field="pacode" expression="" applyOnUpdate="0"/>
+        <default field="link_bld" expression="" applyOnUpdate="0"/>
+        <default field="link_leg" expression="" applyOnUpdate="0"/>
+        <default field="niscode" expression="" applyOnUpdate="0"/>
+        <default field="basiskaart" expression="" applyOnUpdate="0"/>
+        <default field="dat_omh" expression="" applyOnUpdate="0"/>
+        <default field="dat_eind" expression="" applyOnUpdate="0"/>
+        <default field="perimeter" expression="" applyOnUpdate="0"/>
+        <default field="stadium" expression="" applyOnUpdate="0"/>
+        <default field="fase" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="dataengine_id" constraints="3" unique_strength="1" exp_strength="0" notnull_strength="1"/>
+        <constraint field="num" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="id" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="objectid" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="dosnr_rp" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="dosnr_ro" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="datum" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="naam" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="besluit" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="algplanid" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="deelplnr" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="pacode" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="link_bld" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="link_leg" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="niscode" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="basiskaart" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="dat_omh" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="dat_eind" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="perimeter" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="stadium" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint field="fase" constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="dataengine_id" desc="" exp=""/>
+        <constraint field="num" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="objectid" desc="" exp=""/>
+        <constraint field="dosnr_rp" desc="" exp=""/>
+        <constraint field="dosnr_ro" desc="" exp=""/>
+        <constraint field="datum" desc="" exp=""/>
+        <constraint field="naam" desc="" exp=""/>
+        <constraint field="besluit" desc="" exp=""/>
+        <constraint field="algplanid" desc="" exp=""/>
+        <constraint field="deelplnr" desc="" exp=""/>
+        <constraint field="pacode" desc="" exp=""/>
+        <constraint field="link_bld" desc="" exp=""/>
+        <constraint field="link_leg" desc="" exp=""/>
+        <constraint field="niscode" desc="" exp=""/>
+        <constraint field="basiskaart" desc="" exp=""/>
+        <constraint field="dat_omh" desc="" exp=""/>
+        <constraint field="dat_eind" desc="" exp=""/>
+        <constraint field="perimeter" desc="" exp=""/>
+        <constraint field="stadium" desc="" exp=""/>
+        <constraint field="fase" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column type="field" width="-1" name="dataengine_id" hidden="0"/>
+          <column type="field" width="-1" name="num" hidden="0"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="field" width="-1" name="objectid" hidden="0"/>
+          <column type="field" width="-1" name="dosnr_rp" hidden="0"/>
+          <column type="field" width="-1" name="dosnr_ro" hidden="0"/>
+          <column type="field" width="-1" name="datum" hidden="0"/>
+          <column type="field" width="-1" name="naam" hidden="0"/>
+          <column type="field" width="-1" name="besluit" hidden="0"/>
+          <column type="field" width="-1" name="algplanid" hidden="0"/>
+          <column type="field" width="-1" name="deelplnr" hidden="0"/>
+          <column type="field" width="-1" name="pacode" hidden="0"/>
+          <column type="field" width="-1" name="link_bld" hidden="0"/>
+          <column type="field" width="-1" name="link_leg" hidden="0"/>
+          <column type="field" width="-1" name="niscode" hidden="0"/>
+          <column type="field" width="-1" name="basiskaart" hidden="0"/>
+          <column type="field" width="-1" name="dat_omh" hidden="0"/>
+          <column type="field" width="-1" name="dat_eind" hidden="0"/>
+          <column type="field" width="-1" name="perimeter" hidden="0"/>
+          <column type="field" width="-1" name="stadium" hidden="0"/>
+          <column type="field" width="-1" name="fase" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS kunnen een functie voor Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init function".
+
+Een voorbeeld volgt hieronder:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="algplanid"/>
+        <field editable="1" name="basiskaart"/>
+        <field editable="1" name="besluit"/>
+        <field editable="1" name="dat_eind"/>
+        <field editable="1" name="dat_omh"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="datum"/>
+        <field editable="1" name="deelplnr"/>
+        <field editable="1" name="dosnr_ro"/>
+        <field editable="1" name="dosnr_rp"/>
+        <field editable="1" name="fase"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="link_bld"/>
+        <field editable="1" name="link_leg"/>
+        <field editable="1" name="naam"/>
+        <field editable="1" name="niscode"/>
+        <field editable="1" name="num"/>
+        <field editable="1" name="objectid"/>
+        <field editable="1" name="pacode"/>
+        <field editable="1" name="perimeter"/>
+        <field editable="1" name="stadium"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="algplanid"/>
+        <field labelOnTop="0" name="basiskaart"/>
+        <field labelOnTop="0" name="besluit"/>
+        <field labelOnTop="0" name="dat_eind"/>
+        <field labelOnTop="0" name="dat_omh"/>
+        <field labelOnTop="0" name="dataengine_id"/>
+        <field labelOnTop="0" name="datum"/>
+        <field labelOnTop="0" name="deelplnr"/>
+        <field labelOnTop="0" name="dosnr_ro"/>
+        <field labelOnTop="0" name="dosnr_rp"/>
+        <field labelOnTop="0" name="fase"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="link_bld"/>
+        <field labelOnTop="0" name="link_leg"/>
+        <field labelOnTop="0" name="naam"/>
+        <field labelOnTop="0" name="niscode"/>
+        <field labelOnTop="0" name="num"/>
+        <field labelOnTop="0" name="objectid"/>
+        <field labelOnTop="0" name="pacode"/>
+        <field labelOnTop="0" name="perimeter"/>
+        <field labelOnTop="0" name="stadium"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>dataengine_id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
