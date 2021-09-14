@@ -1,0 +1,572 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer id="Provinciale_ruimtelijke_uitvoeringsplannen___contouren__definitief_vastgesteld__4b374935_1801_4af5_9382_7bc774568749" source="dbname='mercator_ro_productie' host=mercatorro-postgres-pr-1.vm.cumuli.be port=5432 authcfg=so46415 key='dataengine_id' srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;rwo&quot;.&quot;lu_prorup_ct_bg&quot; (geom)" name="Provinciale ruimtelijke uitvoeringsplannen - contouren (definitief vastgesteld)" legend_exp="" providerKey="postgres" patch_size="0,0" checked="Qt::Checked" expanded="1" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" minScale="100000000" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" maxScale="-4.6566128730773926e-10" wkbType="MultiPolygon" simplifyMaxScale="1" labelsEnabled="0" simplifyLocal="1" autoRefreshEnabled="0" autoRefreshTime="0" simplifyDrawingHints="1" readOnly="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" geometry="Polygon" type="vector">
+      <extent>
+        <xmin>22046.71649999919827678</xmin>
+        <ymin>154323.36659999898984097</ymin>
+        <xmax>250665.90649999701417983</xmax>
+        <ymax>238345.14359999800217338</ymax>
+      </extent>
+      <id>Provinciale_ruimtelijke_uitvoeringsplannen___contouren__definitief_vastgesteld__4b374935_1801_4af5_9382_7bc774568749</id>
+      <datasource>dbname='mercator_ro_productie' host=db-pr.mercator.vonet.be port=5613 key='dataengine_id' srid=31370 type=MultiPolygon checkPrimaryKeyUnicity='1' table="rwo"."lu_prorup_ct_bg" (geom)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Provinciale ruimtelijke uitvoeringsplannen - contouren (definitief vastgesteld)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["Belge 1972 / Belgian Lambert 72",BASEGEOGCRS["Belge 1972",DATUM["Reseau National Belge 1972",ELLIPSOID["International 1924",6378388,297,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4313]],CONVERSION["Belgian Lambert 72",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",4.36748666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",51.1666672333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",49.8333339,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",150000.013,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",5400088.438,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Belgium - onshore"],BBOX[49.5,2.5,51.51,6.4]],ID["EPSG",31370]]</wkt>
+          <proj4>+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-99.059,53.322,-112.486,0.419,-0.83,1.885,-1 +units=m +no_defs</proj4>
+          <srsid>2640</srsid>
+          <srid>31370</srid>
+          <authid>EPSG:31370</authid>
+          <description>Belge 1972 / Belgian Lambert 72</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>EPSG:7022</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt>PROJCRS["Belge 1972 / Belgian Lambert 72",BASEGEOGCRS["Belge 1972",DATUM["Reseau National Belge 1972",ELLIPSOID["International 1924",6378388,297,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4313]],CONVERSION["Belgian Lambert 72",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",4.36748666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",51.1666672333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",49.8333339,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",150000.013,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",5400088.438,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Belgium - onshore"],BBOX[49.5,2.5,51.51,6.4]],ID["EPSG",31370]]</wkt>
+            <proj4>+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-99.059,53.322,-112.486,0.419,-0.83,1.885,-1 +units=m +no_defs</proj4>
+            <srsid>2640</srsid>
+            <srid>31370</srid>
+            <authid>EPSG:31370</authid>
+            <description>Belge 1972 / Belgian Lambert 72</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>EPSG:7022</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" crs="EPSG:31370" miny="0" minz="0" maxy="0" dimensions="2" minx="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="standaard">
+        <map-layer-style name="standaard"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal fixedDuration="0" endExpression="" startExpression="" accumulate="0" mode="0" enabled="0" durationField="" durationUnit="min" startField="" endField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
+        <symbols>
+          <symbol alpha="1" type="fill" clip_to_extent="1" name="0" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="164,113,88,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="215,47,47,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.86"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="no"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Pie" attributeLegend="1">
+        <DiagramCategory opacity="1" direction="1" width="15" spacingUnit="MM" labelPlacementMethod="XHeight" spacingUnitScale="3x:0,0,0,0,0,0" penWidth="0" spacing="0" backgroundAlpha="255" penAlpha="255" enabled="0" showAxis="0" penColor="#000000" backgroundColor="#ffffff" sizeScale="3x:0,0,0,0,0,0" barWidth="5" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" lineSizeType="MM" sizeType="MM" diagramOrientation="Up" minScaleDenominator="-4.65661e-10" maxScaleDenominator="1e+08" scaleDependency="Area" height="15" minimumSize="0" rotationOffset="270">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+          <axisSymbol>
+            <symbol alpha="1" type="line" clip_to_extent="1" name="" force_rhr="0">
+              <layer pass="0" locked="0" enabled="1" class="SimpleLine">
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option type="QString" name="name" value=""/>
+                    <Option name="properties"/>
+                    <Option type="QString" name="type" value="collection"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" priority="0" obstacle="0" placement="0" zIndex="0" linePlacementFlags="2" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option type="double" name="allowedGapsBuffer" value="0"/>
+            <Option type="bool" name="allowedGapsEnabled" value="false"/>
+            <Option type="QString" name="allowedGapsLayer" value=""/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="dataengine_id" configurationFlags="None">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id" configurationFlags="None">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objectid" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="algplanid" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="legende" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="naam" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="do_gem" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="opm" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="svlink" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tnlink" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datum" configurationFlags="None">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="procstap" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="do_pro" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="do_ro" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="do_rp" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="startpglink" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="globalid" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="created_user" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="created_date" configurationFlags="None">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="last_edited_user" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="last_edited_date" configurationFlags="None">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="shape_length" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="shape_area" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="dataengine_id"/>
+        <alias index="1" name="" field="id"/>
+        <alias index="2" name="" field="objectid"/>
+        <alias index="3" name="" field="algplanid"/>
+        <alias index="4" name="" field="legende"/>
+        <alias index="5" name="" field="naam"/>
+        <alias index="6" name="" field="do_gem"/>
+        <alias index="7" name="" field="opm"/>
+        <alias index="8" name="" field="svlink"/>
+        <alias index="9" name="" field="tnlink"/>
+        <alias index="10" name="" field="datum"/>
+        <alias index="11" name="" field="procstap"/>
+        <alias index="12" name="" field="do_pro"/>
+        <alias index="13" name="" field="do_ro"/>
+        <alias index="14" name="" field="do_rp"/>
+        <alias index="15" name="" field="startpglink"/>
+        <alias index="16" name="" field="globalid"/>
+        <alias index="17" name="" field="created_user"/>
+        <alias index="18" name="" field="created_date"/>
+        <alias index="19" name="" field="last_edited_user"/>
+        <alias index="20" name="" field="last_edited_date"/>
+        <alias index="21" name="" field="shape_length"/>
+        <alias index="22" name="" field="shape_area"/>
+      </aliases>
+      <defaults>
+        <default expression="" field="dataengine_id" applyOnUpdate="0"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="objectid" applyOnUpdate="0"/>
+        <default expression="" field="algplanid" applyOnUpdate="0"/>
+        <default expression="" field="legende" applyOnUpdate="0"/>
+        <default expression="" field="naam" applyOnUpdate="0"/>
+        <default expression="" field="do_gem" applyOnUpdate="0"/>
+        <default expression="" field="opm" applyOnUpdate="0"/>
+        <default expression="" field="svlink" applyOnUpdate="0"/>
+        <default expression="" field="tnlink" applyOnUpdate="0"/>
+        <default expression="" field="datum" applyOnUpdate="0"/>
+        <default expression="" field="procstap" applyOnUpdate="0"/>
+        <default expression="" field="do_pro" applyOnUpdate="0"/>
+        <default expression="" field="do_ro" applyOnUpdate="0"/>
+        <default expression="" field="do_rp" applyOnUpdate="0"/>
+        <default expression="" field="startpglink" applyOnUpdate="0"/>
+        <default expression="" field="globalid" applyOnUpdate="0"/>
+        <default expression="" field="created_user" applyOnUpdate="0"/>
+        <default expression="" field="created_date" applyOnUpdate="0"/>
+        <default expression="" field="last_edited_user" applyOnUpdate="0"/>
+        <default expression="" field="last_edited_date" applyOnUpdate="0"/>
+        <default expression="" field="shape_length" applyOnUpdate="0"/>
+        <default expression="" field="shape_area" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" exp_strength="0" notnull_strength="1" field="dataengine_id" constraints="3"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="id" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="objectid" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="algplanid" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="legende" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="naam" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="do_gem" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="opm" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="svlink" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="tnlink" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="datum" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="procstap" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="do_pro" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="do_ro" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="do_rp" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="startpglink" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="globalid" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="created_user" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="created_date" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="last_edited_user" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="last_edited_date" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="shape_length" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="shape_area" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="dataengine_id"/>
+        <constraint exp="" desc="" field="id"/>
+        <constraint exp="" desc="" field="objectid"/>
+        <constraint exp="" desc="" field="algplanid"/>
+        <constraint exp="" desc="" field="legende"/>
+        <constraint exp="" desc="" field="naam"/>
+        <constraint exp="" desc="" field="do_gem"/>
+        <constraint exp="" desc="" field="opm"/>
+        <constraint exp="" desc="" field="svlink"/>
+        <constraint exp="" desc="" field="tnlink"/>
+        <constraint exp="" desc="" field="datum"/>
+        <constraint exp="" desc="" field="procstap"/>
+        <constraint exp="" desc="" field="do_pro"/>
+        <constraint exp="" desc="" field="do_ro"/>
+        <constraint exp="" desc="" field="do_rp"/>
+        <constraint exp="" desc="" field="startpglink"/>
+        <constraint exp="" desc="" field="globalid"/>
+        <constraint exp="" desc="" field="created_user"/>
+        <constraint exp="" desc="" field="created_date"/>
+        <constraint exp="" desc="" field="last_edited_user"/>
+        <constraint exp="" desc="" field="last_edited_date"/>
+        <constraint exp="" desc="" field="shape_length"/>
+        <constraint exp="" desc="" field="shape_area"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column type="field" hidden="0" width="-1" name="dataengine_id"/>
+          <column type="field" hidden="0" width="-1" name="id"/>
+          <column type="field" hidden="0" width="-1" name="objectid"/>
+          <column type="field" hidden="0" width="-1" name="algplanid"/>
+          <column type="field" hidden="0" width="-1" name="legende"/>
+          <column type="field" hidden="0" width="-1" name="naam"/>
+          <column type="field" hidden="0" width="-1" name="do_gem"/>
+          <column type="field" hidden="0" width="-1" name="opm"/>
+          <column type="field" hidden="0" width="-1" name="svlink"/>
+          <column type="field" hidden="0" width="-1" name="tnlink"/>
+          <column type="field" hidden="0" width="-1" name="datum"/>
+          <column type="field" hidden="0" width="-1" name="procstap"/>
+          <column type="field" hidden="0" width="-1" name="do_pro"/>
+          <column type="field" hidden="0" width="-1" name="do_ro"/>
+          <column type="field" hidden="0" width="-1" name="do_rp"/>
+          <column type="field" hidden="0" width="-1" name="startpglink"/>
+          <column type="field" hidden="0" width="-1" name="globalid"/>
+          <column type="field" hidden="0" width="-1" name="created_user"/>
+          <column type="field" hidden="0" width="-1" name="created_date"/>
+          <column type="field" hidden="0" width="-1" name="last_edited_user"/>
+          <column type="field" hidden="0" width="-1" name="last_edited_date"/>
+          <column type="field" hidden="0" width="-1" name="shape_length"/>
+          <column type="field" hidden="0" width="-1" name="shape_area"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Formulieren van QGIS mogen een functie van Python hebben die wordt aangeroepen wanneer het formulier wordt geopend.
+
+Gebruik deze functie om extra logica aan uw formulieren toe te voegen.
+
+Voer de naam van de functie in in het veld "Python Init functie".
+Een voorbeeld volgt:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="algplanid"/>
+        <field editable="1" name="created_date"/>
+        <field editable="1" name="created_user"/>
+        <field editable="1" name="dataengine_id"/>
+        <field editable="1" name="datum"/>
+        <field editable="1" name="do_gem"/>
+        <field editable="1" name="do_pro"/>
+        <field editable="1" name="do_ro"/>
+        <field editable="1" name="do_rp"/>
+        <field editable="1" name="globalid"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="last_edited_date"/>
+        <field editable="1" name="last_edited_user"/>
+        <field editable="1" name="legende"/>
+        <field editable="1" name="naam"/>
+        <field editable="1" name="objectid"/>
+        <field editable="1" name="opm"/>
+        <field editable="1" name="procstap"/>
+        <field editable="1" name="shape_area"/>
+        <field editable="1" name="shape_length"/>
+        <field editable="1" name="startpglink"/>
+        <field editable="1" name="svlink"/>
+        <field editable="1" name="tnlink"/>
+      </editable>
+      <labelOnTop>
+        <field name="algplanid" labelOnTop="0"/>
+        <field name="created_date" labelOnTop="0"/>
+        <field name="created_user" labelOnTop="0"/>
+        <field name="dataengine_id" labelOnTop="0"/>
+        <field name="datum" labelOnTop="0"/>
+        <field name="do_gem" labelOnTop="0"/>
+        <field name="do_pro" labelOnTop="0"/>
+        <field name="do_ro" labelOnTop="0"/>
+        <field name="do_rp" labelOnTop="0"/>
+        <field name="globalid" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="last_edited_date" labelOnTop="0"/>
+        <field name="last_edited_user" labelOnTop="0"/>
+        <field name="legende" labelOnTop="0"/>
+        <field name="naam" labelOnTop="0"/>
+        <field name="objectid" labelOnTop="0"/>
+        <field name="opm" labelOnTop="0"/>
+        <field name="procstap" labelOnTop="0"/>
+        <field name="shape_area" labelOnTop="0"/>
+        <field name="shape_length" labelOnTop="0"/>
+        <field name="startpglink" labelOnTop="0"/>
+        <field name="svlink" labelOnTop="0"/>
+        <field name="tnlink" labelOnTop="0"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"dataengine_id"</previewExpression>
+      <mapTip>dataengine_id</mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
